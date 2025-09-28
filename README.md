@@ -11,6 +11,7 @@ A decentralized writing application built on Bitcoin SV blockchain with HandCash
 - ✍️ **Rich Editor**: Distraction-free writing with image support
 - 💾 **Auto-save**: Automatic saving of your work
 - 📱 **Responsive**: Works on desktop and mobile devices
+- ⚡ **Fast & Efficient**: Optimized for speed and reliability
 
 ## Getting Started
 
