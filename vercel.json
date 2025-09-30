@@ -1,9 +1,22 @@
 {
+  "name": "bitcoin-education",
+  "alias": ["bitcoin-education.vercel.app"],
   "functions": {
     "api/auth/twitter/*.js": {
       "maxDuration": 10
     }
   },
+  "headers": [
+    {
+      "source": "/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/:path*",
