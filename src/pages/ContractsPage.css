@@ -74,7 +74,7 @@
   margin: 0 0 16px 0;
   line-height: 1.1;
   letter-spacing: -1px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -92,7 +92,7 @@
 .contracts-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   border-radius: 100px;
   font-size: 14px;
   font-weight: 500;
@@ -132,12 +132,12 @@
 }
 
 .contracts-tabs button:hover {
-  border-color: rgba(255, 107, 53, 0.5);
-  color: #FF6B35;
+  border-color: rgba(37, 99, 235, 0.5);
+  color: #2563EB;
 }
 
 .contracts-tabs button.active {
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   border-color: transparent;
   color: #000;
 }
@@ -162,7 +162,7 @@
   display: block;
   font-size: 36px;
   font-weight: 200;
-  color: #FF6B35;
+  color: #2563EB;
   margin-bottom: 8px;
   letter-spacing: -1px;
 }
@@ -194,8 +194,8 @@
 
 .contract-card:hover {
   transform: translateY(-4px);
-  border-color: #FF6B35;
-  box-shadow: 0 8px 32px rgba(255, 107, 53, 0.1);
+  border-color: #2563EB;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.1);
 }
 
 .contract-header {
@@ -302,7 +302,7 @@
 
 .detail-value {
   font-size: 14px;
-  color: #FF6B35;
+  color: #2563EB;
   font-weight: 400;
 }
 
@@ -315,8 +315,8 @@
 
 .skill-tag {
   padding: 4px 10px;
-  background: rgba(255, 107, 53, 0.1);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 16px;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.8);
@@ -377,7 +377,7 @@
 }
 
 .view-issue-link:hover {
-  color: #FF6B35;
+  color: #2563EB;
 }
 
 /* Loading State */
@@ -490,7 +490,7 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #FF6B35;
+  border-color: #2563EB;
   background: rgba(255, 255, 255, 0.08);
 }
 
@@ -499,15 +499,15 @@
 }
 
 .contract-summary {
-  background: rgba(255, 107, 53, 0.05);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 24px;
 }
 
 .contract-summary h3 {
-  color: #FF6B35;
+  color: #2563EB;
   font-size: 16px;
   margin: 0 0 12px 0;
   font-weight: 400;
@@ -558,7 +558,7 @@
 .submit-claim-button {
   width: 100%;
   padding: 14px 24px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000000;
   border: none;
   border-radius: 8px;
@@ -572,7 +572,7 @@
 
 .submit-claim-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
 }
 
 .submit-claim-button:active {
@@ -679,13 +679,13 @@
 }
 
 .priority-badge {
-  background: rgba(255, 107, 53, 0.2);
-  color: #FF6B35;
-  border: 1px solid #FF6B35;
+  background: rgba(37, 99, 235, 0.2);
+  color: #2563EB;
+  border: 1px solid #2563EB;
 }
 
 .reward-badge {
-  background: rgba(247, 147, 26, 0.2);
+  background: rgba(29, 78, 216, 0.2);
   color: #10B981;
   border: 1px solid #10B981;
 }
@@ -701,7 +701,7 @@
 }
 
 .contract-modal-section h3 {
-  color: #FF6B35;
+  color: #2563EB;
   font-size: 16px;
   font-weight: 500;
   margin: 0 0 12px 0;
@@ -723,11 +723,11 @@
 
 .skill-badge {
   padding: 4px 12px;
-  background: rgba(255, 107, 53, 0.1);
-  border: 1px solid rgba(255, 107, 53, 0.3);
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.3);
   border-radius: 16px;
   font-size: 13px;
-  color: #FF6B35;
+  color: #2563EB;
 }
 
 .deliverables-list {
@@ -787,9 +787,9 @@
 }
 
 .close-button:hover {
-  background: rgba(255, 107, 53, 0.2);
-  border-color: #FF6B35;
-  color: #FF6B35;
+  background: rgba(37, 99, 235, 0.2);
+  border-color: #2563EB;
+  color: #2563EB;
   transform: rotate(90deg);
 }
 
@@ -819,7 +819,7 @@
 }
 
 .claim-modal-content h2 {
-  color: #FF6B35;
+  color: #2563EB;
   font-size: 24px;
   font-weight: 500;
   margin: 0 0 16px 0;
@@ -859,20 +859,20 @@
 .form-group input:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #FF6B35;
-  background: rgba(255, 107, 53, 0.05);
+  border-color: #2563EB;
+  background: rgba(37, 99, 235, 0.05);
 }
 
 .claim-terms {
-  background: rgba(255, 107, 53, 0.05);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 24px;
 }
 
 .claim-terms h4 {
-  color: #FF6B35;
+  color: #2563EB;
   font-size: 14px;
   font-weight: 500;
   margin: 0 0 12px 0;
@@ -898,7 +898,7 @@
 
 .create-contract-btn {
   padding: 12px 24px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
   border: none;
   border-radius: 100px;
@@ -910,7 +910,7 @@
 
 .create-contract-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
 }
 
 /* Author Contract Styles */
@@ -948,8 +948,8 @@
 
 .topic-tag {
   padding: 4px 10px;
-  background: rgba(255, 107, 53, 0.1);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 20px;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.7);
@@ -1047,7 +1047,7 @@
 }
 
 .fund-button {
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
 }
 
@@ -1104,9 +1104,9 @@
 
 .topic-badge {
   padding: 6px 12px;
-  background: rgba(255, 107, 53, 0.1);
-  border: 1px solid rgba(255, 107, 53, 0.2);
-  color: #FF6B35;
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  color: #2563EB;
   border-radius: 20px;
   font-size: 13px;
 }
@@ -1118,7 +1118,7 @@
 
 .primary-cta-button {
   padding: 16px 32px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -1132,7 +1132,7 @@
 
 .primary-cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(255, 107, 53, 0.4);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.4);
 }
 
 .back-navigation {
@@ -1151,20 +1151,20 @@
 
 .back-button:hover {
   background: rgba(255, 255, 255, 0.05);
-  border-color: #FF6B35;
+  border-color: #2563EB;
 }
 
 /* Submissions Section */
 .submissions-section {
   margin: 40px 0;
   padding: 30px;
-  background: rgba(255, 107, 53, 0.05);
-  border: 1px solid rgba(255, 107, 53, 0.1);
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid rgba(37, 99, 235, 0.1);
   border-radius: 12px;
 }
 
 .submissions-section h2 {
-  color: #FF6B35;
+  color: #2563EB;
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 300;
@@ -1185,8 +1185,8 @@
 }
 
 .submission-card:hover {
-  border-color: rgba(255, 107, 53, 0.3);
-  background: rgba(255, 107, 53, 0.05);
+  border-color: rgba(37, 99, 235, 0.3);
+  background: rgba(37, 99, 235, 0.05);
 }
 
 .submission-card h3 {
@@ -1203,7 +1203,7 @@
 }
 
 .bwriter-award {
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
   padding: 4px 12px;
   border-radius: 12px;

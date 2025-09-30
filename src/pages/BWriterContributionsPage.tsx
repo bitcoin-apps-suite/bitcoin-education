@@ -656,7 +656,7 @@ const BWriterContributionsPage: React.FC = () => {
             ) : (
               <div className="contributors-grid">
                 {/* Founder Contribution */}
-                <div className="contributor-card" style={{ border: '2px solid #F7931E', background: 'rgba(247, 147, 30, 0.05)' }}>
+                <div className="contributor-card" style={{ border: '2px solid #1D4ED8', background: 'rgba(247, 147, 30, 0.05)' }}>
                   <img 
                     src="https://github.com/b0ase.png" 
                     alt="b0ase"
@@ -674,7 +674,7 @@ const BWriterContributionsPage: React.FC = () => {
                     <span className="contribution-count">
                       117 commits • Founder
                     </span>
-                    <span className="token-allocation" style={{ color: '#F7931E', fontWeight: 'bold', marginTop: '4px', display: 'block', fontSize: '12px' }}>
+                    <span className="token-allocation" style={{ color: '#1D4ED8', fontWeight: 'bold', marginTop: '4px', display: 'block', fontSize: '12px' }}>
                       7.5% tokens earned (75M $BEDUCATION)
                     </span>
                     <button 
@@ -682,7 +682,7 @@ const BWriterContributionsPage: React.FC = () => {
                       style={{
                         marginTop: '8px',
                         padding: '4px 12px',
-                        background: '#F7931E',
+                        background: '#1D4ED8',
                         color: 'white',
                         border: 'none',
                         borderRadius: '4px',
@@ -706,7 +706,7 @@ const BWriterContributionsPage: React.FC = () => {
                     border: '1px solid rgba(247, 147, 30, 0.2)',
                     borderRadius: '8px'
                   }}>
-                    <h3 style={{ marginBottom: '16px', color: '#F7931E' }}>Completed Tasks by @b0ase</h3>
+                    <h3 style={{ marginBottom: '16px', color: '#1D4ED8' }}>Completed Tasks by @b0ase</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '12px' }}>
                       {completedTasksByFounder.map((item, index) => (
                         <div key={index} style={{
@@ -722,7 +722,7 @@ const BWriterContributionsPage: React.FC = () => {
                           <div style={{ textAlign: 'right' }}>
                             <span style={{ 
                               fontWeight: 'bold', 
-                              color: '#F7931E',
+                              color: '#1D4ED8',
                               fontSize: '12px',
                               display: 'block'
                             }}>
@@ -742,7 +742,7 @@ const BWriterContributionsPage: React.FC = () => {
                     <div style={{
                       marginTop: '16px',
                       padding: '12px',
-                      background: '#F7931E',
+                      background: '#1D4ED8',
                       color: 'white',
                       borderRadius: '6px',
                       textAlign: 'center',

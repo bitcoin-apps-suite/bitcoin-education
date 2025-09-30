@@ -78,7 +78,7 @@
 .toggle-btn.active {
   background: linear-gradient(135deg, #2563EB 0%, #ffb347 50%, #1D4ED8 100%);
   color: #000;
-  box-shadow: 0 2px 8px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
 }
 
 
@@ -238,25 +238,25 @@
 }
 
 .exchange-table tbody tr.selected {
-  background: rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   border-left: 3px solid #2563EB;
 }
 
 /* Row gradient styles */
 .exchange-table tbody tr.row-top {
-  background: linear-gradient(90deg, rgba(255, 149, 0, 0.15) 0%, rgba(255, 149, 0, 0.05) 100%);
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.15) 0%, rgba(37, 99, 235, 0.05) 100%);
 }
 
 .exchange-table tbody tr.row-top:hover {
-  background: linear-gradient(90deg, rgba(255, 149, 0, 0.25) 0%, rgba(255, 149, 0, 0.1) 100%);
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.25) 0%, rgba(37, 99, 235, 0.1) 100%);
 }
 
 .exchange-table tbody tr.row-mid {
-  background: linear-gradient(90deg, rgba(255, 149, 0, 0.08) 0%, rgba(255, 149, 0, 0.02) 100%);
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.08) 0%, rgba(37, 99, 235, 0.02) 100%);
 }
 
 .exchange-table tbody tr.row-mid:hover {
-  background: linear-gradient(90deg, rgba(255, 149, 0, 0.15) 0%, rgba(255, 149, 0, 0.05) 100%);
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.15) 0%, rgba(37, 99, 235, 0.05) 100%);
 }
 
 .exchange-table td {
@@ -333,7 +333,7 @@
 }
 
 .genre-tag {
-  background: rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   color: #2563EB;
   padding: 2px 6px;
   border-radius: 4px;
@@ -390,18 +390,18 @@
 
 .rank-badge.rank-top {
   background: linear-gradient(135deg, #FFD700 0%, #2563EB 100%);
-  box-shadow: 0 0 20px rgba(255, 149, 0, 0.5);
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
   animation: glow 2s ease-in-out infinite alternate;
 }
 
 .rank-badge.rank-mid {
   background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
-  box-shadow: 0 0 10px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.3);
 }
 
 @keyframes glow {
-  from { box-shadow: 0 0 20px rgba(255, 149, 0, 0.5); }
-  to { box-shadow: 0 0 30px rgba(255, 149, 0, 0.8), 0 0 40px rgba(255, 149, 0, 0.4); }
+  from { box-shadow: 0 0 20px rgba(37, 99, 235, 0.5); }
+  to { box-shadow: 0 0 30px rgba(37, 99, 235, 0.8), 0 0 40px rgba(37, 99, 235, 0.4); }
 }
 
 .twitter-link {
@@ -522,7 +522,7 @@
 }
 
 .type-badge {
-  background: rgba(255, 149, 0, 0.15);
+  background: rgba(37, 99, 235, 0.15);
   color: #2563EB;
   padding: 3px 8px;
   border-radius: 4px;
@@ -685,13 +685,13 @@
 .btn-read {
   background: linear-gradient(135deg, #2563EB 0%, #ffb347 50%, #1D4ED8 100%);
   color: #000;
-  box-shadow: 0 2px 6px rgba(255, 149, 0, 0.25);
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
   transition: all 0.2s ease;
 }
 
 .btn-read:hover {
   background: linear-gradient(135deg, #ffb347 0%, #2563EB 50%, #ff7300 100%);
-  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
   transform: translateY(-1px);
 }
 

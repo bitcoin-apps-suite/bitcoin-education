@@ -918,8 +918,8 @@ const SaveToBlockchainModal: React.FC<SaveToBlockchainModalProps> = ({
               <div style={{ 
                 marginBottom: '20px', 
                 padding: '15px', 
-                backgroundColor: 'rgba(247, 147, 26, 0.1)', 
-                border: '1px solid rgba(247, 147, 26, 0.3)', 
+                backgroundColor: 'rgba(29, 78, 216, 0.1)', 
+                border: '1px solid rgba(29, 78, 216, 0.3)', 
                 borderRadius: '8px' 
               }}>
                 <h4 style={{ margin: '0 0 10px 0', color: '#10B981' }}>
@@ -1018,7 +1018,7 @@ const SaveToBlockchainModal: React.FC<SaveToBlockchainModalProps> = ({
                         minWidth: '50px', 
                         textAlign: 'center', 
                         padding: '5px 10px',
-                        background: 'rgba(247, 147, 26, 0.2)',
+                        background: 'rgba(29, 78, 216, 0.2)',
                         borderRadius: '4px',
                         fontWeight: 'bold'
                       }}>

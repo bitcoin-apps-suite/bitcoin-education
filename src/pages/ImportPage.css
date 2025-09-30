@@ -106,7 +106,7 @@
 
 .import-hero-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(247, 147, 26, 0.3);
+  box-shadow: 0 10px 30px rgba(29, 78, 216, 0.3);
 }
 
 /* Sections */
@@ -278,7 +278,7 @@ section h2 {
 .import-feature-icon {
   display: inline-flex;
   padding: 12px;
-  background: rgba(247, 147, 26, 0.1);
+  background: rgba(29, 78, 216, 0.1);
   border-radius: 12px;
   margin-bottom: 20px;
 }
@@ -443,7 +443,7 @@ section h2 {
 
 .import-cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(247, 147, 26, 0.4);
+  box-shadow: 0 15px 40px rgba(29, 78, 216, 0.4);
 }
 
 /* Mobile Responsive */

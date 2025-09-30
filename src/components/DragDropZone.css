@@ -39,7 +39,7 @@
   padding: 60px;
   border: 3px dashed #2563EB;
   border-radius: 20px;
-  background: rgba(255, 149, 0, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   animation: pulse 1.5s ease infinite;
 }
 
@@ -94,8 +94,8 @@
   align-items: center;
   gap: 8px;
   padding: 8px 16px;
-  background: rgba(255, 149, 0, 0.1);
-  border: 1px solid rgba(255, 149, 0, 0.3);
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.3);
   border-radius: 20px;
   color: #2563EB;
   font-size: 14px;
@@ -142,7 +142,7 @@
 
 .floating-drop-pad.drag-over {
   transform: scale(1.1);
-  background: rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   border: 2px solid #2563EB;
   animation: wiggle 0.5s ease infinite;
 }
@@ -178,7 +178,7 @@
 
 .dark-mode .floating-drop-pad:hover {
   background: rgba(42, 42, 42, 1);
-  border-color: rgba(255, 149, 0, 0.3);
+  border-color: rgba(37, 99, 235, 0.3);
 }
 
 .dark-mode .drop-pad-text {
@@ -190,7 +190,7 @@
 }
 
 .dark-mode .drop-zone-content {
-  background: rgba(255, 149, 0, 0.08);
+  background: rgba(37, 99, 235, 0.08);
 }
 
 .dark-mode .drop-zone-content p {

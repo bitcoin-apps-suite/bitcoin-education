@@ -1,6 +1,6 @@
 .app-footer {
   background: #0a0a0a;
-  border-top: 1px solid rgba(255, 149, 0, 0.2);
+  border-top: 1px solid rgba(37, 99, 235, 0.2);
   padding: 3rem 2rem 1rem;
   margin-top: auto;
   color: #f0f0f0;
@@ -73,7 +73,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255, 149, 0, 0.1);
+  border-top: 1px solid rgba(37, 99, 235, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;

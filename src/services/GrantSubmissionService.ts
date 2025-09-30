@@ -243,11 +243,11 @@ export class GrantSubmissionService {
         <title>Grant Application: ${data.projectTitle}</title>
         <style>
           body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-          .header { background: linear-gradient(90deg, #FF6B35, #F7931E); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+          .header { background: linear-gradient(90deg, #2563EB, #1D4ED8); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
           .section { margin: 20px 0; padding: 15px; border: 1px solid #eee; border-radius: 5px; }
           .label { font-weight: bold; color: #333; }
           .value { margin-left: 10px; }
-          .amount { font-size: 1.2em; color: #FF6B35; font-weight: bold; }
+          .amount { font-size: 1.2em; color: #2563EB; font-weight: bold; }
         </style>
       </head>
       <body>

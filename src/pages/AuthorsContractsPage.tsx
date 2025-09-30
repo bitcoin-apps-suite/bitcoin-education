@@ -178,8 +178,8 @@ const AuthorsContractsPage: React.FC = () => {
 
   const getTypeColor = (type: WritingContract['type']) => {
     switch (type) {
-      case 'article': return '#FF6B35';
-      case 'blog': return '#F7931E';
+      case 'article': return '#2563EB';
+      case 'blog': return '#1D4ED8';
       case 'technical': return '#3b82f6';
       case 'whitepaper': return '#8b5cf6';
       case 'guide': return '#22c55e';

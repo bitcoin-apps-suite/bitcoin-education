@@ -23,7 +23,7 @@
 
 .task-claim-modal {
   background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1e 100%);
-  border: 2px solid rgba(255, 149, 0, 0.3);
+  border: 2px solid rgba(37, 99, 235, 0.3);
   border-radius: 16px;
   max-width: 700px;
   width: 90%;
@@ -49,8 +49,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
-  border-bottom: 1px solid rgba(255, 149, 0, 0.2);
-  background: rgba(255, 149, 0, 0.05);
+  border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+  background: rgba(37, 99, 235, 0.05);
 }
 
 .modal-header h2 {
@@ -75,7 +75,7 @@
 
 .task-info {
   padding: 1.5rem;
-  border-bottom: 1px solid rgba(255, 149, 0, 0.1);
+  border-bottom: 1px solid rgba(37, 99, 235, 0.1);
 }
 
 .task-info h3 {
@@ -115,9 +115,9 @@
 }
 
 .task-meta .reward {
-  background: rgba(255, 149, 0, 0.2);
+  background: rgba(37, 99, 235, 0.2);
   color: #2563EB;
-  border: 1px solid rgba(255, 149, 0, 0.3);
+  border: 1px solid rgba(37, 99, 235, 0.3);
 }
 
 .github-issue-link {
@@ -159,8 +159,8 @@
 .step-number {
   width: 30px;
   height: 30px;
-  background: rgba(255, 149, 0, 0.2);
-  border: 2px solid rgba(255, 149, 0, 0.3);
+  background: rgba(37, 99, 235, 0.2);
+  border: 2px solid rgba(37, 99, 235, 0.3);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -230,7 +230,7 @@
 .handcash-login-btn:hover,
 .sign-contract-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
 .user-info {
@@ -243,7 +243,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 149, 0, 0.3);
+  border: 2px solid rgba(37, 99, 235, 0.3);
 }
 
 .user-info div {
@@ -262,8 +262,8 @@
 }
 
 .contract-preview {
-  background: rgba(255, 149, 0, 0.05);
-  border: 1px solid rgba(255, 149, 0, 0.2);
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 8px;
   padding: 1.25rem;
 }
@@ -282,7 +282,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(255, 149, 0, 0.1);
+  border-bottom: 1px solid rgba(37, 99, 235, 0.1);
 }
 
 .contract-item:last-child {
@@ -342,8 +342,8 @@
 }
 
 .countdown-timer {
-  background: rgba(255, 149, 0, 0.05);
-  border: 1px solid rgba(255, 149, 0, 0.2);
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 12px;
   padding: 1.5rem;
   margin: 1.5rem 0;
@@ -400,8 +400,8 @@
 
 .close-modal-btn {
   padding: 0.75rem 2rem;
-  background: rgba(255, 149, 0, 0.2);
-  border: 1px solid rgba(255, 149, 0, 0.3);
+  background: rgba(37, 99, 235, 0.2);
+  border: 1px solid rgba(37, 99, 235, 0.3);
   border-radius: 8px;
   color: #2563EB;
   font-weight: 600;
@@ -410,7 +410,7 @@
 }
 
 .close-modal-btn:hover {
-  background: rgba(255, 149, 0, 0.3);
+  background: rgba(37, 99, 235, 0.3);
   transform: translateY(-2px);
 }
 
@@ -434,12 +434,12 @@
 }
 
 .task-claim-modal::-webkit-scrollbar-thumb {
-  background: rgba(255, 149, 0, 0.4);
+  background: rgba(37, 99, 235, 0.4);
   border-radius: 4px;
 }
 
 .task-claim-modal::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 149, 0, 0.6);
+  background: rgba(37, 99, 235, 0.6);
 }
 
 /* Responsive */

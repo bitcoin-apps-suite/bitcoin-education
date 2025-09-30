@@ -182,7 +182,7 @@
 }
 
 .tab-btn:hover {
-  background: rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   border-color: #2563EB;
 }
 
@@ -214,7 +214,7 @@
 }
 
 .github-link:hover {
-  background: rgba(255, 149, 0, 0.2);
+  background: rgba(37, 99, 235, 0.2);
 }
 
 .github-icon {
@@ -258,7 +258,7 @@
 .contributor-card:hover {
   transform: translateY(-4px);
   border-color: #2563EB;
-  box-shadow: 0 8px 24px rgba(255, 149, 0, 0.2);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.2);
 }
 
 .contributor-avatar {
@@ -358,7 +358,7 @@
 
 .todo-item:hover {
   border-color: #2563EB;
-  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
 }
 
 .todo-header-row {
@@ -456,7 +456,7 @@
 
 .claim-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
 }
 
 .github-issue-btn {
@@ -472,9 +472,9 @@
 }
 
 .github-issue-btn:hover {
-  background: rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   color: #2563EB;
-  border-color: rgba(255, 149, 0, 0.3);
+  border-color: rgba(37, 99, 235, 0.3);
   transform: translateY(-1px);
 }
 
@@ -486,9 +486,9 @@
 .contribution-guidelines {
   margin-top: 3rem;
   padding: 2rem;
-  background: rgba(255, 149, 0, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   border-radius: 12px;
-  border: 1px solid rgba(255, 149, 0, 0.2);
+  border: 1px solid rgba(37, 99, 235, 0.2);
 }
 
 .contribution-guidelines h3 {
@@ -603,7 +603,7 @@
 
 .distribution-card {
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 149, 0, 0.2);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 12px;
   padding: 1.5rem;
   text-align: center;
@@ -664,10 +664,10 @@
 }
 
 .vesting-schedule {
-  background: rgba(255, 149, 0, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   border-radius: 12px;
   padding: 2rem;
-  border: 1px solid rgba(255, 149, 0, 0.2);
+  border: 1px solid rgba(37, 99, 235, 0.2);
 }
 
 .vesting-schedule h3 {
@@ -686,7 +686,7 @@
   text-align: center;
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255, 149, 0, 0.2);
+  border-top: 1px solid rgba(37, 99, 235, 0.2);
 }
 
 .contributions-footer p {

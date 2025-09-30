@@ -20,7 +20,7 @@
 
 .contact-author-modal {
   background: #0a0a0a;
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 16px;
   max-width: 600px;
   width: 90%;
@@ -72,7 +72,7 @@
 }
 
 .close-btn:hover {
-  color: #FF6B35;
+  color: #2563EB;
 }
 
 .modal-content {
@@ -124,8 +124,8 @@
 
 .auth-btn:hover {
   transform: translateY(-2px);
-  border-color: rgba(255, 107, 53, 0.5);
-  background: rgba(255, 107, 53, 0.1);
+  border-color: rgba(37, 99, 235, 0.5);
+  background: rgba(37, 99, 235, 0.1);
 }
 
 .google-auth {
@@ -214,8 +214,8 @@
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: rgba(255, 107, 53, 0.5);
-  background: rgba(255, 107, 53, 0.03);
+  border-color: rgba(37, 99, 235, 0.5);
+  background: rgba(37, 99, 235, 0.03);
 }
 
 .form-group textarea {
@@ -262,7 +262,7 @@
 }
 
 .submit-btn {
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   border: none;
   color: #000000;
   font-weight: 600;
@@ -270,7 +270,7 @@
 
 .submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
 }
 
 /* Mobile Responsive */
@@ -314,10 +314,10 @@
 }
 
 .contact-author-modal::-webkit-scrollbar-thumb {
-  background: rgba(255, 107, 53, 0.3);
+  background: rgba(37, 99, 235, 0.3);
   border-radius: 4px;
 }
 
 .contact-author-modal::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 107, 53, 0.5);
+  background: rgba(37, 99, 235, 0.5);
 }

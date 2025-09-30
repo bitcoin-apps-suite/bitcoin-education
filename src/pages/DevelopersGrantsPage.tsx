@@ -170,8 +170,8 @@ const DevelopersGrantsPage: React.FC = () => {
 
   const getCategoryColor = (category: DeveloperGrant['category']) => {
     switch (category) {
-      case 'infrastructure': return '#FF6B35';
-      case 'protocol': return '#F7931E';
+      case 'infrastructure': return '#2563EB';
+      case 'protocol': return '#1D4ED8';
       case 'tooling': return '#3b82f6';
       case 'research': return '#8b5cf6';
       case 'education': return '#22c55e';

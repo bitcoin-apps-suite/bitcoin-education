@@ -24,20 +24,20 @@
 }
 
 .mode-btn:hover {
-  background: rgba(255, 149, 0, 0.2);
-  border-color: rgba(255, 149, 0, 0.4);
+  background: rgba(37, 99, 235, 0.2);
+  border-color: rgba(37, 99, 235, 0.4);
   transform: translateY(-1px);
 }
 
 .mode-btn.active {
-  background: rgba(255, 149, 0, 0.3);
+  background: rgba(37, 99, 235, 0.3);
   border-color: #2563EB;
-  box-shadow: 0 0 10px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.3);
 }
 
 .mode-btn.pro-mode {
-  background: linear-gradient(135deg, rgba(255, 149, 0, 0.1), rgba(255, 59, 48, 0.1));
-  border-color: rgba(255, 149, 0, 0.3);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(255, 59, 48, 0.1));
+  border-color: rgba(37, 99, 235, 0.3);
 }
 
 .mode-icon {
@@ -166,7 +166,7 @@
 }
 
 .progress-section {
-  background: rgba(255, 149, 0, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   border-radius: 12px;
   padding: 20px;
   margin: 24px 0;
@@ -242,7 +242,7 @@
 
 .try-quill-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
 }
 
 /* Responsive */

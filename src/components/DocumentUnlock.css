@@ -105,7 +105,7 @@
 .password-unlock button:hover,
 .priced-unlock button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(247, 147, 26, 0.3);
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.3);
 }
 
 .password-unlock button:disabled,

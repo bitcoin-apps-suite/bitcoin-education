@@ -30,24 +30,24 @@ export class LocalDocumentStorage {
       const maipDoc: LocalDocument = {
         id: 'maip_example_001',
         title: 'Multi-Authoring in Public',
-        content: `<h1 style="color: #FF6B35; font-size: 48px; text-align: center; margin-bottom: 10px;">Multi-Authoring in Public (MAIP)</h1>
+        content: `<h1 style="color: #2563EB; font-size: 48px; text-align: center; margin-bottom: 10px;">Multi-Authoring in Public (MAIP)</h1>
 <p style="text-align: center; font-size: 20px; color: #888; font-style: italic; margin-bottom: 40px;">Collaborative Writing on the Blockchain</p>
 
-<div style="background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(247, 147, 26, 0.05) 100%); padding: 30px; border-radius: 12px; margin-bottom: 40px;">
-<h2 style="color: #FF6B35; border-bottom: 2px solid rgba(255, 107, 53, 0.3); padding-bottom: 10px;">📝 Executive Summary</h2>
+<div style="background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(29, 78, 216, 0.05) 100%); padding: 30px; border-radius: 12px; margin-bottom: 40px;">
+<h2 style="color: #2563EB; border-bottom: 2px solid rgba(37, 99, 235, 0.3); padding-bottom: 10px;">📝 Executive Summary</h2>
 <p style="font-size: 18px; line-height: 1.8;">Multi-Authoring in Public (MAIP) represents a revolutionary approach to collaborative content creation on the blockchain. Instead of hidden Google Docs or private repositories, MAIP enables authors to write together in real-time on the blockchain, where every keystroke can be valued and every contribution rewarded through micropayments.</p>
 </div>
 
-<h2 style="color: #FF6B35; border-bottom: 2px solid rgba(255, 107, 53, 0.3); padding-bottom: 10px; margin-top: 40px;">🎯 The Vision</h2>
+<h2 style="color: #2563EB; border-bottom: 2px solid rgba(37, 99, 235, 0.3); padding-bottom: 10px; margin-top: 40px;">🎯 The Vision</h2>
 <p style="font-size: 16px; margin-bottom: 20px;">MAIP transforms how humanity creates and shares knowledge by introducing:</p>
 <ul style="list-style: none; padding-left: 0;">
-<li style="padding: 12px; margin-bottom: 10px; background: rgba(255, 107, 53, 0.05); border-left: 4px solid #FF6B35; border-radius: 4px;"><strong style="color: #FF6B35;">⚡ Real-Time Collaboration:</strong> Multiple authors working simultaneously with blockchain-verified contributions</li>
-<li style="padding: 12px; margin-bottom: 10px; background: rgba(255, 107, 53, 0.05); border-left: 4px solid #FF6B35; border-radius: 4px;"><strong style="color: #FF6B35;">💰 Micro-Payments:</strong> Every edit, suggestion, and improvement triggers automatic BSV micropayments</li>
-<li style="padding: 12px; margin-bottom: 10px; background: rgba(255, 107, 53, 0.05); border-left: 4px solid #FF6B35; border-radius: 4px;"><strong style="color: #FF6B35;">📊 Contribution Tracking:</strong> Immutable record of who wrote what, when, and how much value they added</li>
-<li style="padding: 12px; margin-bottom: 10px; background: rgba(255, 107, 53, 0.05); border-left: 4px solid #FF6B35; border-radius: 4px;"><strong style="color: #FF6B35;">🌍 Public by Default:</strong> All writing happens in public view, creating unprecedented transparency</li>
+<li style="padding: 12px; margin-bottom: 10px; background: rgba(37, 99, 235, 0.05); border-left: 4px solid #2563EB; border-radius: 4px;"><strong style="color: #2563EB;">⚡ Real-Time Collaboration:</strong> Multiple authors working simultaneously with blockchain-verified contributions</li>
+<li style="padding: 12px; margin-bottom: 10px; background: rgba(37, 99, 235, 0.05); border-left: 4px solid #2563EB; border-radius: 4px;"><strong style="color: #2563EB;">💰 Micro-Payments:</strong> Every edit, suggestion, and improvement triggers automatic BSV micropayments</li>
+<li style="padding: 12px; margin-bottom: 10px; background: rgba(37, 99, 235, 0.05); border-left: 4px solid #2563EB; border-radius: 4px;"><strong style="color: #2563EB;">📊 Contribution Tracking:</strong> Immutable record of who wrote what, when, and how much value they added</li>
+<li style="padding: 12px; margin-bottom: 10px; background: rgba(37, 99, 235, 0.05); border-left: 4px solid #2563EB; border-radius: 4px;"><strong style="color: #2563EB;">🌍 Public by Default:</strong> All writing happens in public view, creating unprecedented transparency</li>
 </ul>
 
-<h2 style="color: #FF6B35; border-bottom: 2px solid rgba(255, 107, 53, 0.3); padding-bottom: 10px; margin-top: 40px;">⚙️ How MAIP Works</h2>
+<h2 style="color: #2563EB; border-bottom: 2px solid rgba(37, 99, 235, 0.3); padding-bottom: 10px; margin-top: 40px;">⚙️ How MAIP Works</h2>
 <h3>1. Document Creation</h3>
 <p>An author initiates a public document on the blockchain with an initial stake or bounty to attract contributors.</p>
 

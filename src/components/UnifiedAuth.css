@@ -14,7 +14,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(255, 149, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -23,7 +23,7 @@
 .sign-in-btn:hover {
   background: linear-gradient(135deg, #ff7300, #2563EB);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
 /* Auth Modal */
@@ -287,8 +287,8 @@
 }
 
 .integration-workflow > div {
-  background: rgba(255, 149, 0, 0.03);
-  border: 1px solid rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.03);
+  border: 1px solid rgba(37, 99, 235, 0.1);
   border-radius: 8px;
   padding: 16px;
 }
@@ -335,7 +335,7 @@
 .premium-subscribe-section {
   margin-top: 24px;
   padding-top: 20px;
-  border-top: 1px solid rgba(255, 149, 0, 0.3);
+  border-top: 1px solid rgba(37, 99, 235, 0.3);
 }
 
 .premium-subscribe-section h4 {
@@ -948,7 +948,7 @@
 
 /* Add Account Section */
 .add-account-section {
-  background: rgba(255, 149, 0, 0.05);
+  background: rgba(37, 99, 235, 0.05);
 }
 
 .add-account-item {
@@ -1089,9 +1089,9 @@
 
 .credits-note {
   padding: 12px;
-  background: rgba(255, 149, 0, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   border-radius: 8px;
-  border: 1px solid rgba(255, 149, 0, 0.2);
+  border: 1px solid rgba(37, 99, 235, 0.2);
 }
 
 .credits-note p {

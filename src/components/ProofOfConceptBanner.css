@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   z-index: 10001; /* Above taskbar (10000) */
-  background: linear-gradient(135deg, #FF6B35, #F7931E);
+  background: linear-gradient(135deg, #2563EB, #1D4ED8);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@
 
 
 .poc-banner-icon {
-  color: #1a1a1a;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +64,7 @@
 .poc-banner-text {
   display: flex;
   align-items: center;
-  color: #1a1a1a;
+  color: #ffffff;
   flex: 1;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .poc-banner-link {
-  color: #1a1a1a !important;
+  color: #ffffff !important;
   text-decoration: none;
   font-weight: 600;
   margin: 0 8px;
@@ -102,16 +102,16 @@
 }
 
 .poc-banner-link:hover {
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #ffffff;
 }
 
 .poc-banner-token {
-  color: #1a1a1a !important;
+  color: #ffffff !important;
   font-weight: 700;
 }
 
 .poc-banner-token:hover {
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #ffffff;
 }
 
 .poc-banner-link svg {
@@ -134,7 +134,7 @@
 }
 
 .poc-banner-separator {
-  color: #666;
+  color: rgba(255, 255, 255, 0.7);
   margin: 0 4px;
   opacity: 0.5;
 }
@@ -142,7 +142,7 @@
 .poc-banner-close {
   background: transparent;
   border: none;
-  color: #1a1a1a;
+  color: #ffffff;
   cursor: pointer;
   padding: 4px;
   border-radius: 4px;
@@ -155,7 +155,7 @@
 }
 
 .poc-banner-close:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   opacity: 1;
 }
 

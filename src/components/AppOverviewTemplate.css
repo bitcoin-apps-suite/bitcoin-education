@@ -91,7 +91,7 @@
   font-weight: 600;
   margin: 0 0 20px 0;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgba(255, 149, 0, 0.2);
+  border-bottom: 1px solid rgba(37, 99, 235, 0.2);
 }
 
 .overview-section p {
@@ -127,7 +127,7 @@
   width: 40px;
   height: 40px;
   font-size: 24px;
-  background: rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -186,7 +186,7 @@
   color: #ccc;
   font-size: 15px;
   padding: 10px;
-  background: rgba(255, 149, 0, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   border-radius: 6px;
 }
 
@@ -254,8 +254,8 @@
 }
 
 .status-card.coming-soon {
-  background: linear-gradient(135deg, rgba(255, 149, 0, 0.1) 0%, rgba(255, 149, 0, 0.05) 100%);
-  border: 2px solid rgba(255, 149, 0, 0.3);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(37, 99, 235, 0.05) 100%);
+  border: 2px solid rgba(37, 99, 235, 0.3);
 }
 
 .status-card h3 {

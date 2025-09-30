@@ -74,7 +74,7 @@
   margin: 0 0 16px 0;
   line-height: 1.1;
   letter-spacing: -1px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -92,7 +92,7 @@
 .author-offers-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   border-radius: 100px;
   font-size: 14px;
   font-weight: 500;
@@ -130,13 +130,13 @@
 }
 
 .filter-button:hover {
-  background: rgba(255, 107, 53, 0.05);
-  border-color: rgba(255, 107, 53, 0.3);
-  color: #FF6B35;
+  background: rgba(37, 99, 235, 0.05);
+  border-color: rgba(37, 99, 235, 0.3);
+  color: #2563EB;
 }
 
 .filter-button.active {
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
   border-color: transparent;
   font-weight: 500;
@@ -163,8 +163,8 @@
 
 .author-offer-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(255, 107, 53, 0.3);
-  background: rgba(255, 107, 53, 0.05);
+  border-color: rgba(37, 99, 235, 0.3);
+  background: rgba(37, 99, 235, 0.05);
 }
 
 /* Author Card Header */
@@ -235,11 +235,11 @@
 
 .expertise-tag {
   padding: 4px 12px;
-  background: rgba(255, 107, 53, 0.1);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 20px;
   font-size: 12px;
-  color: #FF6B35;
+  color: #2563EB;
   font-weight: 400;
 }
 
@@ -262,7 +262,7 @@
 
 .hire-author-button {
   padding: 10px 20px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -274,7 +274,7 @@
 
 .hire-author-button:hover {
   transform: translateX(5px);
-  box-shadow: 0 5px 15px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
 
 /* CTA Section */
@@ -306,7 +306,7 @@
 
 .create-offer-button {
   padding: 12px 30px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -319,7 +319,7 @@
 
 .create-offer-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
 }
 
 /* Mobile Responsive */

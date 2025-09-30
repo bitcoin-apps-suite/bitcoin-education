@@ -56,7 +56,7 @@
 }
 
 .dev-sidebar-toggle:hover {
-  background: rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   transform: scale(1.1);
 }
 
@@ -81,13 +81,13 @@
 }
 
 .dev-sidebar-item:hover {
-  background: rgba(255, 149, 0, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   color: #2563EB;
   transform: translateX(2px);
 }
 
 .dev-sidebar-item.active {
-  background: linear-gradient(135deg, rgba(255, 149, 0, 0.2), rgba(247, 147, 26, 0.2));
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.2), rgba(29, 78, 216, 0.2));
   color: #2563EB;
   font-weight: 600;
 }
@@ -109,7 +109,7 @@
 }
 
 .dev-sidebar-badge {
-  background: linear-gradient(135deg, #10B981, #FF6B35);
+  background: linear-gradient(135deg, #10B981, #2563EB);
   color: #1a1a1a;
   font-size: 10px;
   font-weight: 700;
@@ -130,7 +130,7 @@
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #FF6B35;
+  color: #2563EB;
   text-transform: uppercase;
 }
 
@@ -171,8 +171,8 @@
 }
 
 .dev-sidebar-cta {
-  background: linear-gradient(135deg, rgba(255, 149, 0, 0.1), rgba(247, 147, 26, 0.1));
-  border: 1px solid rgba(255, 149, 0, 0.3);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(29, 78, 216, 0.1));
+  border: 1px solid rgba(37, 99, 235, 0.3);
   border-radius: 8px;
   padding: 12px;
   text-align: center;
@@ -200,7 +200,7 @@
 
 .dev-sidebar-cta-button:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
 /* Collapsed state specific styles */
@@ -232,12 +232,12 @@
 }
 
 .dev-sidebar-nav::-webkit-scrollbar-thumb {
-  background: rgba(255, 149, 0, 0.3);
+  background: rgba(37, 99, 235, 0.3);
   border-radius: 3px;
 }
 
 .dev-sidebar-nav::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 149, 0, 0.5);
+  background: rgba(37, 99, 235, 0.5);
 }
 
 /* Responsive adjustments */
@@ -279,8 +279,8 @@
 .dev-quick-link {
   display: block;
   padding: 10px 12px;
-  background: rgba(255, 107, 53, 0.05);
-  border: 1px solid rgba(255, 107, 53, 0.1);
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid rgba(37, 99, 235, 0.1);
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
@@ -289,8 +289,8 @@
 }
 
 .dev-quick-link:hover {
-  background: rgba(255, 107, 53, 0.1);
-  border-color: rgba(255, 107, 53, 0.3);
-  color: #FF6B35;
+  background: rgba(37, 99, 235, 0.1);
+  border-color: rgba(37, 99, 235, 0.3);
+  color: #2563EB;
   transform: translateX(2px);
 }

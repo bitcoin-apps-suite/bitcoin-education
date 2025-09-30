@@ -74,7 +74,7 @@
   margin: 0 0 16px 0;
   line-height: 1.1;
   letter-spacing: -1px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -92,7 +92,7 @@
 .changelog-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   border-radius: 100px;
   font-size: 14px;
   font-weight: 500;
@@ -144,7 +144,7 @@
 }
 
 .version-tag.major {
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
 }
 
@@ -165,7 +165,7 @@
 .changes-section h3 {
   font-size: 18px;
   font-weight: 400;
-  color: #FF6B35;
+  color: #2563EB;
   margin-bottom: 15px;
   letter-spacing: -0.3px;
 }
@@ -190,7 +190,7 @@
   content: "→";
   position: absolute;
   left: 0;
-  color: rgba(255, 107, 53, 0.6);
+  color: rgba(37, 99, 235, 0.6);
 }
 
 /* Upcoming Section */
@@ -228,8 +228,8 @@
 
 .upcoming-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(255, 107, 53, 0.3);
-  background: rgba(255, 107, 53, 0.05);
+  border-color: rgba(37, 99, 235, 0.3);
+  background: rgba(37, 99, 235, 0.05);
 }
 
 .upcoming-card h3 {
@@ -288,24 +288,24 @@
 }
 
 .subscribe-button.primary {
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   color: #000;
 }
 
 .subscribe-button.primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
 }
 
 .subscribe-button.secondary {
-  border: 1px solid rgba(255, 107, 53, 0.5);
-  color: #FF6B35;
+  border: 1px solid rgba(37, 99, 235, 0.5);
+  color: #2563EB;
   background: transparent;
 }
 
 .subscribe-button.secondary:hover {
-  background: rgba(255, 107, 53, 0.1);
-  border-color: #FF6B35;
+  background: rgba(37, 99, 235, 0.1);
+  border-color: #2563EB;
 }
 
 /* Mobile Responsive */

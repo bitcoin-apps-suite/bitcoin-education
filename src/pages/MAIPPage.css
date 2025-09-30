@@ -30,7 +30,7 @@
 .maip-hero {
   text-align: center;
   padding: 80px 0 60px;
-  background: linear-gradient(180deg, rgba(255, 107, 53, 0.1) 0%, transparent 100%);
+  background: linear-gradient(180deg, rgba(37, 99, 235, 0.1) 0%, transparent 100%);
   border-radius: 20px;
   margin-bottom: 60px;
 }
@@ -41,7 +41,7 @@
   margin: 0 0 16px 0;
   line-height: 1.1;
   letter-spacing: -1px;
-  background: linear-gradient(90deg, #FF6B35, #F7931E);
+  background: linear-gradient(90deg, #2563EB, #1D4ED8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -58,12 +58,12 @@
 .maip-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: rgba(255, 107, 53, 0.2);
-  border: 1px solid #FF6B35;
+  background: rgba(37, 99, 235, 0.2);
+  border: 1px solid #2563EB;
   border-radius: 20px;
   font-size: 12px;
   font-weight: 600;
-  color: #FF6B35;
+  color: #2563EB;
   letter-spacing: 1px;
 }
 
@@ -102,7 +102,7 @@
 .maip-feature:hover {
   background: rgba(255, 255, 255, 0.05);
   transform: translateY(-5px);
-  border-color: rgba(255, 107, 53, 0.3);
+  border-color: rgba(37, 99, 235, 0.3);
 }
 
 .maip-feature h3 {
@@ -136,8 +136,8 @@
 .process-step {
   position: relative;
   padding: 30px;
-  background: rgba(255, 107, 53, 0.05);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   border-radius: 16px;
 }
 
@@ -147,7 +147,7 @@
   left: 30px;
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #FF6B35 0%, #10B981 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #10B981 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -161,7 +161,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 20px;
-  color: #FF6B35;
+  color: #2563EB;
 }
 
 .process-step p {
@@ -196,8 +196,8 @@
 
 .usecase-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(255, 107, 53, 0.4);
-  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
+  border-color: rgba(37, 99, 235, 0.4);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.1);
 }
 
 .usecase-card h3 {
@@ -239,7 +239,7 @@
 
 .tech-component h4 {
   font-size: 20px;
-  color: #FF6B35;
+  color: #2563EB;
   margin-bottom: 10px;
 }
 
@@ -275,14 +275,14 @@
 
 .flow-item {
   padding: 25px;
-  background: rgba(255, 107, 53, 0.03);
-  border-left: 4px solid #FF6B35;
+  background: rgba(37, 99, 235, 0.03);
+  border-left: 4px solid #2563EB;
   border-radius: 8px;
 }
 
 .flow-item h4 {
   font-size: 18px;
-  color: #FF6B35;
+  color: #2563EB;
   margin-bottom: 10px;
 }
 
@@ -296,7 +296,7 @@
 .maip-cta {
   text-align: center;
   padding: 80px 40px;
-  background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(247, 147, 26, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(29, 78, 216, 0.05) 100%);
   border-radius: 20px;
   margin-bottom: 60px;
 }
@@ -333,23 +333,23 @@
 }
 
 .cta-primary {
-  background: linear-gradient(135deg, #FF6B35 0%, #10B981 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #10B981 100%);
   color: white;
 }
 
 .cta-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
 }
 
 .cta-secondary {
   background: transparent;
-  color: #FF6B35;
-  border: 2px solid #FF6B35;
+  color: #2563EB;
+  border: 2px solid #2563EB;
 }
 
 .cta-secondary:hover {
-  background: rgba(255, 107, 53, 0.1);
+  background: rgba(37, 99, 235, 0.1);
   transform: translateY(-3px);
 }
 

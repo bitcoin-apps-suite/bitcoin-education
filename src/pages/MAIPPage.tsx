@@ -40,7 +40,7 @@ const MAIPPage: React.FC = () => {
         <div className="maip-container">
           {/* Hero Section */}
           <section className="maip-hero">
-            <h1>Multi-Authoring in Public <span style={{color: '#FF6B35'}}>(MAIP)</span></h1>
+            <h1>Multi-Authoring in Public <span style={{color: '#2563EB'}}>(MAIP)</span></h1>
             <p className="maip-tagline">
               Collaborative writing on the blockchain - where every contribution is tracked, valued, and rewarded
             </p>

@@ -116,7 +116,7 @@
 
 .encrypt-demo-card {
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 16px;
   padding: 30px;
   backdrop-filter: blur(10px);
@@ -144,7 +144,7 @@
 .encrypt-demo-input textarea,
 .encrypt-demo-input input {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 8px;
   padding: 12px;
   color: rgba(255, 255, 255, 0.9);
@@ -155,8 +155,8 @@
 .encrypt-demo-input textarea:focus,
 .encrypt-demo-input input:focus {
   outline: none;
-  border-color: rgba(247, 147, 26, 0.5);
-  box-shadow: 0 0 0 2px rgba(247, 147, 26, 0.1);
+  border-color: rgba(29, 78, 216, 0.5);
+  box-shadow: 0 0 0 2px rgba(29, 78, 216, 0.1);
 }
 
 .password-strength {
@@ -215,7 +215,7 @@
 
 .encrypt-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(247, 147, 26, 0.3);
+  box-shadow: 0 8px 20px rgba(29, 78, 216, 0.3);
 }
 
 .decrypt-button {
@@ -248,7 +248,7 @@
   margin-top: 20px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 12px;
 }
 
@@ -290,7 +290,7 @@
 
 .encrypt-feature-card {
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 16px;
   padding: 30px;
   text-align: center;
@@ -300,8 +300,8 @@
 
 .encrypt-feature-card:hover {
   transform: translateY(-5px);
-  background: rgba(247, 147, 26, 0.05);
-  border-color: rgba(247, 147, 26, 0.3);
+  background: rgba(29, 78, 216, 0.05);
+  border-color: rgba(29, 78, 216, 0.3);
 }
 
 .encrypt-feature-icon {
@@ -344,7 +344,7 @@
 
 .algorithm-step {
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 16px;
   padding: 30px;
   backdrop-filter: blur(10px);
@@ -359,7 +359,7 @@
 
 .algorithm-code {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 20px;
@@ -404,7 +404,7 @@
 
 .spec-card {
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 16px;
   padding: 30px;
   backdrop-filter: blur(10px);
@@ -425,7 +425,7 @@
 
 .spec-card li {
   padding: 8px 0;
-  border-bottom: 1px solid rgba(247, 147, 26, 0.1);
+  border-bottom: 1px solid rgba(29, 78, 216, 0.1);
   color: rgba(255, 255, 255, 0.6);
   font-weight: 300;
 }
@@ -462,7 +462,7 @@
   align-items: center;
   gap: 12px;
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 12px;
   padding: 16px 20px;
   backdrop-filter: blur(10px);
@@ -482,7 +482,7 @@
 .encrypt-attribution-section {
   margin-bottom: 80px;
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 16px;
   padding: 40px;
   backdrop-filter: blur(10px);
@@ -533,13 +533,13 @@
 .comparison-table {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 12px;
   overflow: hidden;
 }
 
 .comparison-table thead {
-  background: rgba(247, 147, 26, 0.1);
+  background: rgba(29, 78, 216, 0.1);
 }
 
 .comparison-table th {
@@ -547,13 +547,13 @@
   text-align: left;
   color: #10B981;
   font-weight: 400;
-  border-bottom: 1px solid rgba(247, 147, 26, 0.2);
+  border-bottom: 1px solid rgba(29, 78, 216, 0.2);
 }
 
 .comparison-table td {
   padding: 15px;
   color: rgba(255, 255, 255, 0.6);
-  border-bottom: 1px solid rgba(247, 147, 26, 0.05);
+  border-bottom: 1px solid rgba(29, 78, 216, 0.05);
   font-weight: 300;
 }
 
@@ -562,7 +562,7 @@
 }
 
 .comparison-table tbody tr:hover {
-  background: rgba(247, 147, 26, 0.05);
+  background: rgba(29, 78, 216, 0.05);
 }
 
 /* Use Cases Section */
@@ -589,7 +589,7 @@
 
 .use-case-card {
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 16px;
   padding: 30px;
   text-align: center;
@@ -599,8 +599,8 @@
 
 .use-case-card:hover {
   transform: translateY(-5px);
-  background: rgba(247, 147, 26, 0.05);
-  border-color: rgba(247, 147, 26, 0.3);
+  background: rgba(29, 78, 216, 0.05);
+  border-color: rgba(29, 78, 216, 0.3);
 }
 
 .use-case-card h3 {
@@ -620,8 +620,8 @@
 .encrypt-cta-section {
   text-align: center;
   padding: 60px 20px;
-  background: rgba(247, 147, 26, 0.05);
-  border: 1px solid rgba(247, 147, 26, 0.1);
+  background: rgba(29, 78, 216, 0.05);
+  border: 1px solid rgba(29, 78, 216, 0.1);
   border-radius: 16px;
   margin-bottom: 80px;
   backdrop-filter: blur(10px);
@@ -659,7 +659,7 @@
 
 .encrypt-cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(247, 147, 26, 0.4);
+  box-shadow: 0 8px 16px rgba(29, 78, 216, 0.4);
 }
 
 /* Responsive Design */

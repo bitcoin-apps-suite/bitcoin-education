@@ -178,11 +178,11 @@ const AuthorsGrantsPage: React.FC = () => {
 
   const getCategoryColor = (category: AuthorGrant['category']) => {
     switch (category) {
-      case 'content': return '#FF6B35';
+      case 'content': return '#2563EB';
       case 'research': return '#8b5cf6';
       case 'documentation': return '#3b82f6';
       case 'education': return '#22c55e';
-      case 'marketing': return '#F7931E';
+      case 'marketing': return '#1D4ED8';
       default: return '#6b7280';
     }
   };

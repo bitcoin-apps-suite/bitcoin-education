@@ -73,7 +73,7 @@ const OfferPage: React.FC = () => {
         <div className="offer-container">
           {/* Hero Section */}
           <section className="offer-hero">
-            <h1>Create Your <span style={{color: '#FF6B35'}}>{isDeveloper ? 'Development' : 'Writing'} Offer</span></h1>
+            <h1>Create Your <span style={{color: '#2563EB'}}>{isDeveloper ? 'Development' : 'Writing'} Offer</span></h1>
             <p className="offer-tagline">
               {isDeveloper 
                 ? 'List your development services and connect with publishers looking for technical talent'

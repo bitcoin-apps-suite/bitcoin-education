@@ -401,7 +401,7 @@ const CleanTaskbar: React.FC<TaskbarProps> = ({
             display: 'flex',
             alignItems: 'center',
             height: '32px',
-            background: showBitcoinSuite ? 'rgba(255, 149, 0, 0.1)' : 'transparent',
+            background: showBitcoinSuite ? 'rgba(37, 99, 235, 0.1)' : 'transparent',
             border: 'none',
             cursor: 'pointer',
             transition: 'background 0.15s ease'
@@ -447,7 +447,7 @@ const CleanTaskbar: React.FC<TaskbarProps> = ({
                 fontWeight: '600',
                 transition: 'background 0.15s ease'
               }}
-              onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 149, 0, 0.1)'}
+              onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(37, 99, 235, 0.1)'}
               onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
             >
               Bitcoin Apps
@@ -805,28 +805,28 @@ const CleanTaskbar: React.FC<TaskbarProps> = ({
                 </h3>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
                   <button onClick={() => { onNewDocument?.(); setShowMobileMenu(false); }} 
-                    style={{ padding: '12px', background: 'rgba(255, 149, 0, 0.1)', border: '1px solid rgba(255, 149, 0, 0.3)', borderRadius: '6px', color: '#fff', fontSize: '12px' }}>
+                    style={{ padding: '12px', background: 'rgba(37, 99, 235, 0.1)', border: '1px solid rgba(37, 99, 235, 0.3)', borderRadius: '6px', color: '#fff', fontSize: '12px' }}>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{marginRight: '6px'}}>
                       <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
                     </svg>
                     New
                   </button>
                   <button onClick={() => { onSaveDocument?.(); setShowMobileMenu(false); }} 
-                    style={{ padding: '12px', background: 'rgba(255, 149, 0, 0.1)', border: '1px solid rgba(255, 149, 0, 0.3)', borderRadius: '6px', color: '#fff', fontSize: '12px' }}>
+                    style={{ padding: '12px', background: 'rgba(37, 99, 235, 0.1)', border: '1px solid rgba(37, 99, 235, 0.3)', borderRadius: '6px', color: '#fff', fontSize: '12px' }}>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{marginRight: '6px'}}>
                       <path d="M15,9H5V5H15M12,19A3,3 0 0,1 9,16A3,3 0 0,1 12,13A3,3 0 0,1 15,16A3,3 0 0,1 12,19M17,3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V7L17,3Z"/>
                     </svg>
                     Save
                   </button>
                   <button onClick={() => { window.dispatchEvent(new CustomEvent('openDocumentExchange')); setShowMobileMenu(false); }} 
-                    style={{ padding: '12px', background: 'rgba(255, 149, 0, 0.1)', border: '1px solid rgba(255, 149, 0, 0.3)', borderRadius: '6px', color: '#fff', fontSize: '12px' }}>
+                    style={{ padding: '12px', background: 'rgba(37, 99, 235, 0.1)', border: '1px solid rgba(37, 99, 235, 0.3)', borderRadius: '6px', color: '#fff', fontSize: '12px' }}>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{marginRight: '6px'}}>
                       <path d="M12,16L16,12H13V8H11V12H8L12,16M16,20V18H8V20H16M16,2V4H8V2H16M20,6H4V18H20V6Z"/>
                     </svg>
                     Exchange
                   </button>
                   <button onClick={() => { onOpenTokenizeModal?.(); setShowMobileMenu(false); }} 
-                    style={{ padding: '12px', background: 'rgba(255, 149, 0, 0.1)', border: '1px solid rgba(255, 149, 0, 0.3)', borderRadius: '6px', color: '#fff', fontSize: '12px' }}>
+                    style={{ padding: '12px', background: 'rgba(37, 99, 235, 0.1)', border: '1px solid rgba(37, 99, 235, 0.3)', borderRadius: '6px', color: '#fff', fontSize: '12px' }}>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{marginRight: '6px'}}>
                       <path d="M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,11.56 18.94,12.11 18.84,12.65L20.95,14.76C21.58,15.39 22,16.31 22,17.38C22,19.92 19.92,22 17.38,22C16.31,22 15.39,21.58 14.76,20.95L12,18.21L9.24,20.95C8.61,21.58 7.69,22 6.62,22C4.08,22 2,19.92 2,17.38C2,16.31 2.42,15.39 3.05,14.76L5.16,12.65C5.06,12.11 5,11.56 5,11A7,7 0 0,1 12,4A7,7 0 0,1 19,11Z"/>
                     </svg>
@@ -843,7 +843,7 @@ const CleanTaskbar: React.FC<TaskbarProps> = ({
                     style={{
                       width: '100%',
                       padding: '10px',
-                      background: activeMenu === menu.label ? 'rgba(255, 149, 0, 0.1)' : 'rgba(255, 255, 255, 0.05)',
+                      background: activeMenu === menu.label ? 'rgba(37, 99, 235, 0.1)' : 'rgba(255, 255, 255, 0.05)',
                       border: '1px solid rgba(255, 255, 255, 0.1)',
                       borderRadius: '6px',
                       color: '#fff',
@@ -1031,8 +1031,8 @@ const CleanTaskbar: React.FC<TaskbarProps> = ({
             onClick={() => setShowMobileMenu(!showMobileMenu)}
             style={{
               padding: '6px 12px',
-              background: showMobileMenu ? 'rgba(255, 149, 0, 0.1)' : 'transparent',
-              border: '1px solid rgba(255, 149, 0, 0.3)',
+              background: showMobileMenu ? 'rgba(37, 99, 235, 0.1)' : 'transparent',
+              border: '1px solid rgba(37, 99, 235, 0.3)',
               borderRadius: '4px',
               color: '#2563EB',
               fontSize: '13px',
