@@ -386,7 +386,7 @@ const QuillEditor: React.FC<QuillEditorProps> = ({
           onClick={() => setShowSaveModal(true)}
           className="save-blockchain-btn"
           title="Save to BSV Blockchain"
-          style={{ backgroundColor: '#f7931a', color: 'white', border: 'none', padding: '8px 16px', borderRadius: '4px', fontWeight: 'bold' }}
+          style={{ backgroundColor: '#10B981', color: 'white', border: 'none', padding: '8px 16px', borderRadius: '4px', fontWeight: 'bold' }}
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style={{marginRight: '8px'}}>
             <path d="M9,3V9H9.73L7.1,16H14.42L12.07,11H14.9L15,3M12,18.08C11.45,18.08 11,18.53 11,19.08C11,19.63 11.45,20.08 12,20.08C12.55,20.08 13,19.63 13,19.08C13,18.53 12.55,18.08 12,18.08Z"/>

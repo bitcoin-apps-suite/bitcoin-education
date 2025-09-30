@@ -186,7 +186,7 @@
 }
 
 .progress-fill {
-  background: linear-gradient(90deg, #2563EB, #ff6b00);
+  background: linear-gradient(90deg, #2563EB, #1E40AF);
   height: 100%;
   display: flex;
   align-items: center;
@@ -227,7 +227,7 @@
 }
 
 .try-quill-btn {
-  background: linear-gradient(135deg, #2563EB, #ff6b00);
+  background: linear-gradient(135deg, #2563EB, #1E40AF);
   color: #fff;
   border: none;
   padding: 12px 24px;

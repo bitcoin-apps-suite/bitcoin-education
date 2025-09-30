@@ -922,7 +922,7 @@ const SaveToBlockchainModal: React.FC<SaveToBlockchainModalProps> = ({
                 border: '1px solid rgba(247, 147, 26, 0.3)', 
                 borderRadius: '8px' 
               }}>
-                <h4 style={{ margin: '0 0 10px 0', color: '#f7931a' }}>
+                <h4 style={{ margin: '0 0 10px 0', color: '#10B981' }}>
                   🤝 HandCash Items Protocol
                 </h4>
                 <p style={{ margin: '0 0 10px 0', fontSize: '13px', lineHeight: '1.6', color: '#ccc' }}>
@@ -1163,7 +1163,7 @@ const SaveToBlockchainModal: React.FC<SaveToBlockchainModalProps> = ({
             {(unlockMethod === 'priced' || unlockMethod === 'timedAndPriced') && (
               <>
                 <strong>After publishing:</strong> You'll get a shareable link like<br />
-                <code style={{ color: '#f7931a' }}>bitcoinwriter.io/read/{documentTitle.toLowerCase().replace(/\s+/g, '-')}</code>
+                <code style={{ color: '#10B981' }}>bitcoinwriter.io/read/{documentTitle.toLowerCase().replace(/\s+/g, '-')}</code>
               </>
             )}
           </div>

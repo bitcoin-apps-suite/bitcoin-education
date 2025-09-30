@@ -89,7 +89,7 @@
   margin: 0 0 16px 0;
   line-height: 1.1;
   letter-spacing: -1px;
-  background: linear-gradient(90deg, #ff9500, #ff6b00);
+  background: linear-gradient(90deg, #2563EB, #1E40AF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -107,7 +107,7 @@
 .contributions-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(90deg, #ff9500, #ff6b00);
+  background: linear-gradient(90deg, #2563EB, #1E40AF);
   border-radius: 100px;
   font-size: 14px;
   font-weight: 500;
@@ -126,7 +126,7 @@
 .contributions-header h1 {
   font-size: 42px;
   font-weight: 200;
-  background: linear-gradient(90deg, #ff9500, #ff6b00);
+  background: linear-gradient(90deg, #2563EB, #1E40AF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -183,17 +183,17 @@
 
 .tab-btn:hover {
   background: rgba(255, 149, 0, 0.1);
-  border-color: #ff9500;
+  border-color: #2563EB;
 }
 
 .tab-btn.active {
-  background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   border-color: transparent;
 }
 
 /* Contributors Section */
 .github-section h2 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -257,7 +257,7 @@
 
 .contributor-card:hover {
   transform: translateY(-4px);
-  border-color: #ff9500;
+  border-color: #2563EB;
   box-shadow: 0 8px 24px rgba(255, 149, 0, 0.2);
 }
 
@@ -266,7 +266,7 @@
   height: 80px;
   border-radius: 50%;
   margin-bottom: 1rem;
-  border: 2px solid #ff9500;
+  border: 2px solid #2563EB;
 }
 
 .contributor-info {
@@ -274,7 +274,7 @@
 }
 
 .contributor-name {
-  color: #ff9500;
+  color: #2563EB;
   text-decoration: none;
   font-weight: 600;
   display: block;
@@ -301,7 +301,7 @@
 }
 
 .todo-header h2 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 0.5rem;
 }
 
@@ -332,7 +332,7 @@
   display: block;
   font-size: 2rem;
   font-weight: 200;
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 0.5rem;
   letter-spacing: -1px;
 }
@@ -357,7 +357,7 @@
 }
 
 .todo-item:hover {
-  border-color: #ff9500;
+  border-color: #2563EB;
   box-shadow: 0 4px 12px rgba(255, 149, 0, 0.2);
 }
 
@@ -434,7 +434,7 @@
 .reward-value {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #ff9500;
+  color: #2563EB;
 }
 
 .reward-amount {
@@ -444,7 +444,7 @@
 
 .claim-btn {
   padding: 0.5rem 1.5rem;
-  background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -473,7 +473,7 @@
 
 .github-issue-btn:hover {
   background: rgba(255, 149, 0, 0.1);
-  color: #ff9500;
+  color: #2563EB;
   border-color: rgba(255, 149, 0, 0.3);
   transform: translateY(-1px);
 }
@@ -492,7 +492,7 @@
 }
 
 .contribution-guidelines h3 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -517,7 +517,7 @@
 }
 
 .tokenomics-content h2 {
-  color: #ff9500;
+  color: #2563EB;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -535,7 +535,7 @@
 .supply-value {
   font-size: 2.5rem;
   font-weight: bold;
-  background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -572,7 +572,7 @@
 }
 
 .bar-segment.available {
-  background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
 }
 
 .bar-segment span {
@@ -610,7 +610,7 @@
 }
 
 .distribution-card h3 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -639,7 +639,7 @@
 }
 
 .token-utility h3 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -659,7 +659,7 @@
   content: "✓";
   position: absolute;
   left: 0;
-  color: #ff9500;
+  color: #2563EB;
   font-weight: bold;
 }
 
@@ -671,7 +671,7 @@
 }
 
 .vesting-schedule h3 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -701,14 +701,14 @@
 }
 
 .social-links a {
-  color: #ff9500;
+  color: #2563EB;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #ff6b00;
+  color: #1E40AF;
   transform: translateY(-2px);
 }
 

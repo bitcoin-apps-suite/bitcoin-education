@@ -210,21 +210,21 @@ const ImportPage: React.FC = () => {
           <h2>Why Universal Import?</h2>
           <div className="import-benefits-grid">
             <div className="import-benefit">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="#f7931a">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="#10B981">
                 <path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"/>
               </svg>
               <h3>No Lock-In</h3>
               <p>Your content is never trapped. Import from anywhere, export to anywhere.</p>
             </div>
             <div className="import-benefit">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="#f7931a">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="#10B981">
                 <path d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"/>
               </svg>
               <h3>Preserve Formatting</h3>
               <p>Maintain your document structure, styles, and formatting during import.</p>
             </div>
             <div className="import-benefit">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="#f7931a">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="#10B981">
                 <path d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
               </svg>
               <h3>Quick Migration</h3>

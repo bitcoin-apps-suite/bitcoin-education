@@ -72,12 +72,12 @@
 }
 
 .nft-handle {
-  color: #ff9500;
+  color: #2563EB;
   font-weight: 500;
 }
 
 .nft-badge {
-  background: linear-gradient(45deg, #f7931a, #ffb347);
+  background: linear-gradient(45deg, #10B981, #ffb347);
   color: white;
   padding: 3px 8px;
   border-radius: 6px;
@@ -125,7 +125,7 @@
   width: 40px;
   height: 40px;
   border: 3px solid #333;
-  border-top: 3px solid #ff9500;
+  border-top: 3px solid #2563EB;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -148,7 +148,7 @@
 
 .nft-reader-error h3,
 .nft-reader-preview h3 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 16px;
   font-size: 24px;
 }
@@ -217,7 +217,7 @@
 }
 
 .nft-reader-content a {
-  color: #ff9500;
+  color: #2563EB;
   text-decoration: none;
 }
 
@@ -226,7 +226,7 @@
 }
 
 .nft-reader-content blockquote {
-  border-left: 4px solid #ff9500;
+  border-left: 4px solid #2563EB;
   padding-left: 20px;
   margin: 20px 0;
   color: #999;
@@ -254,7 +254,7 @@
 }
 
 .btn-buy-nft {
-  background: linear-gradient(45deg, #f7931a, #ffb347);
+  background: linear-gradient(45deg, #10B981, #ffb347);
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
@@ -287,7 +287,7 @@
 }
 
 .btn-view-market {
-  color: #ff9500;
+  color: #2563EB;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;

@@ -59,7 +59,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #FF6B35 0%, #F7931A 100%);
+  background: linear-gradient(135deg, #FF6B35 0%, #10B981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -102,7 +102,7 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #FF6B35, #F7931A);
+  background: linear-gradient(135deg, #FF6B35, #10B981);
   color: #000000;
 }
 
@@ -348,7 +348,7 @@
 
 .contract-badge {
   padding: 4px 12px;
-  background: linear-gradient(135deg, #FF6B35, #F7931A);
+  background: linear-gradient(135deg, #FF6B35, #10B981);
   border-radius: 100px;
   font-size: 11px;
   font-weight: 700;
@@ -402,7 +402,7 @@
 }
 
 .contract-btn.primary {
-  background: linear-gradient(135deg, #FF6B35, #F7931A);
+  background: linear-gradient(135deg, #FF6B35, #10B981);
   color: #000000;
   border: none;
 }

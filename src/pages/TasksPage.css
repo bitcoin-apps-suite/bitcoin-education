@@ -74,7 +74,7 @@
   margin: 0 0 16px 0;
   line-height: 1.1;
   letter-spacing: -1px;
-  background: linear-gradient(90deg, #FFA500, #FFD700);
+  background: linear-gradient(90deg, #2563EB, #FFD700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -101,7 +101,7 @@
 .tasks-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(90deg, #FFA500, #FFD700);
+  background: linear-gradient(90deg, #2563EB, #FFD700);
   border-radius: 100px;
   font-size: 14px;
   font-weight: 500;
@@ -126,8 +126,8 @@
 
 .create-issue-button:hover {
   background: rgba(255, 255, 255, 0.1);
-  border-color: #FFA500;
-  color: #FFA500;
+  border-color: #2563EB;
+  color: #2563EB;
   transform: translateY(-1px);
 }
 
@@ -159,7 +159,7 @@
 }
 
 .filter-button.active {
-  background: linear-gradient(90deg, #FFA500, #FFD700);
+  background: linear-gradient(90deg, #2563EB, #FFD700);
   color: #000;
   border-color: transparent;
   font-weight: 500;
@@ -185,7 +185,7 @@
   display: block;
   font-size: 36px;
   font-weight: 200;
-  color: #FFA500;
+  color: #2563EB;
   margin-bottom: 8px;
   letter-spacing: -1px;
 }
@@ -217,7 +217,7 @@
 
 .task-card:hover {
   transform: translateY(-4px);
-  border-color: #FFA500;
+  border-color: #2563EB;
   box-shadow: 0 8px 32px rgba(255, 165, 0, 0.1);
 }
 
@@ -249,7 +249,7 @@
 
 .task-difficulty.Easy {
   background: rgba(76, 175, 80, 0.2);
-  color: #FFA500;
+  color: #2563EB;
   border: 1px solid rgba(76, 175, 80, 0.3);
 }
 
@@ -297,7 +297,7 @@
 }
 
 .task-reward {
-  color: #FFA500;
+  color: #2563EB;
   font-weight: 500;
 }
 
@@ -339,7 +339,7 @@
 
 .claim-button {
   padding: 6px 16px;
-  background: linear-gradient(90deg, #FFA500, #FFD700);
+  background: linear-gradient(90deg, #2563EB, #FFD700);
   color: #000;
   border: none;
   border-radius: 20px;
@@ -377,7 +377,7 @@
 
 .view-issue-link:hover {
   background: rgba(255, 255, 255, 0.08);
-  color: #FFA500;
+  color: #2563EB;
   border-color: rgba(255, 165, 0, 0.3);
 }
 
@@ -497,7 +497,7 @@
 
 .task-modal-meta .task-reward {
   padding: 6px 14px;
-  background: linear-gradient(90deg, #FFA500, #FFD700);
+  background: linear-gradient(90deg, #2563EB, #FFD700);
   color: #000;
   border-radius: 20px;
   font-size: 12px;
@@ -551,7 +551,7 @@
   content: '→';
   position: absolute;
   left: 0;
-  color: #FFA500;
+  color: #2563EB;
 }
 
 .task-deliverables li:last-child {
@@ -592,7 +592,7 @@
 .apply-button {
   flex: 1;
   padding: 12px 24px;
-  background: linear-gradient(90deg, #FFA500, #FFD700);
+  background: linear-gradient(90deg, #2563EB, #FFD700);
   color: #000;
   border: none;
   border-radius: 24px;
@@ -675,7 +675,7 @@
 .contact-modal-content input:focus,
 .contact-modal-content textarea:focus {
   outline: none;
-  border-color: #FFA500;
+  border-color: #2563EB;
   background: rgba(255, 255, 255, 0.08);
 }
 
@@ -686,7 +686,7 @@
 
 .contact-modal-content button[type="submit"] {
   padding: 12px 24px;
-  background: linear-gradient(90deg, #FFA500, #FFD700);
+  background: linear-gradient(90deg, #2563EB, #FFD700);
   color: #000;
   border: none;
   border-radius: 24px;

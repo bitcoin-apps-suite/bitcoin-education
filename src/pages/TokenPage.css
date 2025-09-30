@@ -73,7 +73,7 @@
 .token-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(90deg, #ffa500, #ffcd00);
+  background: linear-gradient(90deg, #2563EB, #ffcd00);
   border-radius: 100px;
   font-size: 14px;
   font-weight: 500;
@@ -89,7 +89,7 @@
   margin: 0 0 16px 0;
   line-height: 1.1;
   letter-spacing: -1px;
-  background: linear-gradient(90deg, #ffcd00, #ffa500);
+  background: linear-gradient(90deg, #ffcd00, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -144,7 +144,7 @@ section h2 {
 
 .philosophy-content strong {
   font-weight: 500;
-  color: #ffa500;
+  color: #2563EB;
 }
 
 .philosophy-points {
@@ -157,7 +157,7 @@ section h2 {
 .point {
   padding: 20px;
   text-align: left;
-  border-left: 2px solid #ffa500;
+  border-left: 2px solid #2563EB;
   padding-left: 20px;
 }
 
@@ -169,7 +169,7 @@ section h2 {
   font-size: 16px;
   font-weight: 400;
   margin: 0 0 8px 0;
-  color: #ffa500;
+  color: #2563EB;
   letter-spacing: 0;
 }
 
@@ -226,7 +226,7 @@ section h2 {
 }
 
 .model-card li strong {
-  color: #ffa500;
+  color: #2563EB;
   font-weight: 500;
   margin-right: 8px;
 }
@@ -255,7 +255,7 @@ section h2 {
   font-weight: 300;
   margin-bottom: 24px;
   text-align: center;
-  color: #ffa500;
+  color: #2563EB;
   letter-spacing: -0.5px;
 }
 
@@ -282,7 +282,7 @@ section h2 {
 }
 
 .stream.featured {
-  border-color: #ffa500;
+  border-color: #2563EB;
   background: rgba(255, 165, 0, 0.01);
 }
 
@@ -292,7 +292,7 @@ section h2 {
   top: -8px;
   left: 50%;
   transform: translateX(-50%);
-  background: #ffa500;
+  background: #2563EB;
   color: #000;
   padding: 2px 8px;
   border-radius: 100px;
@@ -305,7 +305,7 @@ section h2 {
   font-size: 18px;
   font-weight: 400;
   margin: 0 0 10px 0;
-  color: #ffa500;
+  color: #2563EB;
 }
 
 .stream p {
@@ -335,7 +335,7 @@ section h2 {
   font-weight: 300;
   margin: 0 0 20px 0;
   text-align: center;
-  color: #ffa500;
+  color: #2563EB;
 }
 
 .flow-diagram {
@@ -360,7 +360,7 @@ section h2 {
 }
 
 .flow-item .arrow {
-  color: #ffa500;
+  color: #2563EB;
   font-size: 14px;
 }
 
@@ -388,14 +388,14 @@ section h2 {
   width: 32px;
   height: 32px;
   background: transparent;
-  border: 1px solid #ffa500;
+  border: 1px solid #2563EB;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 16px;
   font-weight: 300;
-  color: #ffa500;
+  color: #2563EB;
   margin-bottom: 12px;
 }
 
@@ -426,7 +426,7 @@ section h2 {
   font-size: 18px;
   font-weight: 300;
   margin: 0 0 16px 0;
-  color: #ffa500;
+  color: #2563EB;
 }
 
 .contribution-examples ul {
@@ -491,7 +491,7 @@ section h2 {
 .stat-value {
   font-size: 32px;
   font-weight: 200;
-  color: #ffa500;
+  color: #2563EB;
   margin: 0 0 4px 0;
   letter-spacing: -1px;
 }
@@ -571,7 +571,7 @@ section h2 {
 }
 
 .cta-btn.primary {
-  background: linear-gradient(90deg, #ffa500, #ffcd00);
+  background: linear-gradient(90deg, #2563EB, #ffcd00);
   color: #000;
   border: none;
 }
@@ -583,13 +583,13 @@ section h2 {
 
 .cta-btn.secondary {
   background: transparent;
-  color: #ffa500;
+  color: #2563EB;
   border: 1px solid rgba(255, 165, 0, 0.5);
 }
 
 .cta-btn.secondary:hover {
   background: rgba(255, 165, 0, 0.05);
-  border-color: #ffa500;
+  border-color: #2563EB;
 }
 
 .cta-btn svg {

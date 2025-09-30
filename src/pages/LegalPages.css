@@ -42,7 +42,7 @@
 .legal-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   border-radius: 100px;
   font-size: 13px;
   font-weight: 600;
@@ -58,7 +58,7 @@
   margin: 16px 0 20px 0;
   line-height: 1.1;
   letter-spacing: -1.5px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -100,7 +100,7 @@
   font-size: 32px;
   font-weight: 300;
   margin-bottom: 24px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -110,7 +110,7 @@
   font-size: 20px;
   font-weight: 400;
   margin: 24px 0 16px 0;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .legal-section p {
@@ -140,7 +140,7 @@
 }
 
 .legal-section a {
-  color: #f7931a;
+  color: #10B981;
   text-decoration: none;
   transition: opacity 0.2s ease;
 }
@@ -161,7 +161,7 @@
 
 .privacy-warning p {
   margin-bottom: 12px;
-  color: #f7931a;
+  color: #10B981;
   font-weight: 400;
 }
 
@@ -201,7 +201,7 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 12px;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .contact-card p {
@@ -214,7 +214,7 @@
 .contact-button {
   display: inline-block;
   padding: 10px 24px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   color: #000;
   font-weight: 600;
   border-radius: 8px;
@@ -245,7 +245,7 @@
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 12px;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .faq-item p {

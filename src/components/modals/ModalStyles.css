@@ -96,7 +96,7 @@
   margin: 0 0 16px 0;
   font-size: 16px;
   font-weight: 600;
-  color: #ff9500;
+  color: #2563EB;
 }
 
 .preference-item {
@@ -152,7 +152,7 @@
 
 /* Buttons */
 .btn-primary {
-  background: #ff9500;
+  background: #2563EB;
   color: #000000;
   border: none;
   padding: 8px 20px;
@@ -164,7 +164,7 @@
 }
 
 .btn-primary:hover {
-  background: #ffa500;
+  background: #2563EB;
 }
 
 .btn-secondary {
@@ -194,7 +194,7 @@
 
 .calculator-result h4 {
   margin: 0 0 12px 0;
-  color: #ff9500;
+  color: #2563EB;
   font-size: 16px;
 }
 
@@ -226,7 +226,7 @@
 
 .api-method.get { background: #00a8cc; }
 .api-method.post { background: #00cc88; }
-.api-method.put { background: #ff9500; }
+.api-method.put { background: #2563EB; }
 .api-method.delete { background: #ff4444; }
 
 .api-path {
@@ -256,7 +256,7 @@
   border-radius: 4px;
   font-family: 'SF Mono', Monaco, monospace;
   font-size: 12px;
-  color: #ff9500;
+  color: #2563EB;
 }
 
 .shortcut-description {

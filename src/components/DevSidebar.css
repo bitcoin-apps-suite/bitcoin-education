@@ -38,7 +38,7 @@
 }
 
 .dev-sidebar-logo {
-  color: #F7931A;
+  color: #10B981;
   flex-shrink: 0;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .dev-sidebar-badge {
-  background: linear-gradient(135deg, #F7931A, #FF6B35);
+  background: linear-gradient(135deg, #10B981, #FF6B35);
   color: #1a1a1a;
   font-size: 10px;
   font-weight: 700;
@@ -161,7 +161,7 @@
 }
 
 .dev-stat-value {
-  color: #F7931A;
+  color: #10B981;
   font-weight: 600;
 }
 
@@ -188,7 +188,7 @@
 
 .dev-sidebar-cta-button {
   display: inline-block;
-  background: linear-gradient(135deg, #2563EB, #F7931A);
+  background: linear-gradient(135deg, #2563EB, #10B981);
   color: #1a1a1a;
   padding: 6px 16px;
   border-radius: 4px;

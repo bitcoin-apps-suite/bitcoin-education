@@ -28,7 +28,7 @@ const BitcoinAppsView: React.FC<BitcoinAppsViewProps> = ({ isOpen, onClose }) =>
       name: 'Bitcoin Education',
       description: 'Write, encrypt, and store documents on Bitcoin. Set paywalls, multisig conditions, and timelock access.',
       url: 'https://bitcoin-education.vercel.app',
-      color: '#ff9500',
+      color: '#2563EB',
       icon: '✍️'
     }
   ];

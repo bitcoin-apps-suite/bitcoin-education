@@ -41,7 +41,7 @@
 .encrypt-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   border-radius: 100px;
   font-size: 13px;
   font-weight: 600;
@@ -57,7 +57,7 @@
   margin: 16px 0 20px 0;
   line-height: 1.1;
   letter-spacing: -1.5px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -100,7 +100,7 @@
   font-weight: 200;
   text-align: center;
   margin-bottom: 12px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -135,7 +135,7 @@
 
 .encrypt-demo-input label {
   font-weight: 400;
-  color: #f7931a;
+  color: #10B981;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -173,7 +173,7 @@
 
 .password-strength-fill {
   height: 100%;
-  background: #f7931a;
+  background: #10B981;
   transition: width 0.3s ease;
 }
 
@@ -209,7 +209,7 @@
 }
 
 .encrypt-button {
-  background: linear-gradient(135deg, #f7931a 0%, #ff8c00 100%);
+  background: linear-gradient(135deg, #10B981 0%, #1D4ED8 100%);
   color: white;
 }
 
@@ -255,7 +255,7 @@
 .encrypt-result h4,
 .decrypt-result h4 {
   margin-top: 0;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .encrypt-result pre,
@@ -276,7 +276,7 @@
   font-weight: 200;
   text-align: center;
   margin-bottom: 40px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -312,7 +312,7 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 12px;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .encrypt-feature-card p {
@@ -331,7 +331,7 @@
   font-weight: 200;
   text-align: center;
   margin-bottom: 12px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -354,7 +354,7 @@
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .algorithm-code {
@@ -390,7 +390,7 @@
   font-weight: 200;
   text-align: center;
   margin-bottom: 40px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -414,7 +414,7 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .spec-card ul {
@@ -444,7 +444,7 @@
   font-weight: 200;
   text-align: center;
   margin-bottom: 40px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -493,7 +493,7 @@
   font-weight: 200;
   text-align: center;
   margin-bottom: 40px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -511,7 +511,7 @@
 }
 
 .attribution-text strong {
-  color: #f7931a;
+  color: #10B981;
 }
 
 .attribution-text ul {
@@ -527,7 +527,7 @@
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .comparison-table {
@@ -545,7 +545,7 @@
 .comparison-table th {
   padding: 15px;
   text-align: left;
-  color: #f7931a;
+  color: #10B981;
   font-weight: 400;
   border-bottom: 1px solid rgba(247, 147, 26, 0.2);
 }
@@ -575,7 +575,7 @@
   font-weight: 200;
   text-align: center;
   margin-bottom: 40px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -607,7 +607,7 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 12px;
-  color: #f7931a;
+  color: #10B981;
 }
 
 .use-case-card p {
@@ -631,7 +631,7 @@
   font-size: 42px;
   font-weight: 200;
   margin-bottom: 12px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -647,7 +647,7 @@
 .encrypt-cta-button {
   display: inline-block;
   padding: 14px 32px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   color: #000;
   font-size: 16px;
   font-weight: 600;

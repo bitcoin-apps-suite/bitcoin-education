@@ -35,7 +35,7 @@
 .signup-header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -56,7 +56,7 @@
 
 .form-group label {
   display: block;
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
@@ -75,7 +75,7 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #ff9500;
+  border-color: #2563EB;
   background: rgba(255, 149, 0, 0.05);
 }
 
@@ -116,11 +116,11 @@
 }
 
 .radio-option input[type="radio"] {
-  accent-color: #ff9500;
+  accent-color: #2563EB;
 }
 
 .checkbox-option input[type="checkbox"] {
-  accent-color: #ff9500;
+  accent-color: #2563EB;
 }
 
 .form-footer {
@@ -137,7 +137,7 @@
 .submit-button {
   width: 100%;
   padding: 1rem;
-  background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -166,7 +166,7 @@
 }
 
 .signup-benefits h3 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -187,7 +187,7 @@
   content: "✓";
   position: absolute;
   left: 0;
-  color: #ff9500;
+  color: #2563EB;
   font-weight: bold;
 }
 
@@ -209,7 +209,7 @@
   display: block;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 0.5rem;
 }
 
@@ -229,7 +229,7 @@
 
 .cta-button {
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   color: #fff;
   border: none;
   border-radius: 8px;

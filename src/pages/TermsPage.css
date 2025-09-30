@@ -39,7 +39,7 @@
   font-weight: 200;
   margin-bottom: 16px;
   letter-spacing: -1.5px;
-  background: linear-gradient(90deg, #f7931a, #ff9500);
+  background: linear-gradient(90deg, #10B981, #2563EB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -65,7 +65,7 @@
   font-size: 28px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: #f7931a;
+  color: #10B981;
   padding-top: 20px;
 }
 
@@ -97,12 +97,12 @@
 }
 
 .terms-section li::marker {
-  color: #f7931a;
+  color: #10B981;
 }
 
 /* Strong emphasis */
 .terms-section strong {
-  color: #f7931a;
+  color: #10B981;
   font-weight: 600;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .acknowledgment h2 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 20px;
 }
 
@@ -142,15 +142,15 @@
 
 /* Links */
 .terms-content a {
-  color: #f7931a;
+  color: #10B981;
   text-decoration: none;
   border-bottom: 1px solid rgba(247, 147, 26, 0.3);
   transition: all 0.2s ease;
 }
 
 .terms-content a:hover {
-  color: #ff9500;
-  border-bottom-color: #ff9500;
+  color: #2563EB;
+  border-bottom-color: #2563EB;
 }
 
 /* Code blocks */
@@ -172,12 +172,12 @@
 }
 
 .terms-page::-webkit-scrollbar-thumb {
-  background: #f7931a;
+  background: #10B981;
   border-radius: 4px;
 }
 
 .terms-page::-webkit-scrollbar-thumb:hover {
-  background: #ff9500;
+  background: #2563EB;
 }
 
 /* Mobile Responsive */
