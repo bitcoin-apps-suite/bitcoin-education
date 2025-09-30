@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
         <div className="footer-section">
           <div className="footer-logo">
             <span className="bitcoin-symbol">₿</span>
-            <span className="app-name">Writer</span>
+            <span className="app-name">Education</span>
           </div>
           <p className="footer-tagline">
-            Decentralized document writing on Bitcoin SV
+            Decentralized blockchain education on Bitcoin SV
           </p>
         </div>
 
