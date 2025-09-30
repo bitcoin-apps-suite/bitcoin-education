@@ -36,6 +36,7 @@ import ContactPage from './pages/ContactPage';
 import CourseList from './components/CourseList';
 import CourseViewer from './components/CourseViewer';
 import CourseCreator from './components/CourseCreator';
+import EducationPlatform from './components/EducationPlatform';
 import { CourseService, Course } from './services/CourseService';
 import HandCashCallback from './components/HandCashCallback';
 import BapPage from './pages/BapPage';
@@ -807,55 +808,10 @@ function App() {
                     onBack={() => setSelectedCourse(null)}
                   />
                 ) : (
-                  <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-                    <div style={{ 
-                      padding: '20px', 
-                      background: '#1a1a1a', 
-                      borderBottom: '1px solid #333',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      alignItems: 'center'
-                    }}>
-                      <h1 style={{ margin: 0, color: '#2563EB' }}>Bitcoin Education Platform</h1>
-                      <div style={{ display: 'flex', gap: '10px' }}>
-                        <button 
-                          onClick={() => setUserRole(userRole === 'student' ? 'instructor' : 'student')}
-                          style={{
-                            padding: '10px 20px',
-                            background: '#333',
-                            color: '#fff',
-                            border: 'none',
-                            borderRadius: '6px',
-                            cursor: 'pointer'
-                          }}
-                        >
-                          Switch to {userRole === 'student' ? 'Instructor' : 'Student'} View
-                        </button>
-                        {userRole === 'instructor' && (
-                          <button 
-                            onClick={() => setShowCourseCreator(true)}
-                            style={{
-                              padding: '10px 20px',
-                              background: 'linear-gradient(135deg, #10B981, #059669)',
-                              color: '#fff',
-                              border: 'none',
-                              borderRadius: '6px',
-                              cursor: 'pointer',
-                              fontWeight: 600
-                            }}
-                          >
-                            Create New Course
-                          </button>
-                        )}
-                      </div>
-                    </div>
-                    <CourseList
-                      courseService={courseService}
-                      onCourseSelect={setSelectedCourse}
-                      isInstructor={userRole === 'instructor'}
-                      studentId={currentUser?.handle}
-                    />
-                  </div>
+                  <EducationPlatform
+                    courseService={courseService}
+                    currentUser={currentUser}
+                  />
                 )}
               </main>
             </div>

@@ -7,13 +7,15 @@ interface CourseListProps {
   onCourseSelect: (course: Course) => void;
   isInstructor?: boolean;
   studentId?: string;
+  filterType?: 'all' | 'enrolled' | 'available';
 }
 
 const CourseList: React.FC<CourseListProps> = ({ 
   courseService, 
   onCourseSelect, 
   isInstructor = false,
-  studentId 
+  studentId,
+  filterType = 'all'
 }) => {
   const [courses, setCourses] = useState<Course[]>([]);
   const [filter, setFilter] = useState<'all' | 'enrolled' | 'available'>('all');
