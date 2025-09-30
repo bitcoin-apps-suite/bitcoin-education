@@ -1,11 +1,11 @@
 {
-  "name": "Bitcoin Writer",
-  "short_name": "Writer",
-  "description": "Professional Document Editor on BSV Blockchain",
+  "name": "Bitcoin Education",
+  "short_name": "Education",
+  "description": "Professional Education Platform on BSV Blockchain",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#FF8C00",
+  "theme_color": "#2563EB",
   "orientation": "portrait-primary",
   "scope": "/",
   "categories": [

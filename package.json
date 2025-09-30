@@ -1,7 +1,7 @@
 {
-  "name": "bitcoin-writer",
-  "version": "2.0.0",
-  "description": "A blockchain-based writing app with HandCash authentication",
+  "name": "bitcoin-education",
+  "version": "1.0.0",
+  "description": "A blockchain-based education platform with HandCash authentication",
   "license": "Open-BSV",
   "author": "The Bitcoin Corporation LTD",
   "private": true,

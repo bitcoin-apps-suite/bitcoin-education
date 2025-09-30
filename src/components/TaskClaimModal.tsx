@@ -173,13 +173,13 @@ const TaskClaimModal: React.FC<TaskClaimModalProps> = ({
               {task.difficulty}
             </span>
             <span className="reward">
-              🪙 {task.tokenReward}% ({(task.tokenReward * 10000000).toLocaleString()} $BWRITER)
+              🪙 {task.tokenReward}% ({(task.tokenReward * 10000000).toLocaleString()} $BEDUCATION)
             </span>
           </div>
 
           {task.githubIssueNumber && (
             <a 
-              href={`https://github.com/bitcoin-apps-suite/bitcoin-writer/issues/${task.githubIssueNumber}`}
+              href={`https://github.com/bitcoin-apps-suite/bitcoin-education/issues/${task.githubIssueNumber}`}
               target="_blank"
               rel="noopener noreferrer"
               className="github-issue-link"
@@ -287,7 +287,7 @@ const TaskClaimModal: React.FC<TaskClaimModalProps> = ({
                     </div>
                     <div className="contract-item">
                       <span className="label">Reward:</span>
-                      <span className="value">{(task.tokenReward * 10000000).toLocaleString()} $BWRITER</span>
+                      <span className="value">{(task.tokenReward * 10000000).toLocaleString()} $BEDUCATION</span>
                     </div>
                     <div className="contract-item">
                       <span className="label">Deadline:</span>

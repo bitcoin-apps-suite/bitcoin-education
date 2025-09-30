@@ -46,7 +46,7 @@ const PrivacyPage: React.FC = () => {
         <section className="legal-section">
           <h2>1. Introduction</h2>
           <p>
-            Bitcoin Writer ("we", "our", or "the Service") is committed to protecting your privacy. This Privacy Policy 
+            Bitcoin Education ("we", "our", or "the Service") is committed to protecting your privacy. This Privacy Policy 
             explains how we collect, use, and safeguard your information when you use our decentralized document platform.
           </p>
           <p>
@@ -211,7 +211,7 @@ const PrivacyPage: React.FC = () => {
         <section className="legal-section">
           <h2>10. Children's Privacy</h2>
           <p>
-            Bitcoin Writer is not intended for users under 13 years of age. We do not knowingly collect personal 
+            Bitcoin Education is not intended for users under 13 years of age. We do not knowingly collect personal 
             information from children under 13. If we discover that we have collected information from a child 
             under 13, we will delete that information immediately.
           </p>
@@ -256,8 +256,8 @@ const PrivacyPage: React.FC = () => {
           <h2>15. Contact Information</h2>
           <p>For privacy-related questions or concerns:</p>
           <ul>
-            <li><strong>GitHub Issues:</strong> <a href="https://github.com/bitcoin-writer" target="_blank" rel="noopener noreferrer">github.com/bitcoin-writer</a></li>
-            <li><strong>In-App Support:</strong> Use the support feature within Bitcoin Writer</li>
+            <li><strong>GitHub Issues:</strong> <a href="https://github.com/bitcoin-education" target="_blank" rel="noopener noreferrer">github.com/bitcoin-education</a></li>
+            <li><strong>In-App Support:</strong> Use the support feature within Bitcoin Education</li>
           </ul>
           <p>
             When contacting us about privacy matters, please do not include sensitive personal information in 

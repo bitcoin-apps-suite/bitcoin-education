@@ -1,7 +1,7 @@
 # User Guide & Tutorial Writer Needed
 
 ## 📋 Description
-We need a technical writer to create comprehensive user guides and tutorials for Bitcoin Writer. This includes step-by-step guides for authors, publishers, and developers using our platform.
+We need a technical writer to create comprehensive user guides and tutorials for Bitcoin Education. This includes step-by-step guides for authors, publishers, and developers using our platform.
 
 ## 🎯 Requirements
 - [ ] Experience writing user documentation and tutorials
@@ -22,7 +22,7 @@ We need a technical writer to create comprehensive user guides and tutorials for
 - [ ] Mobile app user guide
 
 ## 💰 Compensation
-**Token Reward:** 8,000 BWRITER
+**Token Reward:** 8,000 BEDUCATION
 **Estimated Hours:** 20
 **Priority:** Medium
 **Category:** Writing
@@ -38,7 +38,7 @@ We need a technical writer to create comprehensive user guides and tutorials for
 
 ## 🔗 Resources
 - Platform access for screenshots
-- Existing documentation: https://github.com/bitcoin-apps-suite/bitcoin-writer/docs
+- Existing documentation: https://github.com/bitcoin-apps-suite/bitcoin-education/docs
 - User feedback and common questions
 
 ## 📅 Timeline

@@ -27,7 +27,7 @@ const ProofOfConceptBanner: React.FC = () => {
           <div className="poc-banner-text">
             <div className="poc-banner-message">
               <div className="poc-banner-line1">
-                <strong>PROOF OF CONCEPT:</strong> This is a demonstration version of Bitcoin Writer.
+                <strong>PROOF OF CONCEPT:</strong> This is a demonstration version of Bitcoin Education.
               </div>
               <div className="poc-banner-line2">
                 Production version coming soon™
@@ -58,7 +58,7 @@ const ProofOfConceptBanner: React.FC = () => {
 
         <span className="poc-banner-separator">•</span>
 
-        {/* $BWRITER Token Link */}
+        {/* $BEDUCATION Token Link */}
         <a href="/token" className="poc-banner-link poc-banner-token">
           ₿Writer
         </a>
@@ -77,7 +77,7 @@ const ProofOfConceptBanner: React.FC = () => {
         
         {/* GitHub Link */}
         <a
-          href="https://github.com/bitcoin-apps-suite/bitcoin-writer"
+          href="https://github.com/bitcoin-apps-suite/bitcoin-education"
           target="_blank"
           rel="noopener noreferrer"
           className="poc-banner-link"

@@ -1,7 +1,7 @@
 # API Documentation Writer Needed
 
 ## 📋 Description
-Bitcoin Writer needs comprehensive API documentation for our REST and WebSocket APIs. We're looking for a technical writer who can create clear, detailed API documentation that enables developers to integrate with our platform easily.
+Bitcoin Education needs comprehensive API documentation for our REST and WebSocket APIs. We're looking for a technical writer who can create clear, detailed API documentation that enables developers to integrate with our platform easily.
 
 ## 🎯 Requirements
 - [ ] Experience writing API documentation
@@ -22,7 +22,7 @@ Bitcoin Writer needs comprehensive API documentation for our REST and WebSocket 
 - [ ] Create interactive API playground examples
 
 ## 💰 Compensation
-**Token Reward:** 12,000 BWRITER
+**Token Reward:** 12,000 BEDUCATION
 **Estimated Hours:** 30
 **Priority:** High
 **Category:** Writing
@@ -37,7 +37,7 @@ Bitcoin Writer needs comprehensive API documentation for our REST and WebSocket 
 7. API changelog section
 
 ## 🔗 Resources
-- Platform repository: https://github.com/bitcoin-apps-suite/bitcoin-writer
+- Platform repository: https://github.com/bitcoin-apps-suite/bitcoin-education
 - Example API docs: https://docs.github.com/en/rest
 - OpenAPI specification: https://swagger.io/specification/
 

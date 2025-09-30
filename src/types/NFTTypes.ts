@@ -1,6 +1,6 @@
-// Bitcoin Writer .nft File Types
+// Bitcoin Education .nft File Types
 export interface NFTHeader {
-  magicNumber: string; // "BWNF" = Bitcoin Writer NFT
+  magicNumber: string; // "BWNF" = Bitcoin Education NFT
   version: string; // "1.0"
   contentHash: string; // SHA-256 of content
   timestamp: number; // Creation timestamp
@@ -18,7 +18,7 @@ export interface NFTMetadata {
   creatorAddress: string; // BSV address
   creatorPublicKey?: string;
   
-  // Bitcoin Writer specific
+  // Bitcoin Education specific
   documentType: 'grant-submission' | 'contract' | 'document' | 'article';
   platformSignature?: string; // Our endorsement signature
   
@@ -27,7 +27,7 @@ export interface NFTMetadata {
     totalShares: number;
     issuedShares: number;
     sharePrice: number; // in satoshis
-    currency: string; // "BSV" | "BWRITER"
+    currency: string; // "BSV" | "BEDUCATION"
   };
   
   // Revenue routing (.ft integration)
@@ -41,7 +41,7 @@ export interface NFTMetadata {
   grantInfo?: {
     applicantType: 'developer' | 'author' | 'publisher';
     requestedAmount: number;
-    requestedCurrency: 'BSV' | 'BWRITER';
+    requestedCurrency: 'BSV' | 'BEDUCATION';
     fundingAddress: string; // Where grants should be sent
     bwriterAward?: number; // Our platform award amount
     applicationStatus: 'pending' | 'awarded' | 'funded' | 'rejected';

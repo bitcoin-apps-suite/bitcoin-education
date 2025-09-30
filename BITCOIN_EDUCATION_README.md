@@ -1,8 +1,8 @@
-# Bitcoin Writer - Secure Blockchain Document Storage
+# Bitcoin Education - Secure Blockchain Document Storage
 
 ## Overview
 
-Bitcoin Writer is a professional landing page for a blockchain-based document storage solution that provides secure, encrypted document storage on the Bitcoin network.
+Bitcoin Education is a professional landing page for a blockchain-based document storage solution that provides secure, encrypted document storage on the Bitcoin network.
 
 ## Features
 
@@ -28,9 +28,9 @@ Bitcoin Writer is a professional landing page for a blockchain-based document st
 ## Files Structure
 
 ```
-bitcoin-writer.html    # Main landing page
-bitcoin-writer.css     # Professional styling
-bitcoin-writer.js      # Interactive functionality
+bitcoin-education.html    # Main landing page
+bitcoin-education.css     # Professional styling
+bitcoin-education.js      # Interactive functionality
 ```
 
 ## Design Philosophy
@@ -57,7 +57,7 @@ bitcoin-writer.js      # Interactive functionality
 
 ## Future Development
 
-This page serves as a landing page for the upcoming Bitcoin Writer application, which will provide:
+This page serves as a landing page for the upcoming Bitcoin Education application, which will provide:
 
 - HandCash wallet integration for authentication
 - Bitcoin SV blockchain storage
@@ -74,7 +74,7 @@ This page serves as a landing page for the upcoming Bitcoin Writer application, 
 
 ## Customization
 
-The design uses CSS custom properties and can be easily themed by modifying the color variables in `bitcoin-writer.css`.
+The design uses CSS custom properties and can be easily themed by modifying the color variables in `bitcoin-education.css`.
 
 ---
 

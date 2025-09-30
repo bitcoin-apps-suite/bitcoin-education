@@ -42,7 +42,7 @@ const TermsPage: React.FC = () => {
           <section className="terms-section">
             <h2>1. Acceptance of Terms</h2>
             <p>
-              These Terms of Service ("Terms", "Agreement") govern your relationship with the Bitcoin Writer service 
+              These Terms of Service ("Terms", "Agreement") govern your relationship with the Bitcoin Education service 
               ("Service") operated by Bitcoin Corp LTD ("us", "we", or "our"). By accessing or using the Service, 
               you agree to be bound by these Terms and accept all legal consequences. If you do not agree to these 
               terms, please do not use the Service.
@@ -52,7 +52,7 @@ const TermsPage: React.FC = () => {
           <section className="terms-section">
             <h2>2. Service Description</h2>
             <p>
-              Bitcoin Writer is a decentralized document creation and management platform that enables:
+              Bitcoin Education is a decentralized document creation and management platform that enables:
             </p>
             <ul>
               <li>Document creation, editing, and storage</li>
@@ -83,7 +83,7 @@ const TermsPage: React.FC = () => {
             </p>
             <ul>
               <li>You are solely responsible for your HandCash wallet security</li>
-              <li>Bitcoin Writer never has access to your private keys</li>
+              <li>Bitcoin Education never has access to your private keys</li>
               <li>All blockchain transactions are final and irreversible</li>
               <li>You must maintain sufficient BSV balance for transaction fees</li>
             </ul>
@@ -313,15 +313,15 @@ const TermsPage: React.FC = () => {
             </p>
             <div className="contact-info">
               <p><strong>Bitcoin Corp LTD</strong></p>
-              <p>Email: legal@bitcoin-writer.io</p>
-              <p>Website: https://bitcoin-writer.vercel.app</p>
+              <p>Email: legal@bitcoin-education.io</p>
+              <p>Website: https://bitcoin-education.vercel.app</p>
             </div>
           </section>
 
           <section className="terms-section acknowledgment">
             <h2>Acknowledgment</h2>
             <p>
-              By using Bitcoin Writer, you acknowledge that you have read, understood, and agree to be 
+              By using Bitcoin Education, you acknowledge that you have read, understood, and agree to be 
               bound by these Terms of Service. You specifically acknowledge the permanent nature of 
               blockchain transactions and accept full responsibility for content you upload.
             </p>

@@ -43,9 +43,9 @@ const CommissionsPage: React.FC = () => {
       <div className="commissions-container">
         {/* Hero Section */}
         <section className="commissions-hero">
-          <h1>Bitcoin Writer <span style={{color: '#ffffff'}}>Enterprise</span></h1>
+          <h1>Bitcoin Education <span style={{color: '#ffffff'}}>Enterprise</span></h1>
           <p className="commissions-tagline">
-            Rebrand and repackage Bitcoin Writer for your publishing platform
+            Rebrand and repackage Bitcoin Education for your publishing platform
           </p>
           <div className="commissions-badge">WHITE LABEL</div>
         </section>
@@ -55,14 +55,14 @@ const CommissionsPage: React.FC = () => {
           <h2>White Label Licensing</h2>
           <div className="overview-content">
             <p>
-              Publishers can rebrand and repackage Bitcoin Writer for their own platforms. While our 
+              Publishers can rebrand and repackage Bitcoin Education for their own platforms. While our 
               open-source nature means you could do this yourself, licensing through us provides 
               strategic advantages that multiply your platform's value.
             </p>
             <p>
-              <strong>Why license instead of fork?</strong> By staying connected to the $BWRITER ecosystem, 
+              <strong>Why license instead of fork?</strong> By staying connected to the $BEDUCATION ecosystem, 
               you gain instant access to thousands of verified writers, developers, and publishers already 
-              using the network. Your users can transact with the entire Bitcoin Writer community.
+              using the network. Your users can transact with the entire Bitcoin Education community.
             </p>
             <div className="commission-points">
               <div className="point">
@@ -70,7 +70,7 @@ const CommissionsPage: React.FC = () => {
                 <p>Tap into our existing pool of writers and developers</p>
               </div>
               <div className="point">
-                <h3>$BWRITER Integration</h3>
+                <h3>$BEDUCATION Integration</h3>
                 <p>Native token support gives liquidity and instant utility</p>
               </div>
               <div className="point">
@@ -88,16 +88,16 @@ const CommissionsPage: React.FC = () => {
             <div className="service-card">
               <h3>Platform Licensing</h3>
               <ul>
-                <li>Full white-label rights to Bitcoin Writer</li>
+                <li>Full white-label rights to Bitcoin Education</li>
                 <li>Your branding, colors, and identity</li>
                 <li>Custom domain and deployment</li>
-                <li>Remove or customize Bitcoin Writer branding</li>
+                <li>Remove or customize Bitcoin Education branding</li>
               </ul>
             </div>
             <div className="service-card">
-              <h3>$BWRITER Ecosystem</h3>
+              <h3>$BEDUCATION Ecosystem</h3>
               <ul>
-                <li>Native $BWRITER token integration</li>
+                <li>Native $BEDUCATION token integration</li>
                 <li>Access to global writer/developer pool</li>
                 <li>Cross-platform content contracts</li>
                 <li>Shared liquidity and network effects</li>
@@ -132,7 +132,7 @@ const CommissionsPage: React.FC = () => {
             <div className="step">
               <div className="step-number">3</div>
               <h3>Token Integration</h3>
-              <p>Connect to $BWRITER ecosystem for instant liquidity</p>
+              <p>Connect to $BEDUCATION ecosystem for instant liquidity</p>
             </div>
             <div className="step">
               <div className="step-number">4</div>
@@ -147,7 +147,7 @@ const CommissionsPage: React.FC = () => {
           <h2>Transparent Pricing</h2>
           <div className="pricing-content">
             <p>
-              Our licensing fee is intentionally affordable because Bitcoin Writer is open-source. 
+              Our licensing fee is intentionally affordable because Bitcoin Education is open-source. 
               You're not paying for the code - you're investing in network access and ecosystem benefits.
             </p>
             <div className="pricing-options">
@@ -157,7 +157,7 @@ const CommissionsPage: React.FC = () => {
                 <p>Perfect for new publishers</p>
                 <ul style={{textAlign: 'left', marginTop: '10px'}}>
                   <li>Full platform access</li>
-                  <li>$BWRITER integration</li>
+                  <li>$BEDUCATION integration</li>
                   <li>Basic support</li>
                 </ul>
               </div>
@@ -190,7 +190,7 @@ const CommissionsPage: React.FC = () => {
         {/* CTA Section */}
         <section className="cta-section">
           <h2>Ready to Launch Your Platform?</h2>
-          <p>Join the $BWRITER ecosystem and access thousands of writers instantly</p>
+          <p>Join the $BEDUCATION ecosystem and access thousands of writers instantly</p>
           <div className="cta-buttons">
             <a 
               href="mailto:licensing@bitcoinwriter.io" 
@@ -199,7 +199,7 @@ const CommissionsPage: React.FC = () => {
               Get Licensed
             </a>
             <a 
-              href="https://github.com/bitcoin-apps-suite/bitcoin-writer" 
+              href="https://github.com/bitcoin-apps-suite/bitcoin-education" 
               className="cta-button secondary"
               target="_blank"
               rel="noopener noreferrer"

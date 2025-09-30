@@ -1,5 +1,5 @@
-/* Bitcoin Writer Taskbar - Professional macOS Style */
-.bitcoin-writer-taskbar {
+/* Bitcoin Education Taskbar - Professional macOS Style */
+.bitcoin-education-taskbar {
   display: flex;
   align-items: center;
   height: 22px;
@@ -29,7 +29,7 @@
 .bitcoin-symbol {
   font-size: 14px;
   font-weight: 500;
-  color: #ff9500;
+  color: #2563EB;
   opacity: 0.9;
 }
 
@@ -202,7 +202,7 @@
 
 /* Mobile responsive - show mobile version */
 @media (max-width: 768px) {
-  .bitcoin-writer-taskbar {
+  .bitcoin-education-taskbar {
     display: flex;
     justify-content: space-between;
   }
@@ -226,7 +226,7 @@
     justify-content: center;
     font-size: 14px;
     font-weight: 400;
-    color: #ff9500;
+    color: #2563EB;
     cursor: pointer;
     background: transparent;
     border: none;

@@ -46,7 +46,7 @@ const SignupPage: React.FC = () => {
         <div className="signup-container success">
           <div className="success-icon">🎉</div>
           <h1>Welcome to the Future of Writing!</h1>
-          <p>Thank you for signing up. We'll keep you updated on Bitcoin Writer's development.</p>
+          <p>Thank you for signing up. We'll keep you updated on Bitcoin Education's development.</p>
           <p className="success-note">
             You'll be among the first to know when we launch new features, 
             and you may receive exclusive early access opportunities.
@@ -55,7 +55,7 @@ const SignupPage: React.FC = () => {
             className="cta-button"
             onClick={() => window.location.href = '/platform'}
           >
-            Learn More About Bitcoin Writer
+            Learn More About Bitcoin Education
           </button>
         </div>
       </div>
@@ -66,7 +66,7 @@ const SignupPage: React.FC = () => {
     <div className="signup-page">
       <div className="signup-container">
         <div className="signup-header">
-          <h1>Join Bitcoin Writer</h1>
+          <h1>Join Bitcoin Education</h1>
           <p className="subtitle">Be part of the decentralized publishing revolution</p>
         </div>
 
@@ -95,7 +95,7 @@ const SignupPage: React.FC = () => {
           </div>
 
           <div className="form-group">
-            <label>I'm interested in Bitcoin Writer as a:</label>
+            <label>I'm interested in Bitcoin Education as a:</label>
             <div className="radio-group">
               <label className="radio-option">
                 <input
@@ -158,7 +158,7 @@ const SignupPage: React.FC = () => {
                 'NFT documents',
                 'Micropayments for content',
                 'Censorship-resistant writing',
-                'BWRITER tokens',
+                'BEDUCATION tokens',
                 'Developer opportunities',
                 'Early access',
                 'Investment opportunities'
@@ -177,7 +177,7 @@ const SignupPage: React.FC = () => {
 
           <div className="form-footer">
             <p className="privacy-note">
-              We respect your privacy. Your email will only be used for Bitcoin Writer updates 
+              We respect your privacy. Your email will only be used for Bitcoin Education updates 
               and will never be shared with third parties.
             </p>
             <button type="submit" className="submit-button" disabled={isLoading}>
@@ -190,7 +190,7 @@ const SignupPage: React.FC = () => {
           <h3>What You'll Get:</h3>
           <ul>
             <li>Early access to new features</li>
-            <li>Exclusive BWRITER token opportunities</li>
+            <li>Exclusive BEDUCATION token opportunities</li>
             <li>Platform updates and development news</li>
             <li>Invitations to beta testing</li>
             <li>Special launch day bonuses</li>
@@ -200,7 +200,7 @@ const SignupPage: React.FC = () => {
         <div className="signup-stats">
           <div className="stat">
             <span className="stat-number">1,000,000</span>
-            <span className="stat-label">BWRITER Tokens Reserved for Early Users</span>
+            <span className="stat-label">BEDUCATION Tokens Reserved for Early Users</span>
           </div>
           <div className="stat">
             <span className="stat-number">∞</span>

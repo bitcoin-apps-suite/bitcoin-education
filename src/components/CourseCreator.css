@@ -1,0 +1,272 @@
+.course-creator {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+.creator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.creator-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #2563EB;
+}
+
+.cancel-btn {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.course-form section {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.course-form h2 {
+  margin: 0 0 20px 0;
+  color: #10B981;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  background: #222;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #2563EB;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.modules-list {
+  margin-bottom: 20px;
+}
+
+.module-item {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+}
+
+.module-item h3 {
+  margin: 0 0 10px 0;
+  color: #2563EB;
+  font-size: 18px;
+}
+
+.module-item p {
+  margin: 5px 0;
+  color: #999;
+}
+
+.module-item button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.module-item button:hover {
+  background: #444;
+}
+
+.add-module-btn,
+.add-lesson-btn,
+.add-quiz-btn {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #2563EB, #1D4ED8);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.module-form {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 2px solid #2563EB;
+}
+
+.module-form h3 {
+  margin: 0 0 20px 0;
+  color: #2563EB;
+}
+
+.lessons-section {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}
+
+.lessons-section h4 {
+  margin: 0 0 15px 0;
+  color: #10B981;
+}
+
+.lesson-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #1a1a1a;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.lesson-item span {
+  color: #fff;
+}
+
+.lesson-item button {
+  padding: 4px 10px;
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.lesson-form {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: 1px solid #10B981;
+}
+
+.lesson-buttons,
+.module-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.lesson-buttons button,
+.module-buttons button {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.lesson-buttons button:first-child,
+.module-buttons button:first-child {
+  background: #10B981;
+  color: #fff;
+}
+
+.lesson-buttons button:last-child,
+.module-buttons button:last-child {
+  background: #333;
+  color: #fff;
+}
+
+.course-actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.save-draft-btn {
+  padding: 15px 40px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.save-draft-btn:hover {
+  background: #444;
+}
+
+.publish-btn {
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #10B981, #059669);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.publish-btn:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .course-actions {
+    flex-direction: column;
+  }
+  
+  .creator-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}

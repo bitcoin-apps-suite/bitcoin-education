@@ -1,7 +1,7 @@
 # Technical Documentation Writer Needed
 
 ## 📋 Description
-We're looking for a technical writer to create comprehensive documentation for the Bitcoin Writer platform. This includes writing clear, concise technical documentation that helps developers understand and integrate with our platform.
+We're looking for a technical writer to create comprehensive documentation for the Bitcoin Education platform. This includes writing clear, concise technical documentation that helps developers understand and integrate with our platform.
 
 ## 🎯 Requirements
 - [ ] Experience with technical writing and documentation
@@ -12,7 +12,7 @@ We're looking for a technical writer to create comprehensive documentation for t
 - [ ] Ability to create code examples and tutorials
 
 ## ✅ Acceptance Criteria
-- [ ] Complete technical overview of Bitcoin Writer architecture
+- [ ] Complete technical overview of Bitcoin Education architecture
 - [ ] Document all core platform features
 - [ ] Create integration guides for developers
 - [ ] Write clear explanations of blockchain concepts used
@@ -22,7 +22,7 @@ We're looking for a technical writer to create comprehensive documentation for t
 - [ ] Documentation must be reviewed and approved by development team
 
 ## 💰 Compensation
-**Token Reward:** 15,000 BWRITER
+**Token Reward:** 15,000 BEDUCATION
 **Estimated Hours:** 40
 **Priority:** High
 **Category:** Writing
@@ -35,7 +35,7 @@ We're looking for a technical writer to create comprehensive documentation for t
 5. Troubleshooting guide
 
 ## 🔗 Resources
-- Current platform codebase: https://github.com/bitcoin-apps-suite/bitcoin-writer
+- Current platform codebase: https://github.com/bitcoin-apps-suite/bitcoin-education
 - BSV documentation: https://docs.bsvblockchain.org/
 - Existing platform features in `/docs` folder
 

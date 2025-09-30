@@ -282,7 +282,7 @@ export class HandCashItemsService {
     // 1. Generate a preview image using Canvas API
     // 2. Upload to IPFS or cloud storage
     // 3. Return the URL
-    return 'https://bitcoin-writer.vercel.app/document-nft-default.png';
+    return 'https://bitcoin-education.vercel.app/document-nft-default.png';
   }
 
   /**

@@ -42,8 +42,8 @@ const crypto = {
   })
 };
 
-export class BitcoinWriterNFTService implements NFTService {
-  private readonly MAGIC_NUMBER = 'BWNF'; // Bitcoin Writer NFT
+export class BitcoinEducationNFTService implements NFTService {
+  private readonly MAGIC_NUMBER = 'BWNF'; // Bitcoin Education NFT
   private readonly VERSION = '1.0';
   private readonly HEADER_SIZE = 256;
   
@@ -359,7 +359,7 @@ export class BitcoinWriterNFTService implements NFTService {
   
   private createPlatformSignature(nft: NFTFile): string {
     // Create platform endorsement signature
-    const dataToSign = nft.header.contentHash + nft.metadata.title + 'BitcoinWriter';
+    const dataToSign = nft.header.contentHash + nft.metadata.title + 'BitcoinEducation';
     return crypto.createHash('sha256').update(dataToSign).digest('hex').substring(0, 32);
   }
   

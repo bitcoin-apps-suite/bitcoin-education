@@ -43,7 +43,7 @@ const ChangelogPage: React.FC = () => {
       <div className="changelog-container">
         {/* Hero Section */}
         <section className="changelog-hero">
-          <h1>Bitcoin Writer <span style={{color: '#ffffff'}}>Changelog</span></h1>
+          <h1>Bitcoin Education <span style={{color: '#ffffff'}}>Changelog</span></h1>
           <p className="changelog-tagline">
             Track every improvement, feature, and update
           </p>
@@ -61,7 +61,7 @@ const ChangelogPage: React.FC = () => {
           <div className="changes-section">
             <h3>Features</h3>
             <ul>
-              <li>Initial public release of Bitcoin Writer</li>
+              <li>Initial public release of Bitcoin Education</li>
               <li>Full BSV blockchain integration for document storage</li>
               <li>Real-time collaborative editing with WebRTC</li>
               <li>HandCash wallet integration for payments</li>
@@ -132,7 +132,7 @@ const ChangelogPage: React.FC = () => {
           <div className="changes-section">
             <h3>Features</h3>
             <ul>
-              <li>Introduced $BWRITER token</li>
+              <li>Introduced $BEDUCATION token</li>
               <li>Task management system</li>
               <li>Contract templates</li>
               <li>GitHub integration</li>
@@ -224,7 +224,7 @@ const ChangelogPage: React.FC = () => {
           <p>Get notified about new releases and features</p>
           <div className="subscribe-buttons">
             <a 
-              href="https://github.com/bitcoin-apps-suite/bitcoin-writer/releases" 
+              href="https://github.com/bitcoin-apps-suite/bitcoin-education/releases" 
               className="subscribe-button primary"
               target="_blank"
               rel="noopener noreferrer"

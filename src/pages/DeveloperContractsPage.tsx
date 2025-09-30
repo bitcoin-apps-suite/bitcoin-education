@@ -87,7 +87,7 @@ const DeveloperContractsPage: React.FC = () => {
   const fetchContracts = async () => {
     try {
       // Fetch GitHub issues
-      const response = await fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-writer/issues?state=all&per_page=100');
+      const response = await fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-education/issues?state=all&per_page=100');
       
       if (!response.ok) {
         console.warn('GitHub API response not OK:', response.status);
@@ -106,7 +106,7 @@ const DeveloperContractsPage: React.FC = () => {
       }
       
       // Also fetch pull requests to match with issues
-      const prsResponse = await fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-writer/pulls?state=all&per_page=100');
+      const prsResponse = await fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-education/pulls?state=all&per_page=100');
       const pullRequests = prsResponse.ok ? await prsResponse.json() : [];
       
       // Map issues to contracts - ONLY DEVELOPER CONTRACTS
@@ -115,7 +115,7 @@ const DeveloperContractsPage: React.FC = () => {
         
         let priorityMatch = body.match(/\*\*Priority:\*\*\s*(Critical|High|Medium|Low)/i);
         let hoursMatch = body.match(/\*\*Estimated Hours:\*\*\s*([\d,]+)/i);
-        let rewardMatch = body.match(/\*\*Token Reward:\*\*\s*([\d,]+)\s*BWRITER/i);
+        let rewardMatch = body.match(/\*\*Token Reward:\*\*\s*([\d,]+)\s*BEDUCATION/i);
         
         // Find matching PR if exists
         const matchingPR = pullRequests.find((pr: any) => 
@@ -203,7 +203,7 @@ const DeveloperContractsPage: React.FC = () => {
           githubIssueUrl: issue.html_url,
           title: issue.title,
           description: description,
-          reward: rewardMatch ? `${rewardMatch[1]} BWRITER` : '2,000 BWRITER',
+          reward: rewardMatch ? `${rewardMatch[1]} BEDUCATION` : '2,000 BEDUCATION',
           estimatedHours: hoursMatch ? parseInt(hoursMatch[1].replace(/,/g, '')) : 8,
           priority: (priorityMatch ? priorityMatch[1] : 'Medium') as Contract['priority'],
           category: 'developer' as const,
@@ -234,7 +234,7 @@ const DeveloperContractsPage: React.FC = () => {
       setContracts([{
         id: 'github-redirect',
         githubIssueNumber: 0,
-        githubIssueUrl: 'https://github.com/bitcoin-apps-suite/bitcoin-writer/issues',
+        githubIssueUrl: 'https://github.com/bitcoin-apps-suite/bitcoin-education/issues',
         title: '📋 View Developer Contracts on GitHub',
         description: 'Unable to load contracts from GitHub API. Click to view all available developer contracts directly on GitHub.',
         priority: 'Low' as const,
@@ -321,7 +321,7 @@ const DeveloperContractsPage: React.FC = () => {
           <section className="contracts-hero">
             <h1>Developer <span style={{color: '#ffffff'}}>Contracts</span></h1>
             <p className="contracts-tagline">
-              Build features, fix bugs, earn BWRITER tokens
+              Build features, fix bugs, earn BEDUCATION tokens
             </p>
             <div className="contracts-badge">DEVELOPER</div>
           </section>

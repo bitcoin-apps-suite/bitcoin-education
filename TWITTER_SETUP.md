@@ -15,10 +15,10 @@ TWITTER_CLIENT_ID=your_twitter_client_id_here
 TWITTER_CLIENT_SECRET=your_twitter_client_secret_here
 
 # The callback URL you registered with Twitter (must match exactly)
-TWITTER_REDIRECT_URI=https://bitcoin-writer.vercel.app/api/auth/callback/twitter
+TWITTER_REDIRECT_URI=https://bitcoin-education.vercel.app/api/auth/callback/twitter
 
 # NextAuth.js Configuration (optional, for enhanced session management)
-NEXTAUTH_URL=https://bitcoin-writer.vercel.app
+NEXTAUTH_URL=https://bitcoin-education.vercel.app
 NEXTAUTH_SECRET=your_random_secret_string_here
 
 # Database Configuration (optional, if you want to store user data)

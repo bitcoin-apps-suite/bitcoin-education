@@ -44,9 +44,9 @@ const ApiPage: React.FC = () => {
       <div className="api-container">
         {/* Hero Section */}
         <section className="api-hero">
-          <h1>Bitcoin Writer <span style={{color: '#ffffff'}}>API</span></h1>
+          <h1>Bitcoin Education <span style={{color: '#ffffff'}}>API</span></h1>
           <p className="api-tagline">
-            Complete API reference for integrating Bitcoin Writer
+            Complete API reference for integrating Bitcoin Education
           </p>
           <div className="api-badge">API v1.0</div>
         </section>
@@ -92,7 +92,7 @@ const ApiPage: React.FC = () => {
           <section className="api-content-section">
             <h2>Authentication</h2>
             <div className="api-description">
-              <p>Bitcoin Writer API uses API keys to authenticate requests. You can view and manage your API keys in your account settings.</p>
+              <p>Bitcoin Education API uses API keys to authenticate requests. You can view and manage your API keys in your account settings.</p>
             </div>
             
             <div className="endpoint-card">

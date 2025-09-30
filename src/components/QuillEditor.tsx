@@ -359,7 +359,7 @@ const QuillEditor: React.FC<QuillEditorProps> = ({
           Other Apps
         </button>
         <button 
-          onClick={() => exportToDocx('bitcoin-writer-document')}
+          onClick={() => exportToDocx('bitcoin-education-document')}
           className="export-btn"
           title="Export as .docx"
         >
@@ -370,7 +370,7 @@ const QuillEditor: React.FC<QuillEditorProps> = ({
           Export Word
         </button>
         <button 
-          onClick={() => exportToHtml('bitcoin-writer-document')}
+          onClick={() => exportToHtml('bitcoin-education-document')}
           className="export-btn"
           title="Export as HTML"
         >
@@ -425,7 +425,7 @@ const QuillEditor: React.FC<QuillEditorProps> = ({
           isOpen={showSaveModal}
           onClose={() => setShowSaveModal(false)}
           onSave={handleSaveToBlockchain}
-          documentTitle="Bitcoin Writer Document"
+          documentTitle="Bitcoin Education Document"
           wordCount={getWordCount()}
           estimatedSize={getEstimatedSize()}
           isAuthenticated={handcashService.isAuthenticated()}

@@ -56,7 +56,7 @@
 .priced-unlock h3,
 .multiparty-unlock h3,
 .unknown-unlock h3 {
-  color: #f7931a;
+  color: #2563EB;
   margin: 0 0 16px 0;
   font-size: 20px;
 }
@@ -84,7 +84,7 @@
 
 .password-unlock input:focus {
   outline: none;
-  border-color: #f7931a;
+  border-color: #2563EB;
 }
 
 .password-unlock button,
@@ -92,7 +92,7 @@
 .multiparty-unlock button {
   width: 100%;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #f7931a 0%, #ff8c00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
   color: white;
   border: none;
   border-radius: 6px;
@@ -119,7 +119,7 @@
 .countdown {
   font-size: 36px;
   font-weight: 600;
-  color: #f7931a;
+  color: #2563EB;
   margin: 20px 0;
   text-align: center;
   font-variant-numeric: tabular-nums;
@@ -154,7 +154,7 @@
 }
 
 .timed-priced-unlock h3 {
-  color: #f7931a;
+  color: #2563EB;
   margin: 0 0 24px 0;
   font-size: 20px;
   text-align: center;
@@ -213,7 +213,7 @@
   border-radius: 6px;
   text-align: center;
   font-size: 18px;
-  color: #f7931a;
+  color: #2563EB;
   margin-bottom: 20px;
   font-weight: 500;
 }

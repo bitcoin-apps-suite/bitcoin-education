@@ -185,7 +185,7 @@ const ImportPage: React.FC = () => {
             <div className="import-step">
               <div className="import-step-number">5</div>
               <h3>Issue Shares & Revenue Sharing</h3>
-              <p>Issue shares in your work, enable revenue sharing, and trade them on the Bitcoin Writer exchange</p>
+              <p>Issue shares in your work, enable revenue sharing, and trade them on the Bitcoin Education exchange</p>
             </div>
           </div>
         </section>
@@ -228,7 +228,7 @@ const ImportPage: React.FC = () => {
                 <path d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
               </svg>
               <h3>Quick Migration</h3>
-              <p>Move your entire writing library to Bitcoin Writer in minutes, not hours.</p>
+              <p>Move your entire writing library to Bitcoin Education in minutes, not hours.</p>
             </div>
           </div>
         </section>

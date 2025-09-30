@@ -1,6 +1,6 @@
 {
-  "name": "Bitcoin Writer",
-  "short_name": "BitcoinWriter",
+  "name": "Bitcoin Education",
+  "short_name": "BitcoinEducation",
   "description": "Blockchain-powered writing app with HandCash authentication",
   "start_url": "./index.html",
   "display": "standalone",

@@ -37,7 +37,7 @@ const ContactPage: React.FC = () => {
       ),
       title: "GitHub Issues",
       description: "Report bugs, request features, or ask technical questions",
-      link: "https://github.com/bitcoin-writer/bitcoin-writer/issues",
+      link: "https://github.com/bitcoin-education/bitcoin-education/issues",
       buttonText: "Open Issue"
     },
     {
@@ -48,7 +48,7 @@ const ContactPage: React.FC = () => {
       ),
       title: "Email Support",
       description: "For private inquiries or sensitive issues",
-      link: "mailto:support@bitcoin-writer.com",
+      link: "mailto:support@bitcoin-education.com",
       buttonText: "Send Email"
     },
     {
@@ -58,8 +58,8 @@ const ContactPage: React.FC = () => {
         </svg>
       ),
       title: "Community Forum",
-      description: "Join discussions with other Bitcoin Writer users",
-      link: "https://community.bitcoin-writer.com",
+      description: "Join discussions with other Bitcoin Education users",
+      link: "https://community.bitcoin-education.com",
       buttonText: "Visit Forum"
     },
     {
@@ -85,8 +85,8 @@ const ContactPage: React.FC = () => {
       answer: "Please include: (1) Steps to reproduce the issue, (2) Expected vs actual behavior, (3) Browser and OS information, (4) Screenshots if relevant, (5) Any error messages from the console."
     },
     {
-      question: "Can I contribute to Bitcoin Writer?",
-      answer: "Yes! Bitcoin Writer is open-source. Check our GitHub repository for contribution guidelines. We welcome code contributions, documentation improvements, and feature suggestions."
+      question: "Can I contribute to Bitcoin Education?",
+      answer: "Yes! Bitcoin Education is open-source. Check our GitHub repository for contribution guidelines. We welcome code contributions, documentation improvements, and feature suggestions."
     },
     {
       question: "Is there a Discord or Telegram community?",
@@ -98,7 +98,7 @@ const ContactPage: React.FC = () => {
     },
     {
       question: "What about security vulnerabilities?",
-      answer: "For security issues, please email us directly at security@bitcoin-writer.com instead of creating a public issue. We take security seriously and will respond promptly."
+      answer: "For security issues, please email us directly at security@bitcoin-education.com instead of creating a public issue. We take security seriously and will respond promptly."
     }
   ];
 
@@ -172,7 +172,7 @@ const ContactPage: React.FC = () => {
             <li><a href="/encrypt">Encryption Guide</a> - Learn about NoteSV encryption</li>
             <li><a href="/import">Import Guide</a> - How to import from other platforms</li>
             <li><a href="/privacy">Privacy Policy</a> - How we protect your data</li>
-            <li><a href="https://github.com/bitcoin-writer/bitcoin-writer" target="_blank" rel="noopener noreferrer">Source Code</a> - View and contribute on GitHub</li>
+            <li><a href="https://github.com/bitcoin-education/bitcoin-education" target="_blank" rel="noopener noreferrer">Source Code</a> - View and contribute on GitHub</li>
           </ul>
         </section>
 
@@ -180,12 +180,12 @@ const ContactPage: React.FC = () => {
         <section className="legal-section">
           <h2>For Developers</h2>
           <p>
-            If you're interested in integrating with Bitcoin Writer or building on our platform:
+            If you're interested in integrating with Bitcoin Education or building on our platform:
           </p>
           <ul>
             <li><strong>API Documentation:</strong> Available on our GitHub Wiki</li>
             <li><strong>Developer Discord:</strong> Join technical discussions</li>
-            <li><strong>Integration Support:</strong> developer@bitcoin-writer.com</li>
+            <li><strong>Integration Support:</strong> developer@bitcoin-education.com</li>
           </ul>
         </section>
 
@@ -196,9 +196,9 @@ const ContactPage: React.FC = () => {
             For partnerships, enterprise solutions, or media inquiries:
           </p>
           <ul>
-            <li><strong>Partnerships:</strong> partnerships@bitcoin-writer.com</li>
-            <li><strong>Enterprise:</strong> enterprise@bitcoin-writer.com</li>
-            <li><strong>Media/Press:</strong> press@bitcoin-writer.com</li>
+            <li><strong>Partnerships:</strong> partnerships@bitcoin-education.com</li>
+            <li><strong>Enterprise:</strong> enterprise@bitcoin-education.com</li>
+            <li><strong>Media/Press:</strong> press@bitcoin-education.com</li>
           </ul>
         </section>
 
@@ -208,7 +208,7 @@ const ContactPage: React.FC = () => {
             <p><strong>⚠️ Security Issues:</strong></p>
             <p>
               If you discover a security vulnerability, please DO NOT create a public issue. 
-              Email us directly at <strong>security@bitcoin-writer.com</strong> with details. 
+              Email us directly at <strong>security@bitcoin-education.com</strong> with details. 
               We offer bug bounties for responsibly disclosed vulnerabilities.
             </p>
           </div>

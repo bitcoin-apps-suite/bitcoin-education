@@ -88,7 +88,7 @@ const ContractsPage: React.FC = () => {
   const fetchContracts = async () => {
     try {
       // Fetch GitHub issues
-      const response = await fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-writer/issues?state=all&per_page=100');
+      const response = await fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-education/issues?state=all&per_page=100');
       
       // Check for errors
       if (!response.ok) {
@@ -109,7 +109,7 @@ const ContractsPage: React.FC = () => {
       }
       
       // Also fetch pull requests to match with issues
-      const prsResponse = await fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-writer/pulls?state=all&per_page=100');
+      const prsResponse = await fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-education/pulls?state=all&per_page=100');
       const pullRequests = prsResponse.ok ? await prsResponse.json() : [];
       
       // Map issues to contracts
@@ -119,7 +119,7 @@ const ContractsPage: React.FC = () => {
         // Handle both old and new format
         let priorityMatch = body.match(/\*\*Priority:\*\*\s*(Critical|High|Medium|Low)/i);
         let hoursMatch = body.match(/\*\*Estimated Hours:\*\*\s*([\d,]+)/i);
-        let rewardMatch = body.match(/\*\*Token Reward:\*\*\s*([\d,]+)\s*BWRITER/i);
+        let rewardMatch = body.match(/\*\*Token Reward:\*\*\s*([\d,]+)\s*BEDUCATION/i);
         let categoryMatch = body.match(/\*\*Category:\*\*\s*([^\n]+)/i);
         
         // Find matching PR if exists
@@ -224,7 +224,7 @@ const ContractsPage: React.FC = () => {
           githubIssueUrl: issue.html_url,
           title: issue.title,
           description: description,
-          reward: rewardMatch ? `${rewardMatch[1]} BWRITER` : '2,000 BWRITER',
+          reward: rewardMatch ? `${rewardMatch[1]} BEDUCATION` : '2,000 BEDUCATION',
           estimatedHours: hoursMatch ? parseInt(hoursMatch[1].replace(/,/g, '')) : 8,
           priority: (priorityMatch ? priorityMatch[1] : 'Medium') as Contract['priority'],
           category: category,
@@ -254,7 +254,7 @@ const ContractsPage: React.FC = () => {
         {
           id: 'github-redirect',
           githubIssueNumber: 0,
-          githubIssueUrl: 'https://github.com/bitcoin-apps-suite/bitcoin-writer/issues',
+          githubIssueUrl: 'https://github.com/bitcoin-apps-suite/bitcoin-education/issues',
           title: '📋 View Contracts on GitHub',
           description: 'Unable to load contracts from GitHub API. This may be due to rate limiting or network issues. Click below to view all available contracts directly on GitHub.',
           priority: 'Low' as const,
@@ -340,11 +340,11 @@ const ContractsPage: React.FC = () => {
         <div className="contracts-container">
           {/* Hero Section */}
           <section className="contracts-hero">
-            <h1>Bitcoin Writer <span style={{color: '#ffffff'}}>Contracts</span></h1>
+            <h1>Bitcoin Education <span style={{color: '#ffffff'}}>Contracts</span></h1>
             <p className="contracts-tagline">
               {activeTab === 'developer' 
-                ? 'Claim contracts, deliver code, earn BWRITER tokens'
-                : 'Create content, fulfill contracts, get paid in BWRITER'}
+                ? 'Claim contracts, deliver code, earn BEDUCATION tokens'
+                : 'Create content, fulfill contracts, get paid in BEDUCATION'}
             </p>
             <div className="contracts-badge">CONTRACTS</div>
           </section>

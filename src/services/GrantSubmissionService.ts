@@ -1,4 +1,4 @@
-import { BitcoinWriterNFTService } from './NFTService';
+import { BitcoinEducationNFTService } from './NFTService';
 import { 
   NFTFile, 
   NFTContent, 
@@ -17,7 +17,7 @@ export interface GrantApplicationData {
   projectTitle: string;
   projectDescription: string;
   requestedAmount: number;
-  requestedCurrency: 'BSV' | 'BWRITER';
+  requestedCurrency: 'BSV' | 'BEDUCATION';
   estimatedDuration: string;
   
   // Supporting info
@@ -38,10 +38,10 @@ export interface GrantSubmissionResult {
 }
 
 export class GrantSubmissionService {
-  private nftService: BitcoinWriterNFTService;
+  private nftService: BitcoinEducationNFTService;
   
   constructor() {
-    this.nftService = new BitcoinWriterNFTService();
+    this.nftService = new BitcoinEducationNFTService();
   }
   
   /**
@@ -107,7 +107,7 @@ export class GrantSubmissionService {
   }
   
   /**
-   * Award $BWRITER tokens to a submission (platform curation signal)
+   * Award $BEDUCATION tokens to a submission (platform curation signal)
    */
   async awardBWriterTokens(submissionId: string, awardAmount: number, reviewNotes?: string): Promise<GrantSubmission> {
     // In production, this would load from storage
@@ -285,7 +285,7 @@ export class GrantSubmissionService {
         <div class="section">
           <h2>Application Metadata</h2>
           <p><span class="label">Submitted:</span><span class="value">${new Date().toISOString()}</span></p>
-          <p><span class="label">Platform:</span><span class="value">Bitcoin Writer</span></p>
+          <p><span class="label">Platform:</span><span class="value">Bitcoin Education</span></p>
           <p><span class="label">Status:</span><span class="value">Pending Review</span></p>
         </div>
       </body>
@@ -327,7 +327,7 @@ export class GrantSubmissionService {
   }
   
   private calculateQualityScore(awardAmount: number): number {
-    // Simple quality scoring based on $BWRITER award
+    // Simple quality scoring based on $BEDUCATION award
     return Math.min(100, Math.floor((awardAmount / 10000) * 100));
   }
   

@@ -47,7 +47,7 @@ const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({ isOpen,
     ]},
     { category: 'Application', items: [
       { key: '⌘,', description: 'Preferences' },
-      { key: '⌘H', description: 'Hide Bitcoin Writer' },
+      { key: '⌘H', description: 'Hide Bitcoin Education' },
       { key: '⌘Q', description: 'Quit' },
       { key: '⌘?', description: 'Help' }
     ]}

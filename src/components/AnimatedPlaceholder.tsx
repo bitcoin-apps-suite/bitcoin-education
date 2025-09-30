@@ -4,7 +4,7 @@ import './AnimatedPlaceholder.css';
 const AnimatedPlaceholder: React.FC = () => {
   const messages = [
     "Start writing here...",
-    "Bitcoin Writer auto-hashes your writing to chain whenever you stop typing...",
+    "Bitcoin Education auto-hashes your writing to chain whenever you stop typing...",
     "Each new hash contains the previous hash, creating a chain of value...",
     "Your document becomes a 'coin' that accretes in value as a UTXO...",
     "Every word you write is permanently secured on the blockchain...",

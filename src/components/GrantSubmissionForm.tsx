@@ -20,7 +20,7 @@ const GrantSubmissionForm: React.FC<GrantSubmissionFormProps> = ({
     projectTitle: '',
     projectDescription: '',
     requestedAmount: 0,
-    requestedCurrency: 'BWRITER',
+    requestedCurrency: 'BEDUCATION',
     estimatedDuration: '',
     portfolio: '',
     githubProfile: '',
@@ -98,7 +98,7 @@ const GrantSubmissionForm: React.FC<GrantSubmissionFormProps> = ({
   const getFieldPlaceholder = (field: string) => {
     const placeholders: { [key: string]: { [key: string]: string } } = {
       developer: {
-        projectTitle: 'Bitcoin Writer Plugin Development',
+        projectTitle: 'Bitcoin Education Plugin Development',
         projectDescription: 'Describe the technical solution you want to build...',
         timeline: 'Phase 1: Research (1 month)\nPhase 2: Development (2 months)\nPhase 3: Testing & Launch (1 month)'
       },
@@ -149,7 +149,7 @@ const GrantSubmissionForm: React.FC<GrantSubmissionFormProps> = ({
           <ul>
             <li>Your application is now stored as an immutable .nft container</li>
             <li>It includes your formatted application, attachments, and metadata</li>
-            <li>Bitcoin Writer will review and potentially award $BWRITER tokens</li>
+            <li>Bitcoin Education will review and potentially award $BEDUCATION tokens</li>
             <li>Your submission becomes part of the public grant application record</li>
             <li>All funding to your BSV address will be automatically detected</li>
           </ul>
@@ -288,7 +288,7 @@ const GrantSubmissionForm: React.FC<GrantSubmissionFormProps> = ({
                 value={formData.requestedCurrency}
                 onChange={(e) => handleInputChange('requestedCurrency', e.target.value)}
               >
-                <option value="BWRITER">$BWRITER Tokens</option>
+                <option value="BEDUCATION">$BEDUCATION Tokens</option>
                 <option value="BSV">BSV</option>
               </select>
             </div>
@@ -372,7 +372,7 @@ const GrantSubmissionForm: React.FC<GrantSubmissionFormProps> = ({
         <h4>What happens next?</h4>
         <ol>
           <li>Your application will be converted to a .nft container file</li>
-          <li>Bitcoin Writer will review and potentially award $BWRITER tokens</li>
+          <li>Bitcoin Education will review and potentially award $BEDUCATION tokens</li>
           <li>Your submission becomes part of the public grant record</li>
           <li>If funded, the blockchain transaction will be automatically detected</li>
           <li>You'll have an immutable record of your successful grant application</li>

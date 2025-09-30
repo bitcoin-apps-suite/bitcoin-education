@@ -1,7 +1,7 @@
 # Platform Marketing Copy Writer Needed
 
 ## 📋 Description
-Bitcoin Writer needs compelling marketing copy for our platform. We're looking for a copywriter who understands blockchain technology and can communicate the value of our decentralized writing platform to both authors and publishers.
+Bitcoin Education needs compelling marketing copy for our platform. We're looking for a copywriter who understands blockchain technology and can communicate the value of our decentralized writing platform to both authors and publishers.
 
 ## 🎯 Requirements
 - [ ] Experience with marketing and advertising copy
@@ -22,7 +22,7 @@ Bitcoin Writer needs compelling marketing copy for our platform. We're looking f
 - [ ] Develop call-to-action phrases
 
 ## 💰 Compensation
-**Token Reward:** 10,000 BWRITER
+**Token Reward:** 10,000 BEDUCATION
 **Estimated Hours:** 25
 **Priority:** Medium
 **Category:** Writing
@@ -37,8 +37,8 @@ Bitcoin Writer needs compelling marketing copy for our platform. We're looking f
 7. Feature announcement templates
 
 ## 🔗 Resources
-- Platform website: https://bitcoin-writer.com
-- GitHub repository: https://github.com/bitcoin-apps-suite/bitcoin-writer
+- Platform website: https://bitcoin-education.com
+- GitHub repository: https://github.com/bitcoin-apps-suite/bitcoin-education
 - Competitor analysis document (to be provided)
 
 ## 📅 Timeline

@@ -297,7 +297,7 @@ const HandCashMagicAuth: React.FC<HandCashMagicAuthProps> = ({
               Authentication Successful!
             </h3>
             <p style={{ color: '#ccc', margin: '16px 0 0 0' }}>
-              Redirecting you back to Bitcoin Writer...
+              Redirecting you back to Bitcoin Education...
             </p>
           </div>
         )}

@@ -16,7 +16,7 @@
 }
 
 .footer-section h4 {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 1.1rem;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -40,7 +40,7 @@
 }
 
 .footer-section a:hover {
-  color: #ff9500;
+  color: #2563EB;
 }
 
 .footer-logo {
@@ -51,7 +51,7 @@
 }
 
 .bitcoin-symbol {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -92,7 +92,7 @@
 }
 
 .footer-copyright a {
-  color: #ff9500;
+  color: #2563EB;
   text-decoration: none;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .footer-links a:hover {
-  color: #f7931a;
+  color: #2563EB;
   text-decoration: underline;
 }
 

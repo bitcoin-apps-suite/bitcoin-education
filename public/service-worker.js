@@ -1,7 +1,7 @@
-// Bitcoin Writer Service Worker v2
+// Bitcoin Education Service Worker v2
 // Force cache refresh on deployment
 
-const CACHE_NAME = 'bitcoin-writer-v2-' + new Date().getTime();
+const CACHE_NAME = 'bitcoin-education-v2-' + new Date().getTime();
 
 self.addEventListener('install', (event) => {
   // Skip waiting to activate immediately

@@ -374,7 +374,7 @@ const hmac = HMAC-SHA256(
                   <tr>
                     <th>Feature</th>
                     <th>NOTE.SV Original</th>
-                    <th>Bitcoin Writer Implementation</th>
+                    <th>Bitcoin Education Implementation</th>
                   </tr>
                 </thead>
                 <tbody>

@@ -211,7 +211,7 @@ const SaveToBlockchainModal: React.FC<SaveToBlockchainModalProps> = ({
           apiKey: cloudApiKey,
           bucket: cloudBucket,
           region: cloudRegion,
-          folder: 'bitcoin-writer-documents'
+          folder: 'bitcoin-education-documents'
         }
       } : {}),
       encryption,

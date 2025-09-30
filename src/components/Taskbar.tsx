@@ -42,7 +42,7 @@ const Taskbar: React.FC<TaskbarProps> = ({
 
   const menus: DropdownMenu[] = [
     {
-      label: 'Bitcoin Writer',
+      label: 'Bitcoin Education',
       items: [
         { 
           label: 'Home', 
@@ -51,8 +51,8 @@ const Taskbar: React.FC<TaskbarProps> = ({
         },
         { divider: true },
         { 
-          label: 'About Bitcoin Writer', 
-          action: () => alert('Bitcoin Writer v2.0\n\nDecentralized document writing on Bitcoin SV\n\n© 2025 The Bitcoin Corporation LTD\nRegistered in England and Wales • Company No. 16735102\n\nBuilt with HandCash integration') 
+          label: 'About Bitcoin Education', 
+          action: () => alert('Bitcoin Education v2.0\n\nDecentralized document writing on Bitcoin SV\n\n© 2025 The Bitcoin Corporation LTD\nRegistered in England and Wales • Company No. 16735102\n\nBuilt with HandCash integration') 
         },
         { divider: true },
         { 
@@ -62,7 +62,7 @@ const Taskbar: React.FC<TaskbarProps> = ({
         },
         { divider: true },
         { 
-          label: 'Hide Bitcoin Writer', 
+          label: 'Hide Bitcoin Education', 
           shortcut: '⌘H', 
           action: () => console.log('Hide') 
         },
@@ -277,14 +277,14 @@ const Taskbar: React.FC<TaskbarProps> = ({
       label: 'Help',
       items: [
         { 
-          label: 'Bitcoin Writer Help', 
+          label: 'Bitcoin Education Help', 
           shortcut: '⌘?', 
-          action: () => alert('Bitcoin Writer v2.0\n\nWrite, encrypt, and store documents on the Bitcoin blockchain') 
+          action: () => alert('Bitcoin Education v2.0\n\nWrite, encrypt, and store documents on the Bitcoin blockchain') 
         },
         { divider: true },
         { 
           label: 'Report an Issue', 
-          href: 'https://github.com/bitcoin-apps-suite/bitcoin-writer/issues' 
+          href: 'https://github.com/bitcoin-apps-suite/bitcoin-education/issues' 
         }
       ]
     }
@@ -317,7 +317,7 @@ const Taskbar: React.FC<TaskbarProps> = ({
   return (
     <div 
       ref={menuRef}
-      className="bitcoin-writer-taskbar"
+      className="bitcoin-education-taskbar"
     >
       {/* Bitcoin Logo */}
       <div 
@@ -335,10 +335,10 @@ const Taskbar: React.FC<TaskbarProps> = ({
           // Navigate to home
           window.location.href = '/';
         }}
-        title="Bitcoin Writer - Tap to go home"
+        title="Bitcoin Education - Tap to go home"
       >
         <span className="bitcoin-symbol">₿</span>
-        <span>Bitcoin Writer</span>
+        <span>Bitcoin Education</span>
       </button>
 
       {/* Menu Items */}

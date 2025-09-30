@@ -39,7 +39,7 @@ const DevSidebar: React.FC<DevSidebarProps> = ({ onCollapsedChange }) => {
 
   useEffect(() => {
     // Fetch GitHub issue count
-    fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-writer/issues?state=open')
+    fetch('https://api.github.com/repos/bitcoin-apps-suite/bitcoin-education/issues?state=open')
       .then(res => res.json())
       .then(issues => setIssueCount(Array.isArray(issues) ? issues.length : 0))
       .catch(() => setIssueCount(0));
@@ -55,7 +55,7 @@ const DevSidebar: React.FC<DevSidebarProps> = ({ onCollapsedChange }) => {
     external?: boolean;
   }> = [
     // Token & Grants at top
-    { path: '/token', icon: DollarSign, label: '$BWRITER', badge: 'NEW' },
+    { path: '/token', icon: DollarSign, label: '$BEDUCATION', badge: 'NEW' },
     { path: '/grants', icon: Flower2, label: 'GRANTS' },
     { path: '/maip', icon: Users, label: 'MAIP', badge: 'EXPERIMENTAL' },
     
@@ -83,7 +83,7 @@ const DevSidebar: React.FC<DevSidebarProps> = ({ onCollapsedChange }) => {
     // System
     { divider: true },
     { path: '/api', icon: Package, label: 'API Reference' },
-    { path: 'https://github.com/bitcoin-apps-suite/bitcoin-writer', icon: GitBranch, label: 'GitHub', external: true },
+    { path: 'https://github.com/bitcoin-apps-suite/bitcoin-education', icon: GitBranch, label: 'GitHub', external: true },
     { path: '/changelog', icon: FileText, label: 'Changelog' },
     { path: '/status', icon: Activity, label: 'Status', badge: 'OK' }
   ];

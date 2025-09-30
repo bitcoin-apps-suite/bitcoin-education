@@ -1,6 +1,6 @@
 ---
 name: Development Contract
-about: Create a new development contract for Bitcoin Writer
+about: Create a new development contract for Bitcoin Education
 title: ''
 labels: 'enhancement'
 assignees: ''
@@ -30,11 +30,11 @@ assignees: ''
 ## 💰 Contract Details
 - **Priority:** [Critical/High/Medium/Low]
 - **Estimated Hours:** [number]
-- **Token Reward:** [amount] BWRITER
+- **Token Reward:** [amount] BEDUCATION
 - **Category:** [Core Feature/Blockchain/Integration/UI/UX/etc]
 
 ## 🚀 How to Claim This Contract
-1. Visit [Contracts Page](https://bitcoin-writer.vercel.app/contracts)
+1. Visit [Contracts Page](https://bitcoin-education.vercel.app/contracts)
 2. Click "Claim Contract" on this issue
 3. Sign in with your GitHub account
 4. Provide your HandCash wallet handle
@@ -45,7 +45,7 @@ assignees: ''
 ## 💬 Discussion
 - Comment on this issue for clarifications
 - Join our [Discord](https://discord.gg/bitcoinwriter) for real-time discussion
-- Tag @bitcoin-writer-team for urgent questions
+- Tag @bitcoin-education-team for urgent questions
 
 ## 📌 Important Notes
 <!-- Add any specific requirements, dependencies, or warnings -->
@@ -53,4 +53,4 @@ assignees: ''
 - 
 
 ---
-*This is a Bitcoin Writer development contract. By claiming this issue, you agree to the terms outlined in our [Contributor Agreement](https://bitcoin-writer.vercel.app/docs/contributing).*
+*This is a Bitcoin Education development contract. By claiming this issue, you agree to the terms outlined in our [Contributor Agreement](https://bitcoin-education.vercel.app/docs/contributing).*

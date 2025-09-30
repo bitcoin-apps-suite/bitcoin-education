@@ -31,7 +31,7 @@ const FeaturesPage: React.FC = () => {
           <div className="hero-stats">
             <div className="stat">
               <span className="stat-value">1M+</span>
-              <span className="stat-label">BWRITER Tokens</span>
+              <span className="stat-label">BEDUCATION Tokens</span>
             </div>
             <div className="stat">
               <span className="stat-value">50+</span>
@@ -48,7 +48,7 @@ const FeaturesPage: React.FC = () => {
       {/* How It Works */}
       <section className="how-it-works">
         <div className="container">
-          <h2>How Bitcoin Writer Works</h2>
+          <h2>How Bitcoin Education Works</h2>
           <div className="steps-grid">
             <div className="step-card">
               <div className="step-number">01</div>
@@ -104,7 +104,7 @@ const FeaturesPage: React.FC = () => {
                   <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2"/>
                 </svg>
               </div>
-              <h3>BWRITER Tokens</h3>
+              <h3>BEDUCATION Tokens</h3>
               <p>Earn tokens for contributions, stake for governance, and trade on decentralized exchanges</p>
             </div>
 
@@ -171,7 +171,7 @@ const FeaturesPage: React.FC = () => {
                 <span className="contract-count">30+ Tasks</span>
               </div>
               <h3>Platform Development</h3>
-              <p>Help build Bitcoin Writer and earn BWRITER tokens for contributions</p>
+              <p>Help build Bitcoin Education and earn BEDUCATION tokens for contributions</p>
               <ul>
                 <li>✓ Frontend features</li>
                 <li>✓ Smart contracts</li>

@@ -67,7 +67,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({
   const [preselectedMode, setPreselectedMode] = useState<'encrypt' | 'schedule' | null>(null);
   const [showActionsDropdown, setShowActionsDropdown] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    const saved = localStorage.getItem('bitcoin-writer-dark-mode');
+    const saved = localStorage.getItem('bitcoin-education-dark-mode');
     return saved !== null ? saved === 'true' : true; // Default to dark mode
   });
   const [showTokenizeModal, setShowTokenizeModal] = useState(false);
@@ -864,7 +864,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({
   const toggleDarkMode = () => {
     const newDarkMode = !isDarkMode;
     setIsDarkMode(newDarkMode);
-    localStorage.setItem('bitcoin-writer-dark-mode', newDarkMode.toString());
+    localStorage.setItem('bitcoin-education-dark-mode', newDarkMode.toString());
     showNotification(`${newDarkMode ? 'Dark' : 'Light'} mode enabled`);
   };
 

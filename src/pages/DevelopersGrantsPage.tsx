@@ -251,7 +251,7 @@ const DevelopersGrantsPage: React.FC = () => {
                     <p>Status: {submission.metadata.grantInfo?.applicationStatus}</p>
                     {submission.metadata.grantInfo?.bwriterAward && (
                       <div className="bwriter-award">
-                        Awarded: {submission.metadata.grantInfo.bwriterAward} $BWRITER
+                        Awarded: {submission.metadata.grantInfo.bwriterAward} $BEDUCATION
                       </div>
                     )}
                   </div>

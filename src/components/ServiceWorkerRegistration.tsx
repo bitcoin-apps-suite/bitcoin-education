@@ -8,14 +8,14 @@ export default function ServiceWorkerRegistration() {
       navigator.serviceWorker
         .register('/service-worker.js')
         .then((registration) => {
-          console.log('Bitcoin Writer SW registered: ', registration);
+          console.log('Bitcoin Education SW registered: ', registration);
           
           registration.addEventListener('updatefound', () => {
             const newWorker = registration.installing;
             if (newWorker) {
               newWorker.addEventListener('statechange', () => {
                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  console.log('Bitcoin Writer SW updated');
+                  console.log('Bitcoin Education SW updated');
                   newWorker.postMessage({ type: 'SKIP_WAITING' });
                 }
               });
@@ -23,7 +23,7 @@ export default function ServiceWorkerRegistration() {
           });
         })
         .catch((registrationError) => {
-          console.log('Bitcoin Writer SW registration failed: ', registrationError);
+          console.log('Bitcoin Education SW registration failed: ', registrationError);
         });
 
       navigator.serviceWorker.addEventListener('message', (event) => {
@@ -39,7 +39,7 @@ export default function ServiceWorkerRegistration() {
       const launchQueue = (window as any).launchQueue;
       launchQueue.setConsumer((launchParams: any) => {
         if (launchParams.targetURL) {
-          console.log('Bitcoin Writer launched with URL:', launchParams.targetURL);
+          console.log('Bitcoin Education launched with URL:', launchParams.targetURL);
           
           if (navigator.serviceWorker.controller) {
             navigator.serviceWorker.controller.postMessage({

@@ -20,7 +20,7 @@
 
 .modal-header h2 {
   margin: 0;
-  color: #f7931a;
+  color: #2563EB;
   font-size: 24px;
   font-weight: 600;
 }
@@ -97,7 +97,7 @@
 }
 
 .tab.active {
-  color: #f7931a;
+  color: #2563EB;
 }
 
 .tab.active::after {
@@ -107,7 +107,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: #f7931a;
+  background: #2563EB;
 }
 
 .tab:disabled {
@@ -222,7 +222,7 @@
 
 .password-input input:focus {
   outline: none;
-  border-color: #f7931a;
+  border-color: #2563EB;
 }
 
 .password-input small {
@@ -277,7 +277,7 @@
 .metadata-options select:focus,
 .metadata-options textarea:focus {
   outline: none;
-  border-color: #f7931a;
+  border-color: #2563EB;
 }
 
 .price-inputs {
@@ -367,7 +367,7 @@
 }
 
 .save-btn {
-  background: linear-gradient(135deg, #f7931a 0%, #ff8c00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
   color: #fff;
 }
 
@@ -407,7 +407,7 @@
 
 .schedule-header h4 {
   margin: 0;
-  color: #ff9500;
+  color: #2563EB;
   font-size: 18px;
 }
 
@@ -442,7 +442,7 @@
 
 .datetime-input:focus {
   outline: none;
-  border-color: #ff9500;
+  border-color: #2563EB;
   box-shadow: 0 0 0 2px rgba(255, 149, 0, 0.2);
 }
 
@@ -465,7 +465,7 @@
 }
 
 .preview-date {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 16px;
   font-weight: 500;
 }
@@ -480,7 +480,7 @@
 
 .cloud-options h4 {
   margin: 0 0 16px 0;
-  color: #f7931a;
+  color: #2563EB;
   font-size: 16px;
   font-weight: 600;
 }
@@ -503,7 +503,7 @@
 
 .cloud-options select:focus {
   outline: none;
-  border-color: #f7931a;
+  border-color: #2563EB;
 }
 
 .provider-config {
@@ -531,7 +531,7 @@
 
 .provider-config input:focus {
   outline: none;
-  border-color: #f7931a;
+  border-color: #2563EB;
 }
 
 .provider-config input::placeholder {

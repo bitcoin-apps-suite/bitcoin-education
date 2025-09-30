@@ -35,7 +35,7 @@
 
 .app-title-section h1 {
   margin: 0;
-  color: #ff9500;
+  color: #2563EB;
   font-size: 32px;
   font-weight: 600;
 }
@@ -86,7 +86,7 @@
 }
 
 .overview-section h2 {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 24px;
   font-weight: 600;
   margin: 0 0 20px 0;
@@ -119,7 +119,7 @@
 .feature-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  border-color: #ff9500;
+  border-color: #2563EB;
 }
 
 .feature-icon {
@@ -169,7 +169,7 @@
   content: '▸';
   position: absolute;
   left: 0;
-  color: #ff9500;
+  color: #2563EB;
   font-size: 20px;
 }
 
@@ -259,7 +259,7 @@
 }
 
 .status-card h3 {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 24px;
   margin: 0 0 15px 0;
 }

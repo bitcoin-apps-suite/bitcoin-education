@@ -32,7 +32,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  color: #ff9500; /* Bitcoin Writer orange theme */
+  color: #2563EB; /* Bitcoin Education orange theme */
   font-weight: 600;
   font-size: 16px;
 }
@@ -45,7 +45,7 @@
 .dev-sidebar-toggle {
   background: transparent;
   border: none;
-  color: #ff9500;
+  color: #2563EB;
   cursor: pointer;
   padding: 4px;
   display: flex;
@@ -82,13 +82,13 @@
 
 .dev-sidebar-item:hover {
   background: rgba(255, 149, 0, 0.1);
-  color: #ff9500;
+  color: #2563EB;
   transform: translateX(2px);
 }
 
 .dev-sidebar-item.active {
   background: linear-gradient(135deg, rgba(255, 149, 0, 0.2), rgba(247, 147, 26, 0.2));
-  color: #ff9500;
+  color: #2563EB;
   font-weight: 600;
 }
 
@@ -100,7 +100,7 @@
   transform: translateY(-50%);
   width: 3px;
   height: 70%;
-  background: #ff9500;
+  background: #2563EB;
   border-radius: 0 2px 2px 0;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .dev-sidebar-stats h4 {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 12px;
   text-transform: uppercase;
   margin: 0 0 12px 0;
@@ -179,7 +179,7 @@
 }
 
 .dev-sidebar-cta p {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 12px;
   margin: 0 0 8px 0;
   text-transform: uppercase;
@@ -188,7 +188,7 @@
 
 .dev-sidebar-cta-button {
   display: inline-block;
-  background: linear-gradient(135deg, #ff9500, #F7931A);
+  background: linear-gradient(135deg, #2563EB, #F7931A);
   color: #1a1a1a;
   padding: 6px 16px;
   border-radius: 4px;

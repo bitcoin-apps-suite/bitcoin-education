@@ -33,8 +33,10 @@ import EncryptPage from './pages/EncryptPage';
 import TermsPage from './pages/TermsPage';
 import PrivacyPage from './pages/PrivacyPage';
 import ContactPage from './pages/ContactPage';
-import DocumentEditor from './components/DocumentEditor';
-import DocumentSidebar from './components/DocumentSidebar';
+import CourseList from './components/CourseList';
+import CourseViewer from './components/CourseViewer';
+import CourseCreator from './components/CourseCreator';
+import { CourseService, Course } from './services/CourseService';
 import HandCashCallback from './components/HandCashCallback';
 import BapPage from './pages/BapPage';
 import MAIPPage from './pages/MAIPPage';
@@ -56,8 +58,11 @@ import ServiceWorkerRegistration from './components/ServiceWorkerRegistration';
 import LoadingDoor from './components/LoadingDoor';
 
 function App() {
-  const [documentService, setDocumentService] = useState<BlockchainDocumentService | null>(null);
   const [handcashService] = useState<HandCashService>(new HandCashService());
+  const [courseService] = useState<CourseService>(new CourseService(handcashService));
+  const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
+  const [showCourseCreator, setShowCourseCreator] = useState(false);
+  const [userRole, setUserRole] = useState<'student' | 'instructor'>('student');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const { isInOS, setTitle } = useBitcoinOS();
   const [currentUser, setCurrentUser] = useState<HandCashUser | null>(null);
@@ -156,7 +161,7 @@ function App() {
   // Set app title when running in Bitcoin OS
   useEffect(() => {
     if (isInOS) {
-      setTitle('Bitcoin Writer');
+      setTitle('Bitcoin Education');
     }
   }, [isInOS, setTitle]);
 
@@ -219,16 +224,17 @@ function App() {
       const user = handcashService.getCurrentUser();
       setCurrentUser(user);
       setIsAuthenticated(true);
-      initializeDocumentService();
+      // initializeDocumentService();
     }
     setIsLoading(false);
   };
 
-  const initializeDocumentService = async () => {
-    const service = new BlockchainDocumentService(handcashService);
-    await service.reconnect();
-    setDocumentService(service);
-  };
+  // Document service no longer needed for education platform
+  // const initializeDocumentService = async () => {
+  //   const service = new BlockchainDocumentService(handcashService);
+  //   await service.reconnect();
+  //   setDocumentService(service);
+  // };
 
   const handleLogin = (user: HandCashUser) => {
     console.log('=== User Successfully Authenticated ===');
@@ -237,7 +243,7 @@ function App() {
     console.log('=====================================');
     setCurrentUser(user);
     setIsAuthenticated(true);
-    initializeDocumentService();
+    // initializeDocumentService();
   };
 
   const handleLogout = () => {
@@ -258,7 +264,7 @@ function App() {
     // Reset state
     setIsAuthenticated(false);
     setCurrentUser(null);
-    setDocumentService(null);
+    // setDocumentService(null);
     setCurrentDocument(null);
     
     console.log('Logout complete - refreshing page...');
@@ -308,7 +314,6 @@ function App() {
               onOpenTwitterModal={() => {
                 window.dispatchEvent(new CustomEvent('openTwitterModal'));
               }}
-              documentService={documentService}
               onToggleAIChat={() => setShowAIChat(!showAIChat)}
             />}
           </>
@@ -316,7 +321,7 @@ function App() {
 
         <Routes>
       <Route path="/auth/handcash/callback" element={<HandCashCallback />} />
-      <Route path="/bitcoin-writer/bap" element={<BapPage />} />
+      <Route path="/bitcoin-education/bap" element={<BapPage />} />
       <Route path="/features" element={<FeaturesPage />} />
       <Route path="/token" element={<TokenPage />} />
       <Route path="/tasks" element={<TasksPage />} />
@@ -358,7 +363,7 @@ function App() {
       <Route path="/*" element={
         isLoading ? (
           <div className="App">
-            <div className="loading">Loading Bitcoin Writer...</div>
+            <div className="loading">Loading Bitcoin Education...</div>
           </div>
         ) : (
           <div className="App">
@@ -380,21 +385,21 @@ function App() {
                       <div className="bitcoin-menu">
                         <div className="menu-header">
                           <div className="bitcoin-logo-small">₿</div>
-                          <span>Bitcoin Writer</span>
+                          <span>Bitcoin Education</span>
                         </div>
                         <div className="menu-separator" />
                         <div className="menu-item" onClick={() => {
                           window.location.href = '/';
                           setShowBitcoinMenu(false);
                         }}>
-                          <span>📝</span> Bitcoin Writer
+                          <span>📝</span> Bitcoin Education
                         </div>
                         <div className="menu-separator" />
                         <div className="menu-item" onClick={() => {
-                          alert('Bitcoin Writer v1.0\n\nSecure blockchain document writing platform\n\n© 2025 The Bitcoin Corporation LTD\nBuilt on Bitcoin SV blockchain');
+                          alert('Bitcoin Education v1.0\n\nSecure blockchain document writing platform\n\n© 2025 The Bitcoin Corporation LTD\nBuilt on Bitcoin SV blockchain');
                           setShowBitcoinMenu(false);
                         }}>
-                          <span>ℹ️</span> About Bitcoin Writer
+                          <span>ℹ️</span> About Bitcoin Education
                         </div>
                         <div className="menu-separator" />
                         {isAuthenticated && (
@@ -416,7 +421,7 @@ function App() {
                     onClick={() => setShowWriterMenu(!showWriterMenu)}
                     aria-label="Writer Menu"
                   >
-                    Bitcoin Writer
+                    Bitcoin Education
                   </button>
                   {showWriterMenu && (
                     <>
@@ -509,13 +514,13 @@ function App() {
                         </div>
                         <div className="menu-separator" />
                         <div className="menu-item" onClick={() => {
-                          window.open('/bitcoin-writer/bap', '_blank');
+                          window.open('/bitcoin-education/bap', '_blank');
                           setShowDevelopersMenu(false);
                         }}>
                           <span>📑</span> BAP Executive Summary
                         </div>
                         <div className="menu-item" onClick={() => {
-                          window.open('https://github.com/bitcoin-apps-suite/bitcoin-writer', '_blank');
+                          window.open('https://github.com/bitcoin-apps-suite/bitcoin-education', '_blank');
                           setShowDevelopersMenu(false);
                         }}>
                           <span>📂</span> GitHub Repository
@@ -541,7 +546,7 @@ function App() {
                         </div>
                         <div className="menu-separator" />
                         <div className="menu-item" onClick={() => {
-                          alert('Bitcoin Writer API\n\nEndpoints:\n• POST /api/documents - Create document\n• GET /api/documents - List documents\n• GET /api/documents/:id - Get document\n• DELETE /api/documents/:id - Delete document\n\nBuilt on Bitcoin SV blockchain');
+                          alert('Bitcoin Education API\n\nEndpoints:\n• POST /api/documents - Create document\n• GET /api/documents - List documents\n• GET /api/documents/:id - Get document\n• DELETE /api/documents/:id - Delete document\n\nBuilt on Bitcoin SV blockchain');
                           setShowDevelopersMenu(false);
                         }}>
                           <span>🔌</span> API Documentation
@@ -576,7 +581,7 @@ function App() {
                 <div className="app-title-container">
                   <img 
                     src="/logo.svg" 
-                    alt="Bitcoin Writer Logo" 
+                    alt="Bitcoin Education Logo" 
                     className="app-logo"
                     style={{
                       width: '32px',
@@ -678,37 +683,6 @@ function App() {
                           >
                             📄 New Document
                           </button>
-                          <DocumentSidebar
-                            documentService={documentService}
-                            isAuthenticated={isAuthenticated}
-                            onDocumentSelect={(doc) => {
-                              setCurrentDocument(doc);
-                              setShowMobileMenu(false);
-                            }}
-                            onNewDocument={() => {
-                              setCurrentDocument(null);
-                              setShowExchange(false);
-                              setShowMobileMenu(false);
-                              // Trigger immediate sidebar refresh
-                              setSidebarRefresh(prev => prev + 1);
-                            }}
-                            onPublishDocument={(doc) => {
-                              // Add document to published list for the exchange
-                              setPublishedDocuments(prev => {
-                                // Check if already published
-                                if (prev.some(d => d.id === doc.id)) {
-                                  console.log('Document already published');
-                                  return prev;
-                                }
-                                console.log('Publishing document to exchange:', doc);
-                                return [...prev, doc];
-                              });
-                              setShowMobileMenu(false);
-                            }}
-                            currentDocumentId={currentDocument?.id}
-                            isMobile={true}
-                            refreshTrigger={sidebarRefresh}
-                          />
                         </div>
 
                         <div className="mobile-menu-section">
@@ -783,31 +757,6 @@ function App() {
               </div>
             )}
             <div className={`app-container ${isInOS ? '' : (!isMobile && devSidebarCollapsed ? 'with-dev-sidebar-collapsed' : '')} ${isInOS ? '' : (!isMobile && !devSidebarCollapsed ? 'with-dev-sidebar' : '')}`}>
-              <DocumentSidebar
-                documentService={documentService}
-                isAuthenticated={isAuthenticated}
-                onDocumentSelect={(doc) => setCurrentDocument(doc)}
-                onNewDocument={() => {
-                  setCurrentDocument(null);
-                  setShowExchange(false);
-                  // Trigger immediate sidebar refresh
-                  setSidebarRefresh(prev => prev + 1);
-                }}
-                onPublishDocument={(doc) => {
-                  // Add document to published list for the exchange
-                  setPublishedDocuments(prev => {
-                    // Check if already published
-                    if (prev.some(d => d.id === doc.id)) {
-                      console.log('Document already published');
-                      return prev;
-                    }
-                    console.log('Publishing document to exchange:', doc);
-                    return [...prev, doc];
-                  });
-                }}
-                currentDocumentId={currentDocument?.id}
-                refreshTrigger={sidebarRefresh}
-              />
               <main>
                 {showFeatures ? (
                   <div className="features-view-wrapper">
@@ -839,19 +788,74 @@ function App() {
                     activeApp={activeAppOverview}
                     onClose={() => setActiveAppOverview(null)}
                   />
-                ) : (
-                  <DocumentEditor 
-                    documentService={documentService}
-                    isAuthenticated={isAuthenticated}
-                    currentDocument={currentDocument}
-                    onDocumentUpdate={setCurrentDocument}
-                    onDocumentSaved={() => {
-                      // Trigger sidebar refresh after document is saved
-                      setSidebarRefresh(prev => prev + 1);
+                ) : showCourseCreator ? (
+                  <CourseCreator
+                    courseService={courseService}
+                    instructorId={currentUser?.handle || 'instructor'}
+                    onCourseCreated={(course) => {
+                      setShowCourseCreator(false);
+                      setSelectedCourse(course);
                     }}
-                    showAIChat={showAIChat}
-                    onToggleAIChat={() => setShowAIChat(!showAIChat)}
+                    onCancel={() => setShowCourseCreator(false)}
                   />
+                ) : selectedCourse ? (
+                  <CourseViewer
+                    course={selectedCourse}
+                    courseService={courseService}
+                    studentId={currentUser?.handle}
+                    isInstructor={userRole === 'instructor'}
+                    onBack={() => setSelectedCourse(null)}
+                  />
+                ) : (
+                  <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                    <div style={{ 
+                      padding: '20px', 
+                      background: '#1a1a1a', 
+                      borderBottom: '1px solid #333',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center'
+                    }}>
+                      <h1 style={{ margin: 0, color: '#2563EB' }}>Bitcoin Education Platform</h1>
+                      <div style={{ display: 'flex', gap: '10px' }}>
+                        <button 
+                          onClick={() => setUserRole(userRole === 'student' ? 'instructor' : 'student')}
+                          style={{
+                            padding: '10px 20px',
+                            background: '#333',
+                            color: '#fff',
+                            border: 'none',
+                            borderRadius: '6px',
+                            cursor: 'pointer'
+                          }}
+                        >
+                          Switch to {userRole === 'student' ? 'Instructor' : 'Student'} View
+                        </button>
+                        {userRole === 'instructor' && (
+                          <button 
+                            onClick={() => setShowCourseCreator(true)}
+                            style={{
+                              padding: '10px 20px',
+                              background: 'linear-gradient(135deg, #10B981, #059669)',
+                              color: '#fff',
+                              border: 'none',
+                              borderRadius: '6px',
+                              cursor: 'pointer',
+                              fontWeight: 600
+                            }}
+                          >
+                            Create New Course
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                    <CourseList
+                      courseService={courseService}
+                      onCourseSelect={setSelectedCourse}
+                      isInstructor={userRole === 'instructor'}
+                      studentId={currentUser?.handle}
+                    />
+                  </div>
                 )}
               </main>
             </div>

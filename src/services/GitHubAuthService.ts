@@ -140,7 +140,7 @@ export class GitHubAuthService {
    */
   async getIssue(issueNumber: number): Promise<any> {
     const response = await fetch(
-      `https://api.github.com/repos/bitcoin-apps-suite/bitcoin-writer/issues/${issueNumber}`,
+      `https://api.github.com/repos/bitcoin-apps-suite/bitcoin-education/issues/${issueNumber}`,
       {
         headers: {
           Accept: 'application/json',
@@ -167,7 +167,7 @@ export class GitHubAuthService {
     }
 
     const response = await fetch(
-      `https://api.github.com/repos/bitcoin-apps-suite/bitcoin-writer/issues/${issueNumber}/assignees`,
+      `https://api.github.com/repos/bitcoin-apps-suite/bitcoin-education/issues/${issueNumber}/assignees`,
       {
         method: 'POST',
         headers: {

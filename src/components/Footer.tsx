@@ -33,10 +33,10 @@ const Footer: React.FC = () => {
         <div className="footer-section">
           <h4>Community</h4>
           <ul>
-            <li><a href="https://github.com/bitcoin-apps-suite/bitcoin-writer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://github.com/bitcoin-apps-suite/bitcoin-education" target="_blank" rel="noopener noreferrer">GitHub</a></li>
             <li><a href="https://twitter.com/bitcoin_writer" target="_blank" rel="noopener noreferrer">Twitter</a></li>
             <li><a href="https://discord.gg/xBB8r8dj" target="_blank" rel="noopener noreferrer">Discord</a></li>
-            <li><a href="/token">$BWRITER Token</a></li>
+            <li><a href="/token">$BEDUCATION Token</a></li>
           </ul>
         </div>
 
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
           <ul>
             <li><a href="http://localhost:2010/contributions#tasks">Jobs</a></li>
             <li><a href="/contracts">Contracts</a></li>
-            <li><a href="https://github.com/bitcoin-apps-suite/bitcoin-writer/issues" target="_blank" rel="noopener noreferrer">Issues</a></li>
+            <li><a href="https://github.com/bitcoin-apps-suite/bitcoin-education/issues" target="_blank" rel="noopener noreferrer">Issues</a></li>
             <li><a href="/bap">Bitcoin App Protocol</a></li>
           </ul>
         </div>

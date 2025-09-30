@@ -43,11 +43,11 @@ const TokenPage: React.FC = () => {
       <div className="token-container">
         {/* Hero Section */}
         <section className="token-hero">
-          <h1><span style={{color: '#ffffff'}}>The</span> Bitcoin Writer <span style={{color: '#ffffff'}}>Token</span></h1>
+          <h1><span style={{color: '#ffffff'}}>The</span> Bitcoin Education <span style={{color: '#ffffff'}}>Token</span></h1>
           <p className="token-tagline">
             Open-source development meets sustainable economics
           </p>
-          <div className="token-badge">$BWRITER</div>
+          <div className="token-badge">$BEDUCATION</div>
         </section>
 
         {/* Philosophy Section */}
@@ -55,12 +55,12 @@ const TokenPage: React.FC = () => {
           <h2>Our Open-Source Philosophy</h2>
           <div className="philosophy-content">
             <p>
-              Bitcoin Writer is an <strong>open-source project</strong> licensed under MIT and BSV licenses. 
+              Bitcoin Education is an <strong>open-source project</strong> licensed under MIT and BSV licenses. 
               Our intention is to foster an open culture where forking, cloning, and adding to the code 
               and features is welcomed and encouraged.
             </p>
             <p>
-              The $BWRITER token represents our approach to creating a sustainable economic model that 
+              The $BEDUCATION token represents our approach to creating a sustainable economic model that 
               aims to reward contributors while maintaining transparency and openness.
             </p>
             <div className="philosophy-points">
@@ -82,7 +82,7 @@ const TokenPage: React.FC = () => {
 
         {/* Token Model Section */}
         <section className="token-model-section">
-          <h2>The $BWRITER Token Model</h2>
+          <h2>The $BEDUCATION Token Model</h2>
           <div className="model-card">
             <h3>How It Works</h3>
             <ul>
@@ -116,7 +116,7 @@ const TokenPage: React.FC = () => {
               </li>
               <li>
                 <strong>Not a Public Offering:</strong> This is not a solicitation for investment or 
-                capital raising. $BWRITER tokens are rewards for contribution, not investment instruments
+                capital raising. $BEDUCATION tokens are rewards for contribution, not investment instruments
               </li>
               <li>
                 <strong>Future Equity:</strong> The Bitcoin Corporation LTD may incorporate and offer 
@@ -187,7 +187,7 @@ const TokenPage: React.FC = () => {
                   <span className="arrow">→</span>
                 </div>
                 <div className="flow-item">
-                  <span>Dividends to $BWRITER holders</span>
+                  <span>Dividends to $BEDUCATION holders</span>
                   <span className="arrow">→</span>
                 </div>
                 <div className="flow-item">
@@ -195,7 +195,7 @@ const TokenPage: React.FC = () => {
                 </div>
               </div>
               <p style={{textAlign: 'center', marginTop: '20px', fontSize: '14px', color: 'rgba(255, 255, 255, 0.6)'}}>
-                The Bitcoin Writer Exchange enables creators to tokenize, sell shares, and trade their work,
+                The Bitcoin Education Exchange enables creators to tokenize, sell shares, and trade their work,
                 generating platform fees that contribute to the ecosystem's sustainability.
               </p>
             </div>
@@ -204,7 +204,7 @@ const TokenPage: React.FC = () => {
 
         {/* How to Contribute Section */}
         <section className="contribute-section">
-          <h2>How to Earn $BWRITER Tokens</h2>
+          <h2>How to Earn $BEDUCATION Tokens</h2>
           <div className="contribute-steps">
             <div className="step">
               <div className="step-number">1</div>
@@ -248,7 +248,7 @@ const TokenPage: React.FC = () => {
             <div className="stat">
               <h3>Total Supply</h3>
               <p className="stat-value">1,000,000,000</p>
-              <p className="stat-label">$BWRITER tokens</p>
+              <p className="stat-label">$BEDUCATION tokens</p>
             </div>
             <div className="stat">
               <h3>Distributed</h3>
@@ -273,13 +273,13 @@ const TokenPage: React.FC = () => {
           <h2>Legal & Regulatory Notice</h2>
           <div className="legal-content">
             <p>
-              <strong>Revenue Sharing Model:</strong> The $BWRITER token is designed to enable revenue 
+              <strong>Revenue Sharing Model:</strong> The $BEDUCATION token is designed to enable revenue 
               sharing with contributors through dividend distributions. Token holders may receive dividends 
               based on platform revenues from subscriptions and exchange fees.
             </p>
             <p>
-              <strong>Trading & Liquidity:</strong> The $BWRITER token is intended to be freely tradable 
-              on the Bitcoin Writer Exchange and associated platforms. We encourage an active secondary 
+              <strong>Trading & Liquidity:</strong> The $BEDUCATION token is intended to be freely tradable 
+              on the Bitcoin Education Exchange and associated platforms. We encourage an active secondary 
               market to provide liquidity and price discovery for contributors' work.
             </p>
             <p>
@@ -300,7 +300,7 @@ const TokenPage: React.FC = () => {
           <h2>Ready to Build the Future?</h2>
           <div className="cta-buttons">
             <a 
-              href="https://github.com/bitcoin-apps-suite/bitcoin-writer" 
+              href="https://github.com/bitcoin-apps-suite/bitcoin-education" 
               target="_blank" 
               rel="noopener noreferrer"
               className="cta-btn primary"

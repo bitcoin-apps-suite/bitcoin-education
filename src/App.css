@@ -63,14 +63,14 @@
 }
 
 .bitcoin-logo {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
 }
 
 .bitcoin-symbol {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 18px;
   font-weight: bold;
 }
@@ -176,7 +176,7 @@
 }
 
 .bitcoin-logo-small {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 16px;
   font-weight: bold;
 }
@@ -540,7 +540,7 @@ main {
 }
 
 .mobile-menu-section h4 {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 12px;
@@ -562,7 +562,7 @@ main {
 }
 
 .mobile-menu-item:hover {
-  color: #ff9500;
+  color: #2563EB;
 }
 
 .mobile-menu-login {
@@ -620,7 +620,7 @@ main {
 
 .mobile-document-item.active {
   background-color: rgba(255, 149, 0, 0.1);
-  border-left: 3px solid #ff9500;
+  border-left: 3px solid #2563EB;
   padding-left: 9px;
 }
 
@@ -1298,7 +1298,7 @@ main {
 }
 
 .storage-option.selected {
-  border-color: #ff9500;
+  border-color: #2563EB;
   background: #2a1f0a;
 }
 
@@ -1410,7 +1410,7 @@ main {
 
 .monetization-options input:focus {
   outline: none;
-  border-color: #ff9500;
+  border-color: #2563EB;
 }
 
 .shares-summary {
@@ -1487,12 +1487,12 @@ main {
 }
 
 .save-btn {
-  background: linear-gradient(135deg, #ff9500 0%, #ff8c00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
   color: #fff;
 }
 
 .save-btn:hover {
-  background: linear-gradient(135deg, #ffb347 0%, #ff9500 100%);
+  background: linear-gradient(135deg, #ffb347 0%, #2563EB 100%);
 }
 
 .editor-container {
@@ -1688,7 +1688,7 @@ main {
 }
 
 .publish-btn:hover {
-  background-color: #ff9500;
+  background-color: #2563EB;
   color: white;
   opacity: 1;
 }
@@ -3667,8 +3667,8 @@ main {
 }
 
 .features-close-btn:hover {
-  background: #ff9500;
+  background: #2563EB;
   color: #000;
-  border-color: #ff9500;
+  border-color: #2563EB;
   transform: scale(1.1);
 }

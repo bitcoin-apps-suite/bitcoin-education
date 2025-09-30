@@ -1,6 +1,6 @@
-# Bitcoin Writer - Blockchain Writing App
+# Bitcoin Education - Blockchain Education Platform
 
-A decentralized writing application built on Bitcoin SV blockchain with HandCash authentication. Your documents are encrypted and stored on the blockchain, accessible only with your HandCash login.
+A decentralized education platform built on Bitcoin SV blockchain with HandCash authentication. Your educational content is encrypted and stored on the blockchain, accessible only with your HandCash login.
 
 ## Features
 
@@ -25,8 +25,8 @@ A decentralized writing application built on Bitcoin SV blockchain with HandCash
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/bitcoin-apps-suite/bitcoin-writer.git
-   cd bitcoin-writer
+   git clone https://github.com/bitcoin-apps-suite/bitcoin-education.git
+   cd bitcoin-education
    ```
 
 2. Install dependencies:

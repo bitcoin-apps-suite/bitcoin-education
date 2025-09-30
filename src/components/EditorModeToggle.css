@@ -31,7 +31,7 @@
 
 .mode-btn.active {
   background: rgba(255, 149, 0, 0.3);
-  border-color: #ff9500;
+  border-color: #2563EB;
   box-shadow: 0 0 10px rgba(255, 149, 0, 0.3);
 }
 
@@ -52,7 +52,7 @@
   position: absolute;
   top: -8px;
   right: -8px;
-  background: #ff9500;
+  background: #2563EB;
   color: #000;
   font-size: 10px;
   font-weight: bold;
@@ -61,7 +61,7 @@
 }
 
 .mode-badge.coming-soon {
-  background: linear-gradient(135deg, #ff9500, #ff3b30);
+  background: linear-gradient(135deg, #2563EB, #ff3b30);
   color: #fff;
   animation: pulse 2s infinite;
 }
@@ -142,7 +142,7 @@
 }
 
 .feature-preview h3 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 16px;
   font-size: 20px;
 }
@@ -173,7 +173,7 @@
 }
 
 .progress-section h4 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 12px;
 }
 
@@ -186,7 +186,7 @@
 }
 
 .progress-fill {
-  background: linear-gradient(90deg, #ff9500, #ff6b00);
+  background: linear-gradient(90deg, #2563EB, #ff6b00);
   height: 100%;
   display: flex;
   align-items: center;
@@ -227,7 +227,7 @@
 }
 
 .try-quill-btn {
-  background: linear-gradient(135deg, #ff9500, #ff6b00);
+  background: linear-gradient(135deg, #2563EB, #ff6b00);
   color: #fff;
   border: none;
   padding: 12px 24px;

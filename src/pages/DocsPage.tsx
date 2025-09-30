@@ -43,7 +43,7 @@ const DocsPage: React.FC = () => {
       <div className="docs-container">
         {/* Hero Section */}
         <section className="docs-hero">
-          <h1><span style={{color: '#ffffff'}}>Bitcoin Writer</span> Documentation</h1>
+          <h1><span style={{color: '#ffffff'}}>Bitcoin Education</span> Documentation</h1>
           <p className="docs-tagline">
             Complete guide to writing, encrypting, and publishing documents on the Bitcoin blockchain
           </p>
@@ -55,7 +55,7 @@ const DocsPage: React.FC = () => {
           <h2>Getting Started</h2>
           <div className="getting-started-content">
             <p>
-              Bitcoin Writer is a <strong>decentralized document platform</strong> that stores your work 
+              Bitcoin Education is a <strong>decentralized document platform</strong> that stores your work 
               permanently on the Bitcoin blockchain. Create, encrypt, and monetize your documents with 
               cryptographic proof of authorship.
             </p>
@@ -133,7 +133,7 @@ const DocsPage: React.FC = () => {
           <h2>Writing & Document Management</h2>
           <div className="writing-content">
             <p className="intro">
-              The Bitcoin Writer editor provides a powerful yet intuitive writing experience with 
+              The Bitcoin Education editor provides a powerful yet intuitive writing experience with 
               blockchain-native features built in.
             </p>
 
@@ -275,7 +275,7 @@ const DocsPage: React.FC = () => {
           <h2>API Reference</h2>
           <div className="api-content">
             <p>
-              <strong>REST API:</strong> Bitcoin Writer provides a comprehensive REST API for document 
+              <strong>REST API:</strong> Bitcoin Education provides a comprehensive REST API for document 
               management, blockchain operations, and user authentication. Perfect for building custom 
               integrations and third-party applications.
             </p>
@@ -328,7 +328,7 @@ const DocsPage: React.FC = () => {
               </div>
               <div className="faq-item">
                 <h4>Encryption Problems</h4>
-                <p>Double-check password, Bitcoin Writer cannot recover lost passwords for security</p>
+                <p>Double-check password, Bitcoin Education cannot recover lost passwords for security</p>
               </div>
               <div className="faq-item">
                 <h4>NFT Creation Failed</h4>
@@ -342,7 +342,7 @@ const DocsPage: React.FC = () => {
                 <div className="support-item">
                   <h4>GitHub Issues</h4>
                   <p>Report bugs and request features</p>
-                  <a href="https://github.com/bitcoin-apps-suite/bitcoin-writer/issues" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/bitcoin-apps-suite/bitcoin-education/issues" target="_blank" rel="noopener noreferrer">
                     Submit Issue
                   </a>
                 </div>

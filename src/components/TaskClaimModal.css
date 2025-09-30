@@ -54,7 +54,7 @@
 }
 
 .modal-header h2 {
-  color: #ff9500;
+  color: #2563EB;
   margin: 0;
   font-size: 1.5rem;
 }
@@ -62,7 +62,7 @@
 .close-btn {
   background: transparent;
   border: none;
-  color: #ff9500;
+  color: #2563EB;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem;
@@ -116,12 +116,12 @@
 
 .task-meta .reward {
   background: rgba(255, 149, 0, 0.2);
-  color: #ff9500;
+  color: #2563EB;
   border: 1px solid rgba(255, 149, 0, 0.3);
 }
 
 .github-issue-link {
-  color: #ff9500;
+  color: #2563EB;
   text-decoration: none;
   font-size: 0.9rem;
   display: inline-flex;
@@ -165,12 +165,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff9500;
+  color: #2563EB;
   font-weight: bold;
 }
 
 .step.completed .step-number {
-  background: #ff9500;
+  background: #2563EB;
   color: #000;
 }
 
@@ -204,7 +204,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #ff6b00 100%);
   border: none;
   border-radius: 8px;
   color: #000;
@@ -269,7 +269,7 @@
 }
 
 .contract-preview h4 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
   font-size: 1.1rem;
 }
@@ -350,7 +350,7 @@
 }
 
 .countdown-timer h4 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -368,7 +368,7 @@
   display: block;
   font-size: 2rem;
   font-weight: bold;
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 0.25rem;
 }
 
@@ -388,7 +388,7 @@
 }
 
 .next-steps h4 {
-  color: #ff9500;
+  color: #2563EB;
   margin-bottom: 1rem;
 }
 
@@ -403,7 +403,7 @@
   background: rgba(255, 149, 0, 0.2);
   border: 1px solid rgba(255, 149, 0, 0.3);
   border-radius: 8px;
-  color: #ff9500;
+  color: #2563EB;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;

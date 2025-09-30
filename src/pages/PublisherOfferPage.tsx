@@ -165,7 +165,7 @@ const PublisherOfferPage: React.FC = () => {
                     >
                       <option value="BSV">BSV</option>
                       <option value="USD">USD</option>
-                      <option value="BWRITER">$BWRITER</option>
+                      <option value="BEDUCATION">$BEDUCATION</option>
                       <option value="custom">Custom Token</option>
                     </select>
                   </div>

@@ -1,13 +1,13 @@
-Bitcoin Writer Social Media Links
+Bitcoin Education Social Media Links
 ==================================
 
 Discord: https://discord.gg/xBB8r8dj
-Twitter/X: https://x.com/bitcoin_writer
+Twitter/X: https://x.com/bitcoin_education
 GitHub Organization: https://github.com/bitcoin-apps-suite
-GitHub Repository: https://github.com/bitcoin-apps-suite/bitcoin-writer
+GitHub Repository: https://github.com/bitcoin-apps-suite/bitcoin-education
 
-Website: https://bitcoin-writer.vercel.app
-Contributions Page: https://bitcoin-writer.vercel.app/contributions
-Token Info: https://bitcoin-writer.vercel.app/token
+Website: https://bitcoin-education.vercel.app
+Contributions Page: https://bitcoin-education.vercel.app/contributions
+Token Info: https://bitcoin-education.vercel.app/token
 
-Contact Email: admin@bitcoinwriter.io
+Contact Email: admin@bitcoineducation.io

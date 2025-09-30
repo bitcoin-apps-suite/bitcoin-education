@@ -61,12 +61,12 @@ const OffersPage: React.FC = () => {
       description: 'We need a comprehensive 5-part article series analyzing the upcoming Bitcoin halving event, its historical impact, and predictions for market behavior.',
       type: 'Article Series',
       budget: '2500',
-      currency: '$BWRITER',
+      currency: '$BEDUCATION',
       wordCount: '10000',
       deadline: '2025-02-15',
       status: 'open',
       applicants: 3,
-      escrowAmount: '2500 $BWRITER',
+      escrowAmount: '2500 $BEDUCATION',
       requirements: ['Deep understanding of Bitcoin economics', 'Previous crypto writing samples', 'Ability to analyze on-chain data']
     },
     {
@@ -91,12 +91,12 @@ const OffersPage: React.FC = () => {
       description: 'In-depth analysis of emerging DeFi protocols on BSV, comparing features, security, and potential risks.',
       type: 'Research Report',
       budget: '1500',
-      currency: '$BWRITER',
+      currency: '$BEDUCATION',
       wordCount: '5000',
       deadline: '2025-01-30',
       status: 'open',
       applicants: 5,
-      escrowAmount: '1500 $BWRITER',
+      escrowAmount: '1500 $BEDUCATION',
       requirements: ['DeFi expertise', 'Risk analysis skills', 'Data visualization capabilities']
     },
     {
@@ -106,12 +106,12 @@ const OffersPage: React.FC = () => {
       description: 'Create an accessible, comprehensive guide for beginners learning about smart contracts on BSV.',
       type: 'Tutorial',
       budget: '800',
-      currency: '$BWRITER',
+      currency: '$BEDUCATION',
       wordCount: '3000',
       deadline: '2025-02-10',
       status: 'open',
       applicants: 12,
-      escrowAmount: '800 $BWRITER',
+      escrowAmount: '800 $BEDUCATION',
       requirements: ['Teaching/educational writing experience', 'Simple explanations of complex topics', 'Visual aids and diagrams']
     },
     {
@@ -136,12 +136,12 @@ const OffersPage: React.FC = () => {
       description: 'Ongoing weekly market commentary and analysis pieces covering major cryptocurrency movements and trends.',
       type: 'Ongoing Content',
       budget: '300',
-      currency: '$BWRITER',
+      currency: '$BEDUCATION',
       wordCount: '1500',
       deadline: 'Weekly',
       status: 'open',
       applicants: 18,
-      escrowAmount: '300 $BWRITER/week',
+      escrowAmount: '300 $BEDUCATION/week',
       requirements: ['Fast turnaround', 'Market analysis skills', 'Consistent availability']
     }
   ];

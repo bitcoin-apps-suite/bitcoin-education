@@ -18,7 +18,7 @@
 
 .bitcoin-apps-header h1 {
   margin: 0;
-  color: #ff9500;
+  color: #2563EB;
   font-size: 28px;
   font-weight: 600;
   flex: 1;
@@ -71,7 +71,7 @@
 }
 
 .apps-section h2 {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 25px;
@@ -203,7 +203,7 @@
 }
 
 .footer-content h3 {
-  color: #ff9500;
+  color: #2563EB;
   font-size: 20px;
   font-weight: 600;
   margin: 0 0 15px 0;
@@ -227,7 +227,7 @@
 }
 
 .footer-links a {
-  color: #ff9500;
+  color: #2563EB;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;

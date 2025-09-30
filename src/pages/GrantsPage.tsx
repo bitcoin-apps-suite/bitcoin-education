@@ -45,9 +45,9 @@ const GrantsPage: React.FC = () => {
             <div className="grants-hero-icon">
               <Flower2 size={64} />
             </div>
-            <h1>Bitcoin Writer <span style={{color: '#FF6B35'}}>Grants</span></h1>
+            <h1>Bitcoin Education <span style={{color: '#FF6B35'}}>Grants</span></h1>
             <p className="grants-tagline">
-              $BWRITER token awards for quality submissions, plus public discovery platform for independent funding
+              $BEDUCATION token awards for quality submissions, plus public discovery platform for independent funding
             </p>
             <div className="grants-badge">DUAL FUNDING PLATFORM</div>
           </section>
@@ -57,16 +57,16 @@ const GrantsPage: React.FC = () => {
             <h2>Two Paths to Funding</h2>
             <div className="mission-content">
               <p className="mission-statement">
-                Bitcoin Writer creates <strong>a unique funding ecosystem</strong> where quality work gets recognized through 
-                $BWRITER token awards and becomes discoverable for potential independent funding:
+                Bitcoin Education creates <strong>a unique funding ecosystem</strong> where quality work gets recognized through 
+                $BEDUCATION token awards and becomes discoverable for potential independent funding:
               </p>
               
               <div className="mission-pillars">
                 <div className="pillar">
                   <div className="pillar-icon"><DollarSign size={32} /></div>
-                  <h3>Bitcoin Writer Curation</h3>
-                  <p><strong>$BWRITER token awards for quality work</strong><br/>
-                  We review submissions and award $BWRITER tokens to exceptional proposals, signaling their quality to the broader ecosystem.</p>
+                  <h3>Bitcoin Education Curation</h3>
+                  <p><strong>$BEDUCATION token awards for quality work</strong><br/>
+                  We review submissions and award $BEDUCATION tokens to exceptional proposals, signaling their quality to the broader ecosystem.</p>
                 </div>
                 <div className="pillar">
                   <div className="pillar-icon"><Flower2 size={32} /></div>
@@ -83,14 +83,14 @@ const GrantsPage: React.FC = () => {
             <h2>Focus Areas for Both Programs</h2>
             <div className="focus-content">
               <p className="focus-intro">
-                Our platform showcases exceptional work across key innovation areas. Bitcoin Writer awards $BWRITER tokens 
+                Our platform showcases exceptional work across key innovation areas. Bitcoin Education awards $BEDUCATION tokens 
                 to signal quality, while independent funders can discover and support projects that align with their values:
               </p>
               
               <div className="focus-areas">
                 <div className="focus-area">
                   <div className="focus-area-icon"><Wrench size={24} /></div>
-                  <h4>Bitcoin Writer Platform Development</h4>
+                  <h4>Bitcoin Education Platform Development</h4>
                   <ul>
                     <li>Enhance functionality and user experience</li>
                     <li>Create innovative content monetization features</li>
@@ -98,7 +98,7 @@ const GrantsPage: React.FC = () => {
                     <li>Build integrations with other BSV applications</li>
                   </ul>
                   <div style={{marginTop: '10px', fontSize: '12px', color: '#FF6B35'}}>
-                    Bitcoin Writer awards $BWRITER for platform improvements
+                    Bitcoin Education awards $BEDUCATION for platform improvements
                   </div>
                 </div>
                 
@@ -126,7 +126,7 @@ const GrantsPage: React.FC = () => {
                     <li>Enable new forms of academic publishing</li>
                   </ul>
                   <div style={{marginTop: '10px', fontSize: '12px', color: '#FF6B35'}}>
-                    $BWRITER curation signals attract funder attention
+                    $BEDUCATION curation signals attract funder attention
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@ const GrantsPage: React.FC = () => {
           <section className="categories-section">
             <h2>Apply by Role</h2>
             <p className="categories-intro">
-              Choose your application path below. Submit your proposal as a public .nft file, compete for $BWRITER token awards, 
+              Choose your application path below. Submit your proposal as a public .nft file, compete for $BEDUCATION token awards, 
               and become discoverable for potential independent funding:
             </p>
             
@@ -230,9 +230,9 @@ const GrantsPage: React.FC = () => {
               <Flower2 size={48} />
               <h2>Ready to Make Your Mark?</h2>
               <p>
-                Apply for Bitcoin Writer grants to support your innovative projects in blockchain publishing and development. 
+                Apply for Bitcoin Education grants to support your innovative projects in blockchain publishing and development. 
                 Whether you're a developer pushing technical boundaries, an author sharing knowledge, or a publisher scaling platforms—
-                submit your proposal for $BWRITER token grant consideration.
+                submit your proposal for $BEDUCATION token grant consideration.
               </p>
               <div className="cta-buttons">
                 <Link to="/developers/grants" className="cta-button developer">
@@ -251,7 +251,7 @@ const GrantsPage: React.FC = () => {
           {/* Footer Note */}
           <section className="footer-note">
             <p>
-              <strong>Note:</strong> Bitcoin Writer awards grants in $BWRITER tokens to support innovative projects. 
+              <strong>Note:</strong> Bitcoin Education awards grants in $BEDUCATION tokens to support innovative projects. 
               Applications are reviewed on a rolling basis, with priority given to projects that demonstrate 
               clear potential for advancing BSV blockchain technology and decentralized publishing.
             </p>

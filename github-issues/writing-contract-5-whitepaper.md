@@ -1,7 +1,7 @@
 # Whitepaper & Technical Article Writer Needed
 
 ## 📋 Description
-Bitcoin Writer needs a technical writer to create a comprehensive whitepaper explaining our decentralized publishing platform, tokenomics, and technical architecture. Additionally, we need technical articles for our blog.
+Bitcoin Education needs a technical writer to create a comprehensive whitepaper explaining our decentralized publishing platform, tokenomics, and technical architecture. Additionally, we need technical articles for our blog.
 
 ## 🎯 Requirements
 - [ ] Experience writing whitepapers for blockchain projects
@@ -22,7 +22,7 @@ Bitcoin Writer needs a technical writer to create a comprehensive whitepaper exp
 - [ ] Executive summary for non-technical readers
 
 ## 💰 Compensation
-**Token Reward:** 20,000 BWRITER
+**Token Reward:** 20,000 BEDUCATION
 **Estimated Hours:** 50
 **Priority:** High
 **Category:** Writing
@@ -36,7 +36,7 @@ Bitcoin Writer needs a technical writer to create a comprehensive whitepaper exp
 6. One-pager for investors
 
 ## 🔗 Resources
-- Platform documentation: https://github.com/bitcoin-apps-suite/bitcoin-writer
+- Platform documentation: https://github.com/bitcoin-apps-suite/bitcoin-education
 - BSV blockchain resources: https://wiki.bitcoinsv.io/
 - Token distribution model (to be provided)
 - Competitor whitepapers for reference
