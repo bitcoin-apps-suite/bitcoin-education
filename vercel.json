@@ -1,6 +1,5 @@
 {
   "name": "bitcoin-education",
-  "alias": ["bitcoin-education.vercel.app"],
   "functions": {
     "api/auth/twitter/*.js": {
       "maxDuration": 10

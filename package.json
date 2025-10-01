@@ -2,7 +2,6 @@
   "name": "bitcoin-education",
   "version": "1.0.0",
   "description": "A blockchain-based education platform with HandCash authentication",
-  "homepage": "https://bitcoin-education.vercel.app",
   "license": "Open-BSV",
   "author": "The Bitcoin Corporation LTD",
   "private": true,
