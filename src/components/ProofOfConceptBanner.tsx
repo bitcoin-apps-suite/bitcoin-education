@@ -58,9 +58,9 @@ const ProofOfConceptBanner: React.FC = () => {
 
         <span className="poc-banner-separator">•</span>
 
-        {/* $BEDUCATION Token Link */}
+        {/* $BEDU Token Link */}
         <a href="/token" className="poc-banner-link poc-banner-token">
-          ₿Writer
+          $bEdu
         </a>
 
         <span className="poc-banner-separator">•</span>
