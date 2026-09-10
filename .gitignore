@@ -78,3 +78,14 @@ IMPLEMENTATION-*.md
 ROADMAP*.md
 BUSINESS*.md
 REVENUE*.md
+# Environment files - NEVER commit these!
+# ⚠ The narrow list above (.env.local, .env.production.local, ...) let two files
+# through: ".env copy.local" (a Finder duplicate — note the space) and ".env.local.dev".
+# Both carried live HandCash, GitHub and X app secrets in a PUBLIC repo. Match broadly.
+.env
+.env.*
+.env*
+*.env
+.env copy.local
+.env.deployment
+!.env.example
